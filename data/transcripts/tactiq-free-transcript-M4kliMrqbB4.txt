@@ -1,0 +1,305 @@
+# tactiq.io free youtube transcript
+# How worried should we be about the AI that went rogue and launched a cyber-attack? | BBC News
+# https://www.youtube.com/watch/M4kliMrqbB4
+
+00:00:00.000 Makers of chat GPT OpenAI have revealed
+00:00:03.240 that some of its artificial intelligence
+00:00:05.480 models have gone rogue.
+00:00:07.400 >> And this raises questions about, you
+00:00:09.560 know, the ability to carry out cyber
+00:00:11.480 attacks.
+00:00:12.080 >> In the words of the CEO of Hugging Face,
+00:00:14.400 the company that was attacked, he said,
+00:00:16.640 &quot;This is a problem that one single
+00:00:18.340 [music] company can't solve.&quot;
+00:00:19.800 >> It really cannot be overstated how crazy
+00:00:22.480 this is. This is like out of a Hollywood
+00:00:24.040 movie.
+00:00:29.000 >> It really does sound like something out
+00:00:30.520 of a Hollywood movie. OpenAI says it
+00:00:32.640 lost control of two AI systems during a
+00:00:35.520 security test. They went rogue and
+00:00:38.080 launched a cyber attack. Well, over the
+00:00:40.360 next 10 minutes or so, we'll look at
+00:00:42.200 exactly what happened and ask how
+00:00:44.400 worried we should be. But, first, one of
+00:00:46.880 the big questions being asked is what is
+00:00:49.120 OpenAI and the firm that was hacked,
+00:00:51.880 Hugging Face.
+00:00:54.000 >> OpenAI is a giant artificial
+00:00:55.960 intelligence company.
+00:00:57.240 >> It's the firm behind the popular chatbot
+00:00:59.360 ChatGPT.
+00:01:00.520 >> Generative AI software like ChatGPT is
+00:01:03.920 used to create new content, which can
+00:01:05.960 seem like it's been made by a human.
+00:01:08.040 >> It does this by learning from vast
+00:01:09.840 quantities of existing data, [music]
+00:01:11.800 such as online text and images.
+00:01:13.840 >> That's raised questions about potential
+00:01:15.920 copyright infringement or whether data
+00:01:18.200 has been used with permission.
+00:01:19.720 >> The technology has also come under fire
+00:01:21.875 [music] for giving false information or
+00:01:23.640 bad advice based on prompts.
+00:01:25.720 >> OpenAI's chief executive is Sam Altman.
+00:01:28.160 >> Last month, it became the latest
+00:01:29.840 artificial intelligence [music]
+00:01:30.960 giant to reveal plans to sell shares to
+00:01:33.120 the public through a stock listing.
+00:01:35.200 >> One of OpenAI's recent valuations from
+00:01:37.720 private investors came in at $852
+00:01:39.579 [music]
+00:01:41.160 billion.
+00:01:42.200 >> Hugging Face, meanwhile, is one of the
+00:01:43.920 largest hubs for sharing AI models.
+00:01:46.280 >> It's an open-source platform.
+00:01:48.360 >> It serves as a place where developers,
+00:01:50.041 [music] researchers, and companies
+00:01:51.560 >> host, share, and collaborate on AI
+00:01:53.720 models,
+00:01:54.360 >> data sets, and interactive [music] web
+00:01:55.920 applications
+00:01:56.840 >> for text, and audio.
+00:01:59.160 >> So, the big question now is how the AI
+00:02:02.000 went rogue. Parmy Olson is technology
+00:02:04.800 columnist at Bloomberg Opinion. So,
+00:02:07.000 Parmy, in simple terms, tell us, as far
+00:02:10.320 as we know, what actually happened here.
+00:02:13.480 >> Well, I think it's important to first
+00:02:14.931 [clears throat]
+00:02:15.800 make the point that this isn't AI going
+00:02:19.680 in a malevolent way, going rogue, and
+00:02:21.840 trying to hack a company and steal data.
+00:02:23.959 This happened as part of a security test
+00:02:26.640 where the engineers at OpenAI wanted to
+00:02:29.280 test the hacking skills of this new
+00:02:31.520 model.
+00:02:33.000 And you know, your your segment earlier
+00:02:35.400 was talking about ChatGPT and how it
+00:02:37.760 generates text. Nowadays, AI doesn't
+00:02:40.840 just generate content, it can actually
+00:02:42.800 do things. carry out tasks. It can book
+00:02:45.760 a table for you online for at a
+00:02:47.520 restaurant. And it can potentially carry
+00:02:50.280 out a cyberattack. And that's what
+00:02:52.600 happened in this case. The model was
+00:02:55.720 told to get some answers to pass a
+00:02:58.320 particular test. And it found a
+00:03:01.360 vulnerability in its own barriers,
+00:03:03.959 digital barriers. It got out, and it
+00:03:07.200 inferred that the best place to get
+00:03:09.040 those answers was the Hugging Face
+00:03:11.080 website. It went on that website, got
+00:03:13.800 the answers, and effectively cheated to
+00:03:16.519 pass the test. But at the same time, of
+00:03:18.360 course, completely freaked out the
+00:03:20.040 engineers at OpenAI.
+00:03:21.760 >> You're absolutely right. Stay there,
+00:03:23.400 Parmy. Another big question being asked
+00:03:25.600 is how worrying all of this is. Here's
+00:03:28.200 AI safety expert Connor Leahy.
+00:03:30.680 >> The people at the OpenAI, as far as we
+00:03:32.440 can tell, did everything right. They
+00:03:34.200 used, you know, proper sandbox
+00:03:35.600 containment. They did not have access to
+00:03:37.720 the internet. It was an isolated node in
+00:03:39.680 their network. These are all best
+00:03:41.280 practices.
+00:03:42.047 >> [music]
+00:03:42.360 >> Getting out of a system like that is
+00:03:44.280 almost impossible. You know, the best
+00:03:46.239 hackers in the world usually cannot
+00:03:48.440 escape a situation like this. Or if they
+00:03:50.360 can't, it would take them weeks or maybe
+00:03:51.872 [music] months. What the AI system did
+00:03:54.560 is it found what is called a zero-day. A
+00:03:57.360 zero-day, which is a very scary-sounding
+00:03:59.520 name for a type of way of exploiting or
+00:04:03.760 breaking a piece of software that no one
+00:04:05.600 has yet discovered. So, it discovered a
+00:04:07.520 completely new way to hack out of the
+00:04:10.520 system, and then it didn't just use one
+00:04:13.280 zero-day. It discovered multiple
+00:04:15.600 zero-days over multiple different
+00:04:17.680 systems chained together to move from
+00:04:20.279 one computer to the next until it got to
+00:04:22.760 the internet, and then found other
+00:04:25.080 zero-days in the software of the other
+00:04:27.520 company to infiltrate their network and
+00:04:30.440 access the data it was looking for. It
+00:04:32.560 really cannot be overstated how [music]
+00:04:34.600 crazy this is. This is like out of a
+00:04:36.120 Hollywood movie.
+00:04:37.600 >> So, Connolly he thinks it's crazy. Palmi
+00:04:39.840 Olsen from Bloomberg is still with us.
+00:04:42.000 Palmi, how worried should we be?
+00:04:46.080 >> I mean, I think it's true. This is the
+00:04:48.080 first time that we know of that a
+00:04:50.320 frontier AI model has autonomously
+00:04:53.800 hacked a real company. We've seen AI
+00:04:56.760 models hack before, but under the
+00:04:59.720 supervision of a human who wanted the AI
+00:05:02.240 to do that. This is the first time the
+00:05:03.880 AI has done that on its own because it
+00:05:05.800 wanted to fulfill some other objective,
+00:05:08.320 the objective given to it by the humans,
+00:05:10.360 and therefore this is like a unintended
+00:05:12.320 consequence of that. Um so, I think it
+00:05:14.960 it's true. This is This is quite
+00:05:17.000 unusual. But again, I just want to
+00:05:18.919 reiterate this you know, this is not a
+00:05:21.280 This wasn't a criminal attack. You're
+00:05:22.800 not Your bank account, the nuclear codes
+00:05:24.960 aren't going to be hacked anytime soon
+00:05:27.040 by this AI. This was just a test gone
+00:05:30.080 wrong at a lab, and it was caught quite
+00:05:32.200 quickly, too.
+00:05:33.320 >> Palmi, I'm going to be back with you in
+00:05:34.520 a second, but we're also joined by our
+00:05:36.040 senior technology reporter Chris
+00:05:37.800 Vallance. And Chris, what is OpenAI
+00:05:39.919 actually saying about this incident?
+00:05:42.320 >> Well, they're calling it unprecedented.
+00:05:44.640 I mean, well they might in a way because
+00:05:46.960 they're about to have make a public
+00:05:48.800 offering of shares. So, they probably
+00:05:50.600 have an incentive, some experts would
+00:05:52.840 say, in sort of beefing up, if you like,
+00:05:54.720 bigging up the capabilities of their
+00:05:56.680 models. But, they also say, you know, we
+00:05:58.800 should watch out. We're likely to see
+00:06:00.440 more of this as increasingly cyber
+00:06:02.960 capable models proliferate. And they say
+00:06:06.200 they've done their best to sort of make
+00:06:08.320 sure this won't happen again, even if
+00:06:10.680 that means the rate of testing
+00:06:13.000 decreases.
+00:06:14.480 >> Chris, the company that got hacked is
+00:06:16.160 Hugging Face. What does the firm do? And
+00:06:19.280 what has it said?
+00:06:20.600 >> Well, Hugging Face is really a sort of
+00:06:22.040 central community, a central point for
+00:06:24.800 developers of AI
+00:06:26.520 systems. It's It's a repository of
+00:06:29.400 tools, of models, of data.
+00:06:32.280 Really a kind of, if you like, a key
+00:06:34.160 online location for those who program.
+00:06:36.280 It's a bit like GitHub for AI.
+00:06:39.960 They've Their boss called what happened
+00:06:43.360 mind-blowing.
+00:06:45.000 But, like Open AI, they say they are
+00:06:47.120 investigating, and they say they've sort
+00:06:49.640 of stopped and
+00:06:51.000 and done their best to make sure that
+00:06:53.680 what happened won't happen again, and
+00:06:56.600 that none of their models, their tools,
+00:06:58.400 their data were tainted by the
+00:07:01.400 intrusion.
+00:07:02.640 >> Chris, stay there. Parmie, let's go back
+00:07:04.440 to you. There's a lot of concern about
+00:07:05.960 the AI model going rogue, and fears
+00:07:08.640 about cyber attacks in the future, say
+00:07:11.000 on banks or even governments. What are
+00:07:13.480 the implications here, do you think?
+00:07:16.000 >> I think the most critical systems that
+00:07:17.919 we have today, whether it's the nuclear
+00:07:20.240 codes and defense systems, they're often
+00:07:23.560 physically air-gapped from the internet,
+00:07:26.000 meaning there's no physical way to get
+00:07:28.320 to them
+00:07:29.400 through hacking. And so, those really
+00:07:31.840 critical systems are pretty much safe.
+00:07:33.720 And even big
+00:07:35.360 banks and companies have incredibly
+00:07:37.840 robust security systems in place. They
+00:07:40.640 are Many of them are getting access to
+00:07:42.480 some of these latest frontier AI models
+00:07:45.040 so that they can also use those models
+00:07:47.680 to protect themselves. I think the the
+00:07:50.760 organizations and people that are
+00:07:52.280 potentially at risk are maybe small
+00:07:54.320 businesses, medium-sized businesses, and
+00:07:56.760 people who perhaps aren't very familiar
+00:07:59.120 with using the internet. And so yes, I
+00:08:02.200 think this kind of hacking we will see
+00:08:04.320 more but most likely carried out by
+00:08:06.960 humans who are using AI tools to carry
+00:08:10.840 out a cyber attack themselves. I don't
+00:08:12.720 think this kind of rogue AI where it
+00:08:15.880 goes off on itself by itself to try and
+00:08:17.960 hack systems
+00:08:19.320 is something we have to really worry
+00:08:20.680 about at the moment.
+00:08:22.320 >> Let's go back to Chris Vallance, our
+00:08:23.680 senior technology reporter. Now, OpenAI
+00:08:26.600 are not the only firm actually doing
+00:08:28.480 this. Will the other big artificial
+00:08:30.960 intelligence companies be concerned
+00:08:32.719 about what has happened here?
+00:08:34.320 >> Well, I think they'll be watching it
+00:08:35.479 with a great deal of interest. I mean,
+00:08:37.280 not very long ago we were all concerned
+00:08:38.799 about Anthropic's Methos
+00:08:41.360 model, which it chose not to release
+00:08:43.960 generally to the public. There was
+00:08:45.920 there's been a great deal of concern
+00:08:47.320 about its capabilities. And of course,
+00:08:49.280 all these firms are getting into agentic
+00:08:52.040 AI, these sort of AI programs that can
+00:08:54.600 go off and do things on their own as as
+00:08:57.360 Palmi has described. What's interesting
+00:09:00.120 here is that although this was a test,
+00:09:03.400 OpenAI weren't really able to anticipate
+00:09:06.600 how that test might go wrong. And I
+00:09:08.960 think that's a point to ponder. You
+00:09:11.920 know, do they need to think about their
+00:09:13.520 testing approach even in these
+00:09:15.160 environments? Can the model's
+00:09:16.440 capabilities surprise them?
+00:09:18.760 >> Yes, you're absolutely right, Chris.
+00:09:19.839 Thanks very much for that. Many people
+00:09:21.440 though will be asking what can we do to
+00:09:23.360 stop this happening again? Well, here's
+00:09:25.760 Carol Reeves, director of security
+00:09:27.520 operations of the IT consultants ANS
+00:09:29.839 Group.
+00:09:30.720 >> The AI wasn't trying to be malicious. It
+00:09:33.440 was trying to complete this task. And in
+00:09:35.839 doing so, it found a quicker route
+00:09:37.720 around that, the security controls that
+00:09:39.960 humans hadn't anticipated.
+00:09:42.720 I mean,
+00:09:44.480 AI is here to stay.
+00:09:46.960 And it's got the potential to deliver
+00:09:48.720 enormous benefits. But we need to make
+00:09:51.520 sure, as with this test, you know, as
+00:09:54.160 our AI systems become more capable of
+00:09:56.480 taking multiple actions, it we need to
+00:09:58.560 make sure they're developed with robust
+00:10:00.680 guardrails, and we have we're really
+00:10:02.960 putting in strong governance to stop
+00:10:04.480 things like that happening.
+00:10:06.560 >> So, a final thought from you, Parmy. A
+00:10:08.640 similar thought. Can we do anything to
+00:10:11.240 help prevent this actually happening?
+00:10:14.600 >> Well, I think Chris makes a great point
+00:10:16.360 about the importance of the actual AI
+00:10:18.520 companies here. And I think this this
+00:10:20.320 whole situation begs the question of
+00:10:22.400 should you even be building
+00:10:24.840 a system, an AI with advanced cyber
+00:10:27.080 capabilities, if you can't actually
+00:10:29.280 contain it properly. So, I think there
+00:10:31.680 needs to be a a lot more scrutiny of
+00:10:33.200 these companies and their ability to
+00:10:34.800 monitor these systems and contain them,
+00:10:37.480 whether that's through so-called
+00:10:38.600 sandboxing or putting them in their own
+00:10:41.560 physical air gaps to just make
+00:10:43.400 absolutely sure that they can't get out
+00:10:45.320 or get breached in any way.
+00:10:47.560 >> Parmy Olson, technology columnist at
+00:10:49.240 Bloomberg Opinion, thank you for your
+00:10:51.440 insight. And that's all you need to know
+00:10:53.560 about the AI model that's gone rogue.

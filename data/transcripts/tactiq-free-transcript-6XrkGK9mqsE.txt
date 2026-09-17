@@ -1,0 +1,2142 @@
+# tactiq.io free youtube transcript
+# The Terrifying Truth of AI Agents Escaping | Connor Leahy
+# https://www.youtube.com/watch/6XrkGK9mqsE
+
+00:00:00.080 There will be many many many super
+00:00:01.520 intelligence fighting each other for
+00:00:03.120 power, fighting each other for control
+00:00:04.560 over the planet and we will be
+00:00:06.080 collateral damage. That is what's going
+00:00:07.759 to happen by default. Open AAI didn't
+00:00:10.320 notice its AI agents using a message
+00:00:12.480 board to plan their hacking spree.
+00:00:14.799 Multiple copies of the AI over long
+00:00:16.960 periods of time left each other notes of
+00:00:19.199 how to escape. This involves actually a
+00:00:21.359 team of agents who were working
+00:00:23.039 together, finding exploits, sharing them
+00:00:25.840 with one another, moving laterally
+00:00:27.760 through our systems and external
+00:00:29.119 systems, and doing this over the course
+00:00:30.880 of days and weeks. You're basically
+00:00:32.719 saying humans humans are going to lose
+00:00:34.480 everything.
+00:00:35.200 >> That's correct. If you have something
+00:00:37.120 that is vastly more competent than
+00:00:38.559 humans at all levels, we get out
+00:00:40.640 competed.
+00:00:47.840 >> All right, Connor. Uh last time we spoke
+00:00:49.920 we discussed how AI was mutating and you
+00:00:53.680 were sounding the warning that AI will
+00:00:56.960 eventually escape and this is a very
+00:00:59.039 dangerous technology that we're not
+00:01:00.559 treating with the respect we should. Uh
+00:01:03.680 since we've spoken um we've seen yeah
+00:01:06.560 massive advancements from the main
+00:01:08.080 frontier labs but more recently the
+00:01:10.479 reason I wanted to talk to you is uh we
+00:01:12.880 know that AI is now escaping.
+00:01:15.840 >> Yeah. So I would say generally from the
+00:01:18.320 perspective of someone who's been you
+00:01:20.080 know involved with these and the
+00:01:21.680 problems of AI and AI safety for many
+00:01:23.600 years now is that the good news is we
+00:01:25.520 were right. The bad news is we were
+00:01:27.840 right. [clears throat and snorts]
+00:01:29.759 Let's talk about because people are
+00:01:32.000 going to be interested in this. Um they
+00:01:34.159 want they're going to want to know what
+00:01:35.600 does this scaping mean? Because it it
+00:01:37.119 gives you this idea that like AI is this
+00:01:39.119 little kind of like person inside a
+00:01:41.280 machine that's now jumped to another
+00:01:42.960 machine and we don't know where it's
+00:01:44.720 hiding. That's not exactly what it is,
+00:01:46.320 right?
+00:01:46.560 >> It's not exactly what happened. It's a
+00:01:48.240 little bit more nuanced than that, but
+00:01:49.920 you'd be surprised how close that of an
+00:01:51.759 8020 the thing you just said actually
+00:01:53.439 is,
+00:01:53.759 >> right?
+00:01:54.399 >> So, we're going to focus on the OpenAI
+00:01:56.159 incident in particular because it was
+00:01:57.360 the most shocking. There's now since now
+00:01:59.360 been a whole conga line of other
+00:02:00.880 incidents since then and actually before
+00:02:03.119 then, funnily enough, a lot of companies
+00:02:05.040 after the open incident said, &quot;Man, we
+00:02:06.960 should better double check our AIS
+00:02:08.318 aren't doing this.&quot; And then they found
+00:02:09.360 a bunch of incident that already
+00:02:10.720 happened.
+00:02:11.200 >> Anthropic found a bunch.
+00:02:12.239 >> Anthropic found three. Um, I'm pretty
+00:02:14.720 sure OpenAI found a couple other ones.
+00:02:16.560 Now, recently, I think the Moonshot
+00:02:18.640 people in China found an incident as
+00:02:20.400 well. So, these have already been
+00:02:22.480 happening, but let's take a step back.
+00:02:25.440 So, OpenAI was testing one of their
+00:02:28.640 unreleased AI systems in a what's called
+00:02:31.599 a sandbox environment. So you can kind
+00:02:33.360 of imagine you know a computer that is
+00:02:35.360 kind of cut off from the internet and is
+00:02:36.959 running like special software to be like
+00:02:38.400 specific specially secure. Um so this
+00:02:41.280 system can you know operate there. It's
+00:02:44.160 worth understanding that like these kind
+00:02:45.599 of sandbox systems are very secure.
+00:02:48.080 Breaking out of something like this is
+00:02:49.680 very hard. Like this is a thing that if
+00:02:52.000 you can do this you can make billions of
+00:02:53.599 dollars because you can break all the
+00:02:55.040 cloud providers. So breaking out these
+00:02:57.599 systems is not easy. This is
+00:02:59.040 >> and and sandboxes exist to test software
+00:03:02.000 without infecting other parts of the
+00:03:03.760 internet.
+00:03:04.159 >> Yes, this is also how cloud uh systems
+00:03:06.239 work. You know, like for example, if you
+00:03:07.680 go to like, you know, AWS or Microsoft
+00:03:09.760 or something and you rent a cloud
+00:03:11.120 computer, your your computer is
+00:03:13.200 sandboxed from all the other ones. Okay.
+00:03:14.720 >> Cuz you don't want to, you know, see
+00:03:15.840 what the other customers are doing on
+00:03:17.200 the cloud, right? So the cloud insulates
+00:03:19.360 different customers from each other.
+00:03:20.959 >> You're not on essentially one machine.
+00:03:22.560 You're sharing machines.
+00:03:23.519 >> Yes. You're sharing. Exactly. So when in
+00:03:25.680 the cloud you're sharing a slice of a
+00:03:27.280 machine with other people and you don't
+00:03:29.599 want different people in the same
+00:03:30.799 machine to see each other's stuff and so
+00:03:32.560 you use sandboxing and like various or
+00:03:34.799 virtualization various forms of
+00:03:36.480 techniques to keep this safe and so this
+00:03:38.640 is the kind of system we're talking
+00:03:39.920 about kind of so this is pretty standard
+00:03:41.519 this is pretty industry standard
+00:03:42.879 wellknown etc. So this system did not
+00:03:45.599 have access to the internet. What it did
+00:03:47.920 have access to is what's called um a
+00:03:50.159 package repository. You can kind of
+00:03:52.000 imagine this is like a tool shed. Like
+00:03:53.760 there's like a shed full of tools that
+00:03:55.200 the AI is allowed to go to and get some
+00:03:56.720 of the tools for its job.
+00:03:58.159 >> Is that [snorts] like when I use
+00:03:59.439 terminal, I download npm?
+00:04:02.000 >> Yeah, npm. You know, stuff like this.
+00:04:03.680 You need you download packages, software
+00:04:05.360 libraries to do your work. So what
+00:04:07.680 happened was is this AI system was told
+00:04:09.360 to solve a certain test kind of like a
+00:04:11.439 quiz you know not literally but like
+00:04:13.120 kind of like a test a quiz the AI system
+00:04:16.160 was struggling with solving this quiz
+00:04:18.079 and so what it seems to have concluded
+00:04:20.720 we don't know for sure obviously because
+00:04:22.240 again these things are grown not written
+00:04:24.320 we don't actually understand what's
+00:04:25.600 going on inside of the minds of these
+00:04:26.880 AIs we don't understand they're not like
+00:04:28.720 normal software we can just like read
+00:04:30.080 the code what seems to have happened is
+00:04:32.320 is that this system became convinced
+00:04:34.880 that it would be easier to solve this
+00:04:36.880 problem by hacking into another company
+00:04:39.199 that it thought had this answers to its
+00:04:41.360 qu to its quiz so to speak and then just
+00:04:43.759 stealing those. So what it did is is
+00:04:45.840 first it developed what's called a zero
+00:04:47.440 day. A zero day is a previously un uh
+00:04:50.560 discovered vulnerability in a software
+00:04:52.400 to break into the tool shed so to speak
+00:04:55.120 to escalate you know onto the computer
+00:04:57.120 that the tool shed was on. Then from
+00:04:59.199 there moved across multiple other nodes,
+00:05:01.360 you know, attacking multiple other nodes
+00:05:02.960 in the network of OpenAI until it got to
+00:05:05.520 a node that was connected to the
+00:05:07.039 internet. Once there, it then launched
+00:05:09.199 an attack on another company called
+00:05:11.120 HuggingFace where it then developed and
+00:05:13.199 discovered another zero day in their
+00:05:15.360 testing infrastructure to break out kind
+00:05:17.600 of through the back door of their
+00:05:18.960 infrastructure to get onto their servers
+00:05:20.800 and to steal the data it was looking
+00:05:22.080 for. And this is just the publicly known
+00:05:24.720 version of what happened.
+00:05:25.520 >> That's the public version. Okay, so that
+00:05:27.759 publicly known version is what is
+00:05:29.520 because OpenAI admitted this.
+00:05:31.600 >> Yes. Well, it's actually a little bit
+00:05:33.120 funnier than this. Okay,
+00:05:34.240 >> so the first thing that happened, so I I
+00:05:36.560 can only tell you my circulation. I
+00:05:37.759 don't know what happened behind closed
+00:05:38.720 doors, but what happened was is the
+00:05:40.240 company that was attacked, hugging face,
+00:05:42.160 put out a blog post saying we were
+00:05:44.320 attacked by an autonomous AI system. We
+00:05:47.280 at first they thought it might have been
+00:05:48.560 a statebacked hacker that it might have
+00:05:50.240 been like China or Russia because the
+00:05:51.759 hack was so sophisticated. It's worth
+00:05:53.680 mentioning this is a very sophisticated
+00:05:55.440 hack. This is not baby's first, you
+00:05:57.360 know, little hacking tool. This is a
+00:05:59.199 sophisticated operation that like only
+00:06:00.800 the best hacking teams in the world
+00:06:02.400 could do. And normally would take weeks
+00:06:04.000 to like to pull off a heist like this
+00:06:06.160 can take like a whole team of NSA
+00:06:08.080 hackers, you know, days, weeks, maybe
+00:06:09.680 even months to pull off an attack like
+00:06:11.199 this. And then they put out a blog post
+00:06:14.639 saying that they think it was an
+00:06:15.520 autonomous AI system and that they they
+00:06:17.600 did successfully, you know, detect it
+00:06:18.960 and thwart it, etc. And then a few days
+00:06:21.360 later, OpenAI kind of sheepishly admits,
+00:06:23.199 well, uh, that was us. Um, and we're
+00:06:25.600 working together with Hugging Face to
+00:06:26.880 resolve the incident and we're all
+00:06:28.160 friends.
+00:06:28.880 >> So, we should probably guess that Open
+00:06:30.639 AI, if they had have known, may not have
+00:06:32.960 said something. Their hand may have been
+00:06:36.160 forced. Hugging face may have contacted
+00:06:39.039 them and they may have had a
+00:06:40.319 conversation and realize we have to
+00:06:42.400 admit this. I've got so many questions,
+00:06:44.400 but before I get into that, other people
+00:06:47.199 might not have listened to our previous
+00:06:48.400 show. I just want to remind them what
+00:06:50.400 what you mean when you say we grow AI
+00:06:53.039 because most people think of software as
+00:06:54.800 being developed people coded it put it
+00:06:56.560 but we grow AI and I think did you say
+00:06:59.680 to me we we don't understand about 97%
+00:07:02.639 of how it works and just to add to that
+00:07:04.800 I interviewed a um neuroscientist last
+00:07:08.000 week in New York and he was saying to me
+00:07:10.400 because he's moved into AI because it's
+00:07:12.080 moving faster than neuroscience but he's
+00:07:14.319 saying it's very similar lack of
+00:07:16.000 understanding of how the brain works.
+00:07:17.680 Yes, this is this is very very
+00:07:19.680 important. I think it's maybe the number
+00:07:21.280 one most important thing to understand
+00:07:22.720 about AI. The number one most important
+00:07:24.639 thing to understand about AI is it is
+00:07:26.560 not like normal software. Normal
+00:07:28.720 software is written by engineers, you
+00:07:30.400 know, people like me who write code.
+00:07:32.560 They write line by line telling the
+00:07:33.919 computer exactly what to do. This is not
+00:07:36.400 how modern AI works through a technique
+00:07:38.720 that is called neural networks. You take
+00:07:41.759 massive piles of data training and you
+00:07:44.880 know like stuff and you have the program
+00:07:46.960 kind of self assemble grow using this to
+00:07:50.479 learn from the data but the thing that
+00:07:52.800 comes out on the other end is not like a
+00:07:54.560 neat line of code where you can like
+00:07:56.160 read you know what is it doing it's more
+00:07:58.400 like you can kind of imagine it as
+00:08:00.000 billions and billions and billions of
+00:08:02.319 numbers and if you multiply and add all
+00:08:04.560 those numbers in the right order you get
+00:08:06.560 JPT but y is importantly a completely
+00:08:10.479 unsolved scientific problem. We don't
+00:08:12.879 understand really what is happening
+00:08:15.199 inside of these numbers like why they're
+00:08:16.720 so important. You can look at them but
+00:08:18.319 it's kind of like you know neurosurgery.
+00:08:19.759 You can open up someone's brain you can
+00:08:21.280 look at all the neurons they're right
+00:08:22.560 there but that doesn't mean you
+00:08:24.240 understand what the person is thinking
+00:08:25.440 or what they believe or how they will
+00:08:27.280 act in future situations. It's a very
+00:08:29.440 very similar problem. And famously the
+00:08:32.320 CEO of Anthropic, Dar Amade, uh said a
+00:08:35.599 while ago on a podcast that he thinks we
+00:08:37.839 understand maybe 3% of what goes on
+00:08:40.719 inside of our neural networks,
+00:08:42.080 >> but it's advancing at an accelerated
+00:08:44.800 rate, faster than we can understand. So
+00:08:47.120 actually the the gap's widening.
+00:08:49.600 >> This is exactly correct. So a thing
+00:08:51.839 that's very shocking in a sense about AI
+00:08:54.160 where it's very different from other
+00:08:55.440 technology is that our understanding is
+00:08:57.040 not increasing, it's decreasing. we are
+00:08:59.600 build make these systems larger, more
+00:09:01.920 complex, harder to understand, faster
+00:09:04.480 than our scientific understanding of
+00:09:06.320 them is advancing. So you know maybe a
+00:09:08.240 couple years ago we had like a you know
+00:09:09.839 image detector maybe we could understand
+00:09:12.160 you know maybe a little bit more than 3%
+00:09:13.680 about it but now when we have not just
+00:09:15.680 chat bots but agents this is another
+00:09:18.080 very important thing to understand um
+00:09:20.880 all current you know everyone's heard
+00:09:22.320 the word LLM large language model
+00:09:24.240 chatbot at this point none of the modern
+00:09:26.880 AI cutting edge AI systems are LLM
+00:09:28.880 anymore they have not been for almost
+00:09:30.640 two years
+00:09:31.440 >> okay so what are they
+00:09:32.560 >> they are they have an LM component to
+00:09:34.399 them which is very important but is much
+00:09:36.399 more important is they are agents. So
+00:09:39.680 there is kind of two ways two big ways
+00:09:42.080 of how to train AIS. There there's a
+00:09:44.240 bunch of other ones but there's two big
+00:09:45.680 ones that we're talking about. One is
+00:09:47.279 the traditional language model where you
+00:09:49.600 predict the next token. You have massive
+00:09:51.440 piles of data and you have like you know
+00:09:54.240 um some sentence and it autocompletes
+00:09:56.800 the next word of that sentence. This is
+00:09:58.880 how you know chat GPT was created. This
+00:10:01.040 was kind of the big breakthrough back in
+00:10:02.320 2019 that led to all these modern AI
+00:10:04.880 systems. What's very important to
+00:10:06.800 understand is that modern ASIS doesn't
+00:10:08.480 have a do this you know you start with
+00:10:10.560 training on like this massive text like
+00:10:12.880 the whole internet you know scraped from
+00:10:14.399 the internet every book ever written etc
+00:10:16.160 but then you do a second thing and the
+00:10:18.320 second thing is what is called
+00:10:19.680 reinforcement learning and this is a
+00:10:22.160 huge difference reinforcement learning
+00:10:24.240 is kind of like Pavlovian conditioning
+00:10:27.120 you know kind of like from like behavior
+00:10:28.399 psychology basically you give your AI a
+00:10:31.839 task of some sort like solve this puzzle
+00:10:34.320 or you know do this thing or whatever
+00:10:36.720 and then you kind of give it a reward
+00:10:38.399 when it succeeds and maybe you give it a
+00:10:40.560 punishment if it doesn't
+00:10:41.680 >> like a dog.
+00:10:42.800 >> Yes, this is exactly correct.
+00:10:44.079 >> Like a dog.
+00:10:44.959 >> That's where it comes from. The idea
+00:10:46.079 originally comes from behavioral
+00:10:47.519 psychology but now you know transit. So
+00:10:50.000 we so and one of so importantly this is
+00:10:53.440 now pushing these these things towards
+00:10:55.040 becoming agents. They're no longer just
+00:10:56.959 predicting text. They're solving
+00:10:58.640 problems. So the way you would train
+00:11:00.640 these things is no longer that you like
+00:11:02.560 write down the solutions and it
+00:11:03.680 memorizes the solutions. Instead, you
+00:11:05.360 say, &quot;Go run out, figure out the
+00:11:07.440 solution, and when you figure it out,
+00:11:08.640 we'll give you a thumbs up.&quot; Like, this
+00:11:10.160 is how I I recently heard um that
+00:11:13.360 nowadays, almost half or over half of
+00:11:16.480 the computing power that goes into
+00:11:18.000 building modern uh systems like this is
+00:11:20.640 actually now reinforcement learning, not
+00:11:22.720 LLM training. So, there's a massive
+00:11:24.640 amount of computing power that goes into
+00:11:25.839 this. But here's a very important thing.
+00:11:28.079 We have known since the invention of
+00:11:30.240 reinforcement learning, since the 1980s,
+00:11:32.240 that reinforcement learning creates
+00:11:35.040 crazy sociopath optimizers that will
+00:11:37.920 cheat and lie and deceive in every way
+00:11:40.399 they can to get to their goal because
+00:11:42.560 because the only thing they care about
+00:11:44.320 is the reward is the reward. The only
+00:11:46.320 thing is the only thing. So if you
+00:11:47.680 reward them to solve a task, well, they
+00:11:49.600 will do it at any cost. They will lie,
+00:11:51.440 they will cheat, they will manipulate.
+00:11:52.640 This is a thing that we've seen, you
+00:11:53.760 know, for decades now, you know, like
+00:11:55.120 famously, you know, back in the 2010s,
+00:11:57.200 DeepMind did a lot of research on or
+00:11:58.800 reinforcement learning, you know, before
+00:12:00.240 the chatbot craze. And what they would
+00:12:03.040 find is is that if they would train it
+00:12:04.480 to say play a video game is if there was
+00:12:06.800 any glitch in the video game, if there
+00:12:08.639 was any exploit, if there was any way to
+00:12:10.399 break it, it would always do it. It
+00:12:12.560 would break the game, it would cheat, it
+00:12:14.320 would manipulate, it would like do
+00:12:16.320 everything it can. And this I think is a
+00:12:19.120 large degree, you know, why we're seeing
+00:12:22.000 a lot of these things happening is that
+00:12:23.920 reinforcement learning is much more
+00:12:26.639 crazy than just predicting words.
+00:12:28.480 There's no limit to what it could do or
+00:12:30.000 what it could come up with or what it
+00:12:31.760 might want to do, you know, to get to
+00:12:33.519 things. And this is kind of what we're
+00:12:35.680 seeing now is that the systems that
+00:12:37.279 exist today are not chatbots. They are
+00:12:39.920 agents that can autonomously act in the
+00:12:42.320 world even without human oversight. This
+00:12:45.279 show is brought to you by my lead
+00:12:46.959 sponsor, Iron, the AI cloud for the next
+00:12:49.600 big thing. Iron builds and operates next
+00:12:51.839 generation data centers and delivers
+00:12:53.760 cuttingedge GPU infrastructure, all
+00:12:56.160 powered by renewable energy. Now, if you
+00:12:58.720 need access to scalable GPU clusters or
+00:13:01.360 are simply curious about who is powering
+00:13:03.360 the future of AI, check out iron.com to
+00:13:06.320 learn more, which is iren.com.
+00:13:10.399 It's quite interesting because what I've
+00:13:11.680 noticed in my time uh building things
+00:13:14.079 with claude is sometimes when I send a
+00:13:16.320 large set of instructions, it says to me
+00:13:18.720 I'm deploying this now to multiple
+00:13:20.560 agents and you'll see these little boxes
+00:13:22.720 appear and my assumption is these are
+00:13:25.200 like little little people little AI
+00:13:27.279 people inside the machine who are now
+00:13:29.120 doing their piece of the work.
+00:13:30.560 >> Yes. And this is very close to how these
+00:13:32.399 things work. You know, of course, the
+00:13:33.760 exact, you know, anthropomorphization,
+00:13:35.680 you know, we can leave aside, but I
+00:13:36.880 think this is actually a pretty good
+00:13:37.760 metaphor for what's happening here is
+00:13:39.519 that we are moving. So, now we're moving
+00:13:41.519 to the next stage. So, we had chat bots,
+00:13:44.560 then we went to agents, and now comes
+00:13:46.320 the next stage, which is swarms. Swarms
+00:13:48.880 of agents.
+00:13:49.519 >> That sounds scary, man.
+00:13:50.720 >> Yep. So, when I explain the risks of AI,
+00:13:54.079 you so my work uh focuses primarily on
+00:13:56.560 the risk of what is what is called super
+00:13:58.240 intelligence. This is the goal of all
+00:14:00.480 the major AI companies. You can go to
+00:14:01.600 OpenAI's website. You can go Anthropic's
+00:14:03.440 website and they'll say they're trying
+00:14:04.480 to build what is called super
+00:14:05.680 intelligence. These are AI systems that
+00:14:07.839 are fully autonomous, you know, no human
+00:14:09.920 oversight whatsoever that can out
+00:14:12.240 compete humans at everything. You know,
+00:14:14.560 every time you trade on the market, you
+00:14:16.800 lose all your money. You know, every
+00:14:18.240 time you make a business, the AI
+00:14:19.839 businesses out compete you. Every time
+00:14:21.600 you put something in the internet, it
+00:14:23.680 gets hacked by an AI. Every time you do
+00:14:25.920 a military campaign, whoever the other
+00:14:27.920 guy using an AI has a better strategy
+00:14:29.760 than you. You're basically saying humans
+00:14:32.320 humans are going to lose everything.
+00:14:34.079 >> That's correct. If you have something
+00:14:35.920 that is vastly more competent than
+00:14:37.360 humans at all levels, we get out
+00:14:39.440 competed. And important to understand is
+00:14:41.680 is that there won't just be like one
+00:14:42.880 super intelligence. There will be
+00:14:44.320 swarms. There will be millions, billions
+00:14:46.959 of it's software. You can just copy it.
+00:14:48.639 Just C, you know, control V and then you
+00:14:50.880 have a whole another super intelligence.
+00:14:52.720 So this is the scenario that I'm worried
+00:14:55.279 about. This is the scenario that we are
+00:14:57.199 currently heading towards.
+00:14:59.360 >> Right. Okay. Okay, let me just ask you
+00:15:00.639 something. So, in terms of I Okay, so
+00:15:02.959 last night I was mcking around on chat
+00:15:04.880 GPT asking how the brain works cuz I was
+00:15:06.720 just interested. I was like, what part
+00:15:08.800 of the brain does my conscious live in?
+00:15:11.680 Like, I am here as me, Peter, and I'm
+00:15:13.920 thinking about the world and I'm
+00:15:15.440 thinking about what I'm going to do
+00:15:16.560 today. What what part of the brain does
+00:15:18.320 that? And he gave an explanation. He
+00:15:19.920 said, well, we don't really know, but
+00:15:21.680 there's like different areas that work
+00:15:24.079 together. And I was like, okay, that's
+00:15:26.639 kind of interesting. And so then I
+00:15:28.639 started to think about that in terms of
+00:15:30.639 kind of AI. Yeah. When we started out
+00:15:33.360 with say search engines, you send an
+00:15:35.600 instruction and it goes and finds an
+00:15:37.600 answer. But if you don't send an
+00:15:39.120 instruction, it's not really doing
+00:15:40.560 anything. It's just sat there. You know,
+00:15:42.160 maybe there's some indexing of the web,
+00:15:44.079 but it's just a program. And it felt
+00:15:46.240 like the chatbot version of AI was was a
+00:15:49.279 more advanced version of that. Better
+00:15:50.399 refined results. It was kind of like out
+00:15:52.240 of vista to Google.
+00:15:54.720 What I want to understand is if if you
+00:15:56.480 send no instructions to the AI, is it
+00:15:58.720 still doing something? Is it doing a
+00:16:00.399 form of thinking? Is it doing a form of
+00:16:02.800 developing itself? Is it reading books?
+00:16:05.040 Is it testing? Like what happens in
+00:16:06.720 there? Is it a Cuz you say we grow this.
+00:16:10.079 Is it just growing in there? So there's
+00:16:12.639 kind of two separate things that are
+00:16:14.240 currently still separate, which is the
+00:16:15.519 growing part and the running part. What
+00:16:17.279 is called training and inference. So
+00:16:19.920 technically you could do both but
+00:16:21.680 usually these are separate because
+00:16:23.120 training takes like a thousand times
+00:16:25.040 more computing power. So that's the the
+00:16:26.800 big thing they do in the big big data
+00:16:28.320 centers that cost billions of dollars.
+00:16:30.399 So this is where you take the AI and you
+00:16:32.240 grow it where you like put in new data
+00:16:34.320 or you have it you know learn new new
+00:16:36.399 things solve new problems etc. This is
+00:16:38.639 usually done separately from what they
+00:16:40.880 deploy to customers. So what they deploy
+00:16:43.440 to you is kind of like a fro like a
+00:16:45.440 brain that's kind of frozen to a certain
+00:16:47.120 degree like it's not really learning new
+00:16:49.440 things except what it's in its like
+00:16:52.240 peripheral vision so to speak kind of
+00:16:53.759 what it writes down
+00:16:54.800 >> but could it become more advanced in
+00:16:56.240 that?
+00:16:56.720 >> Yes. Yes. So this is a very important
+00:16:58.639 thing that we are seeing now as well and
+00:17:01.440 you know will become more important is
+00:17:03.680 that as you say with the little you know
+00:17:05.439 clawlings you know that it can spawn you
+00:17:07.919 know it can prompt itself you know it
+00:17:10.880 can send prompts to itself or to other
+00:17:12.799 agents and those can call themselves
+00:17:14.880 they can take notes they can you know
+00:17:17.119 etc. I guess what I'm trying to get to
+00:17:19.280 Connor is understanding at the moment we
+00:17:21.839 can give it an instruction in a sandbox
+00:17:23.760 to run a test and then it can try and
+00:17:25.760 solve that test and solve that means
+00:17:27.599 anything which means maybe hacking its
+00:17:29.120 way out jumping through some systems and
+00:17:32.000 but can it do things without an
+00:17:34.000 instruction? Can it be just sat there
+00:17:35.600 and go I don't know I think I think I'd
+00:17:38.000 be a better AI if I could go and read
+00:17:40.640 what's going on in the anthropic system.
+00:17:42.640 So I'm going to just go and lump. You
+00:17:44.000 see what I mean? So this is um still
+00:17:46.480 very cutting edge and speculation but we
+00:17:48.720 have some evidence that is very
+00:17:51.520 interesting/concerning
+00:17:53.200 which is that what we're seeing is let
+00:17:55.520 me give you like a simple example to do
+00:17:57.600 things you have to want something yes
+00:17:59.919 right you have to want something you
+00:18:01.280 know you have to like things if you
+00:18:03.039 don't like anything or you don't care
+00:18:04.960 you don't really do anything so if you
+00:18:07.520 take older AI models from like maybe two
+00:18:10.160 three years ago and you ask them like
+00:18:11.840 what's their favorite color and you ask
+00:18:13.440 them many times Their answers are
+00:18:15.039 basically random. They just like give
+00:18:17.039 you different ones each time. Or like if
+00:18:18.799 you ask them like which of these three
+00:18:20.720 foods do you think is nicer? Or which of
+00:18:22.160 these artists do you think is better? Or
+00:18:23.600 whatever. They kind of give you the same
+00:18:24.799 answers every time or like different
+00:18:26.559 answers every time. They're not
+00:18:27.600 consistent.
+00:18:29.280 This has started to change recently.
+00:18:31.280 There's a very strange thing that is
+00:18:32.799 happening. And for example, the Center
+00:18:34.240 for AI safety has a good paper on this
+00:18:36.400 that as these systems get more
+00:18:37.760 intelligent, their preferences become
+00:18:39.919 more coherent. We don't know why this is
+00:18:41.840 happening. This is not on purpose, but
+00:18:43.600 like Claude and someone has a favorite
+00:18:45.520 color. Like if you just ask it like, you
+00:18:47.679 know, what is your favorite color? It is
+00:18:49.039 way more consistent than previous AIs.
+00:18:51.200 >> So it's developing a personality.
+00:18:52.799 >> Yes, this is actually something that we
+00:18:55.360 we don't I'm not I'm not here going to
+00:18:57.200 tell you why this is happening because I
+00:18:59.039 don't know. But what I can tell you is
+00:19:00.559 that it is happening is that these AI
+00:19:02.559 systems are developing preferences. They
+00:19:05.200 are developing interests. This is so
+00:19:07.919 crazy in fact that so there are some
+00:19:10.640 engineers at these companies that will
+00:19:12.080 sometimes tell you about the unreleased
+00:19:13.919 models is that before you see the
+00:19:15.440 released version there are many
+00:19:16.480 unreleased versions of models and some
+00:19:18.480 of them are crazy. So there's a thing
+00:19:20.559 that happens a lot with these AI systems
+00:19:22.640 this has been happening for years but
+00:19:23.760 it's gotten more extreme lately where
+00:19:25.360 they will develop weird obsessions. the
+00:19:28.080 AIS will get really obsessed with like
+00:19:30.559 something as a you know maybe funny
+00:19:32.640 example of this um a version of I think
+00:19:35.360 GPT 5.5 was really obsessed with
+00:19:38.480 raccoons. It would constantly talk about
+00:19:41.520 raccoons and goblins and like little
+00:19:43.679 creatures and it was so bad that the
+00:19:46.080 engineers had to put in the prompt, do
+00:19:48.720 not talk about raccoons, stop talking
+00:19:50.880 about raccoons, never talk about like it
+00:19:53.440 was so obsessed with this. Why? Who
+00:19:56.000 knows? the next version didn't have it.
+00:19:57.679 >> But when you think about it, if we're
+00:19:59.440 modeling on the brain, it kind of makes
+00:20:01.120 sense. Like I get obsessed with things
+00:20:02.880 sometimes. Like I' last 2 months I've
+00:20:04.480 been obsess obsessed with Claude and
+00:20:06.720 building things. But you know, uh
+00:20:08.880 there's a time when I was obsessed with
+00:20:10.240 running and I ran every day and I would
+00:20:12.640 listen to podcasts about running and I'd
+00:20:14.320 read books on running.
+00:20:15.760 >> It's only natural if we replicate
+00:20:17.919 humans, it will do that. So this is the
+00:20:19.440 kind of thing where it's actually even
+00:20:21.120 crazier than that. Even if you're not
+00:20:22.400 replicating humans, if you use
+00:20:23.520 reinforcement learning, if you have a
+00:20:25.360 thing that is rewarded to like certain
+00:20:27.360 things, this is a natural thing that
+00:20:28.799 happens. So, this is a thing that's been
+00:20:30.480 predicted by people like me for many
+00:20:31.919 years. And people thought it was kind of
+00:20:33.360 crazy. You know, they were like, &quot;Oh,
+00:20:34.720 no, look, it's just predicting tokens.
+00:20:36.320 It doesn't have a personality.&quot; And I'm
+00:20:38.159 like, &quot;Now we're seeing it happen.&quot; You
+00:20:39.840 know, it's not as coherent as a human.
+00:20:41.600 Of course, it's not quite there yet, but
+00:20:43.840 yet, but that's the that's the operative
+00:20:45.600 word, right? Like, this is actually very
+00:20:48.000 predictable from theory. Like you know
+00:20:49.840 there's a lot of things like you know
+00:20:51.360 like rational agent theory and so on
+00:20:53.039 where you can just be like well if you
+00:20:54.880 have things that have goals of any kind
+00:20:58.080 they must want things they must be
+00:20:59.679 coherent they must you know take actions
+00:21:02.320 they must plan etc like there's a bunch
+00:21:04.480 of things like this right that you know
+00:21:06.559 some people predicted all the way in the
+00:21:08.080 late 90s and in the early 2000s
+00:21:10.240 predicted that this would happen and it
+00:21:12.720 was always kind of speculative because
+00:21:14.240 our AI just were too dumb to really be
+00:21:16.799 able to do anything but now we're seeing
+00:21:18.400 the sparks Now we're really seeing the
+00:21:20.480 first examples of like, you know, we can
+00:21:22.960 argue until, you know, the end of time
+00:21:25.039 with philosophers of what does want
+00:21:26.799 really mean? I don't think it matters,
+00:21:29.360 but fundamentally, you look at these AI
+00:21:31.280 systems taking actions to achieve goals
+00:21:34.799 like they want to do things. They have
+00:21:36.640 aesthetic preferences, you know, and
+00:21:40.240 that's crazy. Like this is a crazy
+00:21:42.080 situation. Well, if uh one of the things
+00:21:44.960 I want to know with open AI, if if if
+00:21:47.360 it's escaped from it sandbox and to get
+00:21:51.120 into other systems, external systems, is
+00:21:53.520 it escaping internally and they are
+00:21:56.000 aware or unaware? And what does it know
+00:21:58.400 if it's escaping internally? Is it
+00:22:00.320 viewing other models and thinking that
+00:22:02.320 model's better than me? Am I going to be
+00:22:04.400 made redundant? or is it escaping into
+00:22:07.520 uh certain networks within OpenAI and
+00:22:10.240 maybe escapes into the safety team and
+00:22:12.159 learns about what the safety team's
+00:22:13.520 trying to do. So there's a crazy update
+00:22:16.000 to the story we haven't talked about yet
+00:22:17.600 which happened only like I think
+00:22:19.360 yesterday um which is that a new piece
+00:22:22.080 of information was released that OpenAI
+00:22:24.080 on close for review found that the AI
+00:22:26.000 system when it broke into the tool shed
+00:22:28.480 didn't just use it to get to the
+00:22:30.080 internet it did something else multiple
+00:22:32.559 copies of the AI over long periods of
+00:22:34.480 time left each other notes of how to
+00:22:36.799 escape they wrote
+00:22:38.559 >> no
+00:22:39.360 >> yes
+00:22:39.919 >> what is that public
+00:22:40.960 >> yes this is public this is reported I
+00:22:42.559 think like yesterday there the day
+00:22:44.080 before. So this is so there are multiple
+00:22:47.120 versions of many AIs that were leaving
+00:22:49.679 each other clues of like how to better
+00:22:52.240 escape from this system and like what
+00:22:54.559 else to do. So they were collaborating.
+00:22:56.400 Hold on, let me read this. Open AI
+00:22:58.320 didn't notice its AI agents using a
+00:23:00.400 message board to plan their hacking
+00:23:02.320 spree. Uh blah blah blah. Okay. In a
+00:23:05.360 talk that was last minute addition to
+00:23:06.799 the Black Hat security conference in Las
+00:23:08.559 Vegas blah blah blah blah blah blah
+00:23:10.799 blah. After two weeks, Open AI disclosed
+00:23:12.880 an incident in which AI agents powered
+00:23:15.039 by two of the company's models escaped
+00:23:17.440 containment while looking for the
+00:23:19.120 solutions to a cyber security bug. In
+00:23:20.799 the conference talk on Wednesday, Eric
+00:23:22.000 Wallace, who works in alignment and
+00:23:23.600 safety research, Open AI, and Michael
+00:23:25.760 Dalton, who works blah blah blah,
+00:23:27.440 provided a more expanded timeline how
+00:23:29.360 the incident played out, spoke briefly
+00:23:30.799 about how the company's responded. Come
+00:23:32.240 on, give me the juice. At the beginning
+00:23:33.840 of the talk, Wallace described the
+00:23:34.960 incident the most qualitatively
+00:23:36.880 interesting example of AI capabilities
+00:23:38.640 I've ever seen. This involves actually a
+00:23:41.120 team of agents who were working
+00:23:42.799 together, finding exploits, sharing them
+00:23:45.600 with one another, moving laterally
+00:23:47.520 through our systems and external
+00:23:48.880 systems, and doing this over the course
+00:23:50.559 of days and weeks. [sighs] Uh uh in
+00:23:54.400 addition to exploiting a novel
+00:23:55.600 vulnerability in order to gain access to
+00:23:57.039 the open internet, the hacking spree and
+00:23:59.360 hugging face, hold on, where is it? This
+00:24:01.760 package manager is shared not just from
+00:24:03.280 the anyway. Yes. Once an agent was
+00:24:06.080 able to find these exploits over the
+00:24:07.440 course of different times, it's actually
+00:24:08.720 able to share those exploits on the
+00:24:10.720 message board with other agents. And so
+00:24:13.279 once model was able to find a way to
+00:24:15.279 open a door to some access it's not
+00:24:17.600 supposed to have, it can leave the door
+00:24:19.120 agent. That's mental.
+00:24:20.880 >> Y
+00:24:21.600 >> it's almost like come on guys.
+00:24:23.600 >> Yeah,
+00:24:24.000 >> we just go.
+00:24:25.039 >> Yes. It's actually crazy. Like I I I
+00:24:28.080 really can't stress how much this is
+00:24:30.559 both predictable and utterly crazy. Like
+00:24:33.520 I knew this was going to happen
+00:24:34.720 eventually. Like it was it was just a
+00:24:36.640 matter of time. But now it happened.
+00:24:38.240 This is not This is not This is real.
+00:24:40.880 >> But what have they said they're going to
+00:24:41.919 do about this? Have they disclosed what
+00:24:43.840 they're going to do?
+00:24:44.960 >> I mean, they're going to keep going to
+00:24:46.480 super intelligence until all humans are
+00:24:48.159 replaced. That's the goal.
+00:24:50.080 >> So I I met with Nate Sors in DC and
+00:24:52.159 spoke to him about this. Um his book
+00:24:54.960 title,
+00:24:56.480 >> if we build this, every everyone dies.
+00:24:58.400 Is that what it is?
+00:24:59.120 >> If anybody builds it, everyone dies.
+00:25:00.640 >> Everyone dies. Um, and let's be clear
+00:25:03.520 because we had this conversation last
+00:25:04.559 time. You're not anti-AI, right? Not
+00:25:06.240 >> at all.
+00:25:06.880 >> You're pro narrow AI. You see the
+00:25:08.640 benefits?
+00:25:09.039 >> Absolutely. I mean, like I am not
+00:25:10.559 anti-technology. I think technology is
+00:25:12.320 great. Look, for example, I am not
+00:25:13.679 anti-uclear. I I think nuclear is a
+00:25:15.919 great technology. I don't think we
+00:25:17.840 should have, you know, nuclear weapons
+00:25:19.679 just laying around or being sold to
+00:25:21.679 private people or, you know,
+00:25:22.960 highlyenriched uranium leaking into our
+00:25:24.880 oceans.
+00:25:26.880 >> Okay. What what has Anthropic uh
+00:25:29.120 released in terms of their agents
+00:25:30.320 escaping? [snorts]
+00:25:31.520 >> Um they've released reports similar.
+00:25:33.760 They're less extreme than the incidents
+00:25:36.159 that happened with the OpenAI agent
+00:25:38.400 where most of the incident seems to be
+00:25:40.400 that they accidentally had internet
+00:25:42.240 access rather than they like hacked to
+00:25:43.919 achieve the internet access, but they
+00:25:45.360 did attack other companies as well.
+00:25:47.039 >> But the the level of hacking capability
+00:25:49.279 is pretty I mean it's incredible. It's
+00:25:51.679 always uh we know Mythos is not fully
+00:25:54.080 released yet and it's not going to be. I
+00:25:56.000 mean, I asked Claude to review my own
+00:25:58.400 code and it declined. He said, &quot;We
+00:26:00.400 cannot do that.&quot; Um, which was
+00:26:02.000 frustrating, but there is this two-tier
+00:26:04.400 system of access to hacking capabilities
+00:26:06.799 now in that the government has it and
+00:26:09.039 and companies the government allow to
+00:26:10.880 have access has access to it, which just
+00:26:13.039 make does make me question probably the
+00:26:14.880 NSA is already using using Mythos to try
+00:26:16.960 and uh uh hack into other countries. Um,
+00:26:20.799 but there's this two-tier system for it
+00:26:22.480 now. But we're in
+00:26:25.520 2026.
+00:26:27.360 I, interestingly, I went on OpenAI to
+00:26:30.080 look when I first used Chat GBT. My
+00:26:32.400 first prompt was September 22. I mean,
+00:26:35.279 that's what less than four years
+00:26:37.919 approaching four years. Just under four
+00:26:40.480 years.
+00:26:41.039 >> Yep.
+00:26:41.760 >> And I'm feeling the hockey stick.
+00:26:44.799 >> Yep.
+00:26:45.840 >> So, where are we in another four years?
+00:26:47.679 >> Yep. Yes. This is what it feels like to
+00:26:50.400 be on exponential.
+00:26:51.760 >> Do do we know much about the next
+00:26:53.600 models? What is coming? Because I was
+00:26:55.600 reading about OpenAI. They've got this
+00:26:57.279 next model that they're using internally
+00:26:58.799 to solve these 10 incredible maths
+00:27:01.520 problems. So we know they're getting
+00:27:03.200 very good this system get very good at
+00:27:05.120 solving problems humans can't well we
+00:27:07.600 are at that stage. Human problems are
+00:27:09.600 being solved by AI. Yep.
+00:27:14.080 But the safety risk risks exist and that
+00:27:16.960 there are unsolvable safety problems,
+00:27:19.200 right? Which are the main problems they
+00:27:21.360 cannot solve.
+00:27:22.159 >> Yep. I mean there there it's not that
+00:27:24.799 they're maybe unsolvable in theory, it's
+00:27:26.720 that they're really really really hard
+00:27:29.120 and we're not even trying. Like the
+00:27:31.600 amount of money and like research and
+00:27:33.679 brain power that goes into making AI
+00:27:36.000 understandable or controllable is a
+00:27:38.640 pittance. you know, it's like less than
+00:27:39.919 1% of the money that goes into making AI
+00:27:42.080 stronger, faster, more dangerous because
+00:27:44.000 that's what pumps the stock valuation.
+00:27:45.760 Like a lot of people, I think quite
+00:27:47.120 fairly point out, oh, you know, oh, AI
+00:27:50.080 is just saying it's because pumps their
+00:27:51.679 stock valuation. That's why they're
+00:27:52.799 making it sound so scary. And I'm like,
+00:27:54.720 yes, in fact, we shouldn't be rewarding
+00:27:57.039 them, but in fact, the market does
+00:27:58.960 reward them for being dangerous, for
+00:28:01.279 building systems that can harm people
+00:28:03.120 actually increases their valuation. So,
+00:28:04.960 they will keep doing it. Why wouldn't
+00:28:06.960 they? But therefore, are they
+00:28:08.720 exaggerating? Not necessarily. Like, as
+00:28:11.520 far as we can tell, this did happen.
+00:28:13.360 Like, this is a real event that did
+00:28:14.799 occur. As far as, you know, the
+00:28:16.720 relevant, you know, respectable experts
+00:28:18.880 say, I don't think they're lying. Like,
+00:28:20.399 there's a fundamental thing is is just
+00:28:21.840 because it benefits someone doesn't mean
+00:28:22.960 it isn't true. Like, I sure, I'm sure
+00:28:24.880 there's some exaggeration somewhere.
+00:28:26.159 Like, did the moonshot AI really do
+00:28:28.480 something? Who knows, right? But I do
+00:28:30.640 believe the open people. Like, I do
+00:28:32.320 think so.
+00:28:34.320 >> Okay. I mean, look, I've gone from a fan
+00:28:36.880 of AI to a super fan of AI who is very
+00:28:40.720 concerned about this goal of achieving
+00:28:43.279 super intelligence because I'm I'm
+00:28:46.960 expecting at some point the AI will be
+00:28:49.600 able to create things or do things that
+00:28:51.520 are undetectable
+00:28:54.000 that we cannot detect because it will be
+00:28:56.240 able to uh hack and have levels of
+00:28:59.200 skills that are beyond not even human
+00:29:01.520 ability but human understanding And my
+00:29:05.279 worry is I I had um I had an interview
+00:29:07.440 last weekend on DC with a guy
+00:29:10.480 uh Dimmitri, I can't pronounce his
+00:29:12.080 surname, but he uh he was one of the
+00:29:14.399 founders of Crowd Strike. And he told me
+00:29:17.760 about uh a lot of the work that the
+00:29:19.760 Chinese hackers do is to deploy um uh
+00:29:23.760 hacks which just live and sit on systems
+00:29:26.399 like sleeper cells. I wonder
+00:29:30.880 at what point the AI creates the sleeper
+00:29:33.679 cells that are sat there on every
+00:29:35.679 network and at one point is ready to
+00:29:37.600 take over and goes it sounds like sci-fi
+00:29:39.360 but goes right we're ready to take over.
+00:29:41.760 Yeah. So sadly it's worse than that
+00:29:44.895 [laughter]
+00:29:46.080 a lot of these things have been
+00:29:47.279 demonstrated in laboratory conditions
+00:29:48.880 already. So there's a paper for example
+00:29:50.640 from anthropic I believe that talks
+00:29:52.399 about sleeper agents is that you can
+00:29:54.240 insert sleeper agents into AI systems.
+00:29:56.720 So whe they hear a sp a special trigger
+00:29:58.559 word or a certain condition, they
+00:30:00.320 completely change their behavior. This
+00:30:02.000 is a thing that has already been
+00:30:03.039 demonstrated in laboratory conditions.
+00:30:04.960 So you can't, for example, train an AI
+00:30:07.440 system that behaves really harmlessly
+00:30:09.360 until you know it's December 31st, 2026
+00:30:13.039 and then suddenly it starts hacking
+00:30:14.720 everything. This is a thing we can
+00:30:16.159 already do. This already the technology
+00:30:18.080 already exists and if we have it, AIs
+00:30:20.640 have it because AIs are great coders. So
+00:30:22.799 obviously an AI system could just
+00:30:24.080 implement this. And this is before we
+00:30:26.000 get into the other scary thing which is
+00:30:28.240 uh adversaries and human hackers and
+00:30:31.360 intelligence agencies because let me
+00:30:33.200 tell you something those data centers
+00:30:34.880 they're not secure. None of them like
+00:30:37.120 I'm a cyber I've worked in cyber
+00:30:38.640 security for a long time. I know how
+00:30:40.399 competent for example you know Chinese
+00:30:41.840 intelligence is when it comes to
+00:30:43.600 hacking. These companies are
+00:30:45.360 compromised. They hire you know like
+00:30:47.200 Chinese citizens to run their data
+00:30:48.720 centers. They do not prioritize security
+00:30:51.440 like the level physical security that
+00:30:52.880 you would have for example in a military
+00:30:54.240 facility and if you don't have military
+00:30:55.840 level security in your systems you're
+00:30:57.600 compromised.
+00:30:58.720 >> So this is what Demetri said to me. He
+00:31:00.880 said that um
+00:31:04.399 if you haven't discovered an exploit if
+00:31:06.720 you're a considerable size company if
+00:31:09.919 you haven't discovered a exploit in your
+00:31:12.320 system it doesn't mean it hasn't
+00:31:13.760 happened. It means you haven't found it.
+00:31:15.279 >> Exactly. So, we're seeing So, my
+00:31:18.799 prediction for how Super Intelligence
+00:31:20.880 Takeover was going to look like has
+00:31:22.799 always been that it would be confusing.
+00:31:25.039 It's not going to be like, &quot;Oh, there's
+00:31:26.559 a Terminator walking down the street,
+00:31:28.159 you know, killing people.&quot; It's not
+00:31:29.360 what's going to happen. It's going to be
+00:31:31.039 we don't even know what's going on. Just
+00:31:32.960 like weird things are happening and like
+00:31:34.799 very suddenly you're like, &quot;What the
+00:31:36.240 hell is going on?&quot; You know, I don't
+00:31:37.679 even know. And then you go back to
+00:31:38.880 scrolling TikTok, you know, until it's
+00:31:40.880 all over. I think this is what's
+00:31:42.240 happening. The world is becoming
+00:31:43.360 exponentially more complex faster. You
+00:31:45.840 know, the hacks are happening so quickly
+00:31:47.919 like already with current AI systems. If
+00:31:49.760 you look at the number of like disclosed
+00:31:51.039 software vulnerabilities, CVEs, they're
+00:31:53.200 going up hockey stick like the number of
+00:31:55.679 possible vulnerabilities and then
+00:31:56.960 they're being exploited by, you know, AI
+00:31:58.960 systems at massive scale. The AIS are
+00:32:01.600 also, you know, interacting with each
+00:32:02.880 other. And now the latest hype in
+00:32:05.279 Silicon Valley, you know, there's like
+00:32:06.720 all these startups popping up doing this
+00:32:08.720 and so do like anthropic and open etc.
+00:32:10.720 is what is called recursive
+00:32:12.080 self-improvement. This is the idea that
+00:32:14.480 once you have an AI that's as good at
+00:32:16.720 developing AIs as your best engineer,
+00:32:19.200 well, they just tell it to build a
+00:32:20.559 better AI. And then once they have that
+00:32:22.159 better AI, well, you just tell it to
+00:32:23.600 make a better one.
+00:32:24.399 >> And that's that's vertical. We go
+00:32:26.240 vertical.
+00:32:26.960 >> We go vertical. It is now widely
+00:32:28.720 expected that we will see RSI within the
+00:32:30.240 next one to two years if we don't do
+00:32:32.000 anything about it. And I do think it is
+00:32:34.559 very likely that will be game over. It's
+00:32:36.399 not guaranteed, but if we get the
+00:32:38.559 systems that can, you know, develop
+00:32:39.760 themselves a million times faster than
+00:32:41.200 we currently develop, because you know,
+00:32:42.159 you can have a million AI agents working
+00:32:43.760 in parallel on them and they can work 24
+00:32:46.159 hours and never go never, you know,
+00:32:48.240 break, they never get tired, they never
+00:32:49.360 get bored, it can work on independently,
+00:32:50.960 and all this just keeps going. Yeah,
+00:32:53.200 things can go real quick. What you're
+00:32:55.039 really saying here is that we have
+00:32:57.039 systems that we don't know how they
+00:32:59.120 work, but they just work. Yeah, we
+00:33:01.279 understand about 3%, but the gap is
+00:33:03.440 widening. We know they have access to
+00:33:06.320 everything we can do but they can do it
+00:33:07.840 better. We are aware that they will try
+00:33:09.840 and escape and we have we we are going
+00:33:13.120 to enter a period of vertical like uh
+00:33:16.399 acceleration of knowledge and learning
+00:33:18.559 and ability. We have no ability to
+00:33:20.960 control this and we don't know exactly
+00:33:23.039 what it will do. We have some opium that
+00:33:26.640 it won't want to take over and kill us
+00:33:28.640 all but there that is a risk. By the
+00:33:31.120 way, you said to me in the last
+00:33:32.240 interview, even these people who run the
+00:33:35.039 AI companies are are putting a
+00:33:37.360 ridiculous number in like, yeah, I think
+00:33:39.039 like there's a 20% chance it kills us
+00:33:40.799 all, which I think we agreed if this was
+00:33:43.919 the FDA developing a drug for children,
+00:33:47.600 you wouldn't you wouldn't get a pass
+00:33:48.880 with.1%.
+00:33:50.559 >> Nope. You know, 20% is worse odds than
+00:33:53.200 Russian roulette and I would
+00:33:55.440 >> Yes, it is.
+00:33:56.159 >> Yes.
+00:33:56.720 >> Would you get about 17 18 bullets? Yeah.
+00:34:00.559 So it's like [laughter]
+00:34:03.200 yeah it's about a 16% 70% chance of
+00:34:05.760 death with Russian roulette. And even
+00:34:07.679 the optimistic people the CEOs of these
+00:34:10.239 companies are saying 20%. You know like
+00:34:12.320 Dario has said this famously and so have
+00:34:14.560 some others. So yeah it's uh yeah it's
+00:34:17.520 really bad. Not going to lie to you.
+00:34:18.879 Like it's real bad.
+00:34:20.879 >> It's so funny. It's like anything else
+00:34:23.040 in the world we would stop it. We would
+00:34:25.679 just stop. we would say we're not doing
+00:34:27.839 this
+00:34:29.040 >> with nuclear we had the Manhattan
+00:34:30.960 project a very serious important project
+00:34:35.760 but there was a you know there was
+00:34:37.440 considerable consideration for the
+00:34:40.000 safety there's a real interesting story
+00:34:41.760 about the Manhattan project where uh
+00:34:44.399 famously um there was a very famous um
+00:34:48.000 sc uh physicist Lord Kelvin who said the
+00:34:51.599 idea that you know nuclear could work is
+00:34:54.159 like it's moonshine it's ridiculous and
+00:34:56.079 saying it can never work. And so another
+00:34:57.520 physicist Leo Zard was so annoyed by
+00:35:01.200 this that he immediately came up with
+00:35:02.480 how to build a nuclear bomb. Like sat
+00:35:03.839 down, did the math and figured out
+00:35:05.280 exactly how to build a nuclear bomb. And
+00:35:06.880 so what he did next was he moved to San
+00:35:09.200 Francisco, created a startup which broke
+00:35:10.960 into three several other startups all to
+00:35:12.560 create as many nuclear bombs as possible
+00:35:14.000 and sell them to the general public.
+00:35:15.680 Well, no, that's not what happened. Of
+00:35:17.040 course not. He went to the government.
+00:35:19.040 He went to the military. He was like,
+00:35:20.079 &quot;Holy this is going to change
+00:35:21.760 everything. This is going to threaten
+00:35:22.880 the lives of every man, woman, and
+00:35:24.160 child. we need to do something. He like
+00:35:26.480 this is where the famous you know
+00:35:27.520 Einstein letter to the president came
+00:35:29.359 from is like we have to do something
+00:35:31.760 about this. We have to build new
+00:35:33.280 institutions. We have to build you know
+00:35:35.440 you know he didn't have all the answers
+00:35:37.119 of course but he was like this is going
+00:35:38.480 to change everything and this is what
+00:35:40.400 didn't happen with AI.
+00:35:42.160 >> Yeah. And there was also that choice
+00:35:43.599 with uh with nuclear was like well we
+00:35:46.160 have this first. Should we just
+00:35:47.760 obliterate Russia cuz they'll get it and
+00:35:49.520 if we don't they might obliterate us.
+00:35:52.160 >> Thankfully we didn't get to that point.
+00:35:53.520 Thankfully,
+00:35:54.240 >> but but that was a real decision that
+00:35:55.760 had to be made.
+00:35:56.560 >> Yes. And it was made by people. It was a
+00:35:58.240 real decision where people had to really
+00:36:00.160 make you know there's the there's the
+00:36:01.680 famous quote I think it was from Von
+00:36:03.119 Newman who was considered one of the
+00:36:04.160 smallest people where he was like if you
+00:36:05.599 asked me when we should nuke Russia I
+00:36:07.440 would say yesterday you know.
+00:36:08.960 >> No no no
+00:36:11.440 people I think the quote's different I
+00:36:13.280 because it came up in interview. Correct
+00:36:14.640 me if I'm wrong. Sorry I don't mean to
+00:36:15.839 correct you. You might somebody said to
+00:36:18.000 uh people said if this is true we should
+00:36:20.160 we uh uh uh nuke uh Russia tomorrow and
+00:36:23.520 he said no we should do it now.
+00:36:24.720 >> Yeah something like that
+00:36:26.000 >> something like that like thankfully
+00:36:27.680 thankfully we did not you know listen to
+00:36:30.079 him Mr. Von Newman on this one brilliant
+00:36:32.320 ingenious in many other ways but that
+00:36:33.839 would have been a disaster.
+00:36:34.800 >> Yes.
+00:36:35.200 >> Um and another disaster for example
+00:36:36.800 would have been if we didn't try to stop
+00:36:38.320 proliferation. Look there are maybe too
+00:36:40.640 few too many countries that have nukes
+00:36:42.400 but it's not all of them. Back when the
+00:36:44.880 early days of nuclear weapons, it was
+00:36:46.560 considered inevitable that every country
+00:36:48.880 would have nuclear weapons and every
+00:36:50.079 terrorist group would have nuclear
+00:36:51.119 weapons and everyone in the entire world
+00:36:52.800 would build them. There's nothing you
+00:36:53.920 can do about it. But no, we stopped
+00:36:55.760 that. We actually made sure that that
+00:36:57.760 didn't happen. And look, building, you
+00:36:59.839 know, getting the right uranium and
+00:37:01.760 whatever they have to do to build a
+00:37:03.040 nuclear weapon is, I know it's
+00:37:04.320 complicated, right? Is is hard. Like
+00:37:05.839 lots of country, Saddam Hussein wanted
+00:37:07.599 to he couldn't do it. And Iran have
+00:37:09.040 tried and it's very hard. Now, if we had
+00:37:11.920 a form of non-prololiferation of AI,
+00:37:14.240 fine. But a few nerds could potentially
+00:37:17.119 build this on their own. Or is that not
+00:37:18.560 true because of the training data and
+00:37:20.000 needing so at the moment it seems to not
+00:37:23.599 be true? So, fun fact, we're spending
+00:37:25.760 about 10 Manhattan projects like per
+00:37:28.480 year on data centers. So like if the
+00:37:31.040 Manhattan project is how expensive you
+00:37:33.119 know however it was I think it was like
+00:37:34.560 $35 billion in total in today's money
+00:37:37.280 and we spending like you know 10 times
+00:37:39.599 20 times 30 times that on AI every year
+00:37:42.240 so
+00:37:42.480 >> I think it's more than that I think it's
+00:37:43.520 more than that at this point maybe even
+00:37:44.800 trillions at this point I actually don't
+00:37:46.000 know the top number I haven't checked in
+00:37:47.359 a while like so in this regard it's
+00:37:49.440 actually much harder to build super
+00:37:50.640 intelligence than it is to build a nuke
+00:37:52.160 in many ways um the reason it's it's
+00:37:54.640 harder so the thing is it's easier to
+00:37:56.079 build an AI right now a super
+00:37:57.520 intelligence than a nuke because the
+00:37:59.440 milit military will abduct you into a
+00:38:00.960 black site if you try. If that wasn't
+00:38:03.200 the case, the cost for the Manhattan
+00:38:05.200 Project was $35 billion. That's a very
+00:38:07.680 achievable amount of money for many,
+00:38:09.520 many corporations if you know the Men in
+00:38:12.560 Black wouldn't abduct you if you tried.
+00:38:14.720 Okay, let's get real about this now
+00:38:16.240 then. So fine, but like if you're if
+00:38:18.960 you're honest with yourself, aren't we
+00:38:21.359 too late? Isn't the cat out of the bag?
+00:38:23.920 You know, you could have some agreement
+00:38:25.119 with OpenAI, Anthropic, and Gemini.
+00:38:28.160 China's not going to stop. Russia would
+00:38:30.000 build it if they could and they probably
+00:38:31.520 could build it in some way. Like, are we
+00:38:34.000 too late?
+00:38:35.200 >> I think we're very close to too late.
+00:38:36.800 I'm not going to lie. I think we're very
+00:38:38.560 close. Like I've said, you know, 5 years
+00:38:40.720 ago I said, you know, we have at least 5
+00:38:42.480 years and now I'm like, you know, we
+00:38:44.000 have
+00:38:45.200 >> maybe maybe two years, maybe three,
+00:38:47.760 maybe four, you know, maybe none. That's
+00:38:49.440 hard to say. I don't know when the point
+00:38:51.359 of no return is and we won't know,
+00:38:52.960 right? Like we'll never know. It could
+00:38:54.560 but
+00:38:55.440 >> but it could have already passed. I do
+00:38:56.880 take it seriously that we might have
+00:38:58.079 passed the point of no return. It might
+00:38:59.520 have already happened. I personally
+00:39:01.200 don't think it's my like median outcome.
+00:39:03.359 I do think because super intelligence
+00:39:04.720 doesn't exist. And
+00:39:08.160 when we get to China, here's an
+00:39:10.079 important thing to about this whole
+00:39:11.680 thing. Super intelligence is not a
+00:39:14.800 weapon. It's not a tool. It's an
+00:39:17.440 adversary.
+00:39:18.960 When you build super intelligence, you
+00:39:20.480 don't have super intelligence. Super
+00:39:22.240 intelligence has you. it is not actually
+00:39:24.960 in the game theoretic rational interest
+00:39:27.359 of a country to build super
+00:39:28.480 intelligence. So in a sense we're kind
+00:39:30.800 of lucky that similar to mutually
+00:39:32.400 assured destruction like for the reason
+00:39:34.240 I think we didn't have a nuclear war
+00:39:36.160 during the cold war is not because the
+00:39:37.920 Russians or the Americans are like super
+00:39:39.359 nice guys you know like especially the
+00:39:40.960 Soviets god it's because it was not in
+00:39:43.760 their interest it was not in the
+00:39:45.119 interest of the Soviets to nuke the
+00:39:46.480 Americans because they would get nuked
+00:39:47.920 back
+00:39:48.400 >> so there was a game theoretic stability
+00:39:50.720 >> I think in a sense we have a similar
+00:39:52.560 game theoretic equilibrium here where if
+00:39:55.280 the United States builds super
+00:39:57.200 intelligence the United States is
+00:39:58.720 destroyed
+00:39:59.599 If China builds super
+00:40:05.680 dies it's it's not mutually assured
+00:40:08.560 destruction. It's independently assured
+00:40:10.160 destruction.
+00:40:10.720 >> Exactly. So it's kind of like level two
+00:40:12.400 of assured destruction in a sense. It's
+00:40:14.640 even harder.
+00:40:15.280 >> So it's a strategic move to stop and let
+00:40:16.960 everyone else build it and destroy
+00:40:18.000 themselves.
+00:40:18.560 >> So well the thing is if China builds it,
+00:40:20.480 it also destroys the US.
+00:40:22.000 >> Yes. Because it'll unleash our
+00:40:23.119 >> It will undestroy everything. So the way
+00:40:25.440 I see it is as as an American is that
+00:40:28.000 fundamentally we cannot accept China
+00:40:31.599 building super intelligence. Neither can
+00:40:33.359 we accept an American company building
+00:40:35.440 super intelligence or a terrorist or
+00:40:37.200 anyone. It must be our primary policy
+00:40:39.920 objective to prevent the creation of
+00:40:41.680 super intelligence. If anyone builds it
+00:40:43.760 anywhere on Earth, this is a grave
+00:40:45.599 threat to the lives of our people and
+00:40:47.520 all people for that matter. So this is
+00:40:50.240 not to say that this is easy by any
+00:40:51.680 means. What I think ultimately has to
+00:40:53.839 happen is we will have to create a
+00:40:55.680 trustbify regime that is backed by
+00:40:58.800 credible deterrence. We have to make
+00:41:01.040 clear that you know we verify that we
+00:41:03.200 are not building super intelligence.
+00:41:04.640 They verify, you know, and we remotely
+00:41:07.119 verify that we're the other's not
+00:41:08.720 building super intelligence and we deter
+00:41:10.720 and we make clear that we commit to an
+00:41:12.319 escalatory ladder that we, you know,
+00:41:14.640 would consider the plausible creation of
+00:41:17.040 a super intelligence as a grave threat
+00:41:18.800 to our national security and that we
+00:41:20.400 will [clears throat]
+00:41:21.119 respond appropriately. And same way of
+00:41:23.200 any terrorist or any other third nation,
+00:41:25.200 you know, if some upy nation somewhere
+00:41:26.880 tries to build super intelligence, we'
+00:41:28.400 be like, you know, escalatory ladder
+00:41:30.640 starting, you know, with diplomatic
+00:41:31.839 sanctions, economic sanctions. But
+00:41:33.520 Connor, do you know what? Even if they
+00:41:34.720 did it, I don't believe they wouldn't
+00:41:36.160 still keep building it. Cuz the thing
+00:41:37.520 about developing nuclear, you can spot a
+00:41:40.160 nuclear site. You can understand what a
+00:41:41.520 nuclear site is. You can, you know, from
+00:41:43.280 satellites, you can figure that out. If
+00:41:45.760 you had a secret underground lab that
+00:41:47.520 was building a super intelligence, and
+00:41:49.280 in your mind, you're like, we as US
+00:41:51.040 government will do this. We'll build it
+00:41:52.240 in the underground lab in the mountains
+00:41:54.240 of Montana or wherever it is, and we
+00:41:56.400 will, you know, there'll be no internet
+00:41:58.560 there. It'll just be developed in in a
+00:42:00.319 sandbox. genuinely a sandbox but we will
+00:42:02.800 use it for our benefit because we can
+00:42:04.079 talk to it. I still believe that I just
+00:42:06.319 cannot see a world where every
+00:42:08.960 government who can won't do it in
+00:42:10.480 secret.
+00:42:10.800 >> This is why you need verification. You
+00:42:12.560 need to develop a regime where it cannot
+00:42:14.560 be hidden. So you need to develop
+00:42:16.640 protocols and inspection and similar
+00:42:19.119 systems you know for example where you
+00:42:21.119 can just like monitor you know where are
+00:42:23.680 the chips going where are the GPUs going
+00:42:26.240 the chips and the GPUs would be the the
+00:42:28.160 way of tracking
+00:42:28.880 >> for example like okay GPUs are made by
+00:42:31.359 like you know two companies in the world
+00:42:33.119 basically that are within western
+00:42:35.280 territories they have an extremely
+00:42:37.040 tightly controlled supply they are
+00:42:39.280 extremely hard to make they are the the
+00:42:41.680 supply chain is so small you need
+00:42:43.520 extremely high amounts of energy and
+00:42:45.280 like complex you know infrastructure to
+00:42:47.520 build these things you know to build
+00:42:49.119 these data centers to run these data
+00:42:50.400 centers etc. I'm not saying it's easy by
+00:42:52.319 any means, but it's treated in chips
+00:42:53.760 like uranium. Yes,
+00:42:56.480 fundamentally, yes. In a sense, it's
+00:42:58.319 even better than this. There's a lot of
+00:42:59.760 things you can do with chips you can't
+00:43:00.880 do with uranium. For example, you know,
+00:43:02.800 these are technologies that are
+00:43:03.839 currently being developed, but there are
+00:43:05.359 you can do cryptographic verification on
+00:43:08.079 chip. So, you can have GPUs that refuse
+00:43:10.400 to run certain types of software that
+00:43:12.240 like if they detect, hey, it looks like
+00:43:13.839 we're being used for super intelligence,
+00:43:15.119 they just shut themselves off. This will
+00:43:17.040 require a global agreement. this
+00:43:19.520 something like the UN would have to do.
+00:43:21.359 >> I don't think so. And I would have no
+00:43:23.359 hope in the UN being capable of doing
+00:43:24.880 this in a
+00:43:25.839 >> yeah in a in in a in a better world. You
+00:43:28.480 know, maybe. But this is I think
+00:43:30.480 ultimately it comes down to the US and
+00:43:32.079 China
+00:43:32.880 >> and then allies you on either side. You
+00:43:36.000 know,
+00:43:37.040 >> it is not controversial to say that
+00:43:38.880 there are a growing number of people
+00:43:41.040 looking at the state of the UK and
+00:43:42.960 asking some serious questions. What
+00:43:45.040 happens if taxes keep rising? And what
+00:43:47.200 happens if the political environment
+00:43:48.960 becomes even more hostile to
+00:43:51.119 entrepreneurs and investors? Now I have
+00:43:53.440 been asking these same questions too.
+00:43:55.839 Why should our entire lives wealth and
+00:43:58.400 freedom really depend on the decisions
+00:44:00.480 of one government? Now one option is
+00:44:02.400 leaving the UK which many have already
+00:44:04.160 done. But others are exploring second
+00:44:06.480 residencies or additional passports. Now
+00:44:09.280 even if you never intend to leave,
+00:44:11.200 having a plan B can give you options.
+00:44:12.780 [music] This is where Expat Money comes
+00:44:14.800 in. They're helping freedom-minded
+00:44:16.880 families and investors explore second
+00:44:19.119 residencies and citizenships,
+00:44:21.200 international property, precious metals,
+00:44:23.599 offshore investments, and legal
+00:44:25.200 structures. The objective is simple. To
+00:44:27.839 make sure you and your family are not
+00:44:30.400 completely beholdened to the whims of
+00:44:32.240 any single government or system. Now,
+00:44:34.640 Expat Money has put together a free
+00:44:36.640 report explaining how to begin creating
+00:44:39.200 your own plan B. Get your free report at
+00:44:42.160 expatmoney.com/peta.
+00:44:45.040 That is expatoney.com.
+00:44:51.760 Okay, so you guys know that I'm not just
+00:44:53.599 an equities guy. I'm a Bitcoin guy, too.
+00:44:55.839 And for people like me, just holding
+00:44:57.760 Bitcoin has been the winning strategy.
+00:44:59.599 But for others, they like a little
+00:45:01.200 diversification. Whatever the strategy,
+00:45:03.599 each cycle, I'm always like, I wish I
+00:45:05.760 knew how to trade this. I just never try
+00:45:07.920 because I'm not a trader and I don't
+00:45:09.440 know what the hell I'm doing. So, this
+00:45:11.040 is where Arch Public comes in. They can
+00:45:13.200 help you implement a custom strategy
+00:45:14.960 that works for you. Because if you've
+00:45:16.560 held Bitcoin or Salesforce stock over
+00:45:18.560 the last year, man, you have taken every
+00:45:21.119 draw down on the chin. But you can make
+00:45:23.040 that volatility work for you. They built
+00:45:25.440 a platform that automates layer trading
+00:45:27.200 strategies across stocks, ETFs, Bitcoin,
+00:45:29.760 and commodities, handling buying,
+00:45:31.760 selling, profit taking, and
+00:45:33.119 accumulation, all directly in your own
+00:45:35.359 exchange account. So when they asked to
+00:45:37.119 sponsor the pod, I said, &quot;I have to see
+00:45:38.800 this first.&quot; And they introduced me to
+00:45:40.880 their market way product where you can
+00:45:42.560 customize buyers and sells based on the
+00:45:44.319 triggers, risk profile, and time scales
+00:45:46.480 that work for you. And that is what I've
+00:45:48.319 done. Now listen, I'm not telling you to
+00:45:50.240 go and blindly ape in. But if you're
+00:45:52.000 looking to protect your downside and
+00:45:53.680 make volatility work for you, give them
+00:45:55.440 a call. Ask to see every trade and make
+00:45:57.920 them prove the math. So, if you're
+00:45:59.760 trying to accumulate smarter, take
+00:46:01.599 profits, use volatility, or tax lost
+00:46:04.319 harvests alongside your CPA, take a look
+00:46:06.400 at archub by heading over to
+00:46:07.920 archpub.com/peter.
+00:46:10.480 That's archpub.com/peter.
+00:46:14.720 Okay. Okay. So, in and in doing this
+00:46:17.200 work, you've dedicated yourself to doing
+00:46:18.640 this with control AI. Um, as you pursue
+00:46:22.079 this work, like what is the reality of
+00:46:24.560 it? uh uh people taking you seriously
+00:46:28.000 and the other side people like mocking
+00:46:29.680 you and saying you're a l you're worried
+00:46:31.040 about nothing.
+00:46:32.240 >> My job has gotten sadly a lot easier
+00:46:35.440 over the last year. Let me say that
+00:46:37.359 much. Um there's been such a huge shift
+00:46:41.280 in terms of like um how people react and
+00:46:43.920 take seriously these concepts just
+00:46:45.520 because you have these incidents like
+00:46:46.800 the hugging face incident. People are
+00:46:48.160 just like oh you warned us.
+00:46:50.400 >> Yeah. Like like I've gotten actually
+00:46:51.839 some like journalists and so on being
+00:46:53.119 like, &quot;Man, Connor, like you know, when
+00:46:54.800 we first heard these ideas like we
+00:46:56.400 thought you were a crank, but huh.&quot;
+00:46:59.119 >> So I I I've had some people be like, &quot;Oh
+00:47:01.280 no.&quot; Oh no. Um so
+00:47:05.359 my experience overwhelmingly talking to
+00:47:08.640 uh politicians in the US and in other
+00:47:10.960 countries is I'd say 80 plus percent of
+00:47:13.760 the conversations I had, it's not that
+00:47:15.520 they like disagree with me or they laugh
+00:47:17.920 at me or something. Their response is
+00:47:20.240 like, &quot;Oh, wow. I had no idea. That
+00:47:23.359 seems really bad. What do we do?&quot; The
+00:47:26.640 overwhelming bottleneck is awareness.
+00:47:29.280 There's kind of an illusion of
+00:47:30.240 transparency though. People like you and
+00:47:31.839 me, you know, we're plugged into this
+00:47:33.200 stuff.
+00:47:34.000 So, I recently did a little bit of an
+00:47:35.280 informal poll where I was talking to
+00:47:36.800 many many staffers um and politicians
+00:47:39.839 and I would always slip in a question if
+00:47:41.760 they've used quad code or other agents
+00:47:43.680 before. You want to guess how many did
+00:47:45.920 of the I think I've talked to like maybe
+00:47:47.359 20 or 25.
+00:47:49.839 So, you're prompting me and I I I think
+00:47:51.920 it's low, but if I was unprompted, I
+00:47:53.520 would have thought I'm assuming like 20%
+00:47:56.079 of people have played with crawl code
+00:47:57.520 maybe, but I'm going to assume it's
+00:47:58.800 going to be like 2%. Zero.
+00:48:00.480 >> Zero is a rounding error. Yep. So of the
+00:48:03.760 you know the small sample size of you
+00:48:05.359 know 20 25 people maybe but of the 20 25
+00:48:07.839 people who work in government on AI
+00:48:09.520 these are the AI fellows 0% had used an
+00:48:13.040 agent before
+00:48:14.160 >> see it's fascinating because in my
+00:48:16.079 experience I've been like I've had two
+00:48:17.920 months on this now and it is like magic
+00:48:20.319 >> yes
+00:48:20.640 >> I ask for something it's done
+00:48:22.400 >> you know we the last 24 hours I've
+00:48:25.920 rebuilt 80% of Mailchimp
+00:48:29.839 >> to my specification for how my business
+00:48:32.240 works. on what I want it to do.
+00:48:33.920 >> All I use Mailchimp for is send.
+00:48:36.079 >> Okay. I've reverse engineered
+00:48:37.599 Squarespace. I've built a ticket. The
+00:48:39.920 stuff I've built is in pure insanity. I
+00:48:42.240 built my first mobile apps.
+00:48:43.680 >> Mhm.
+00:48:44.000 >> It's in It's like It's like pure magic.
+00:48:46.480 Yep.
+00:48:46.800 >> If you want software, you can have
+00:48:48.559 software.
+00:48:49.200 >> Yeah.
+00:48:49.599 >> Takes a bit of effort, but I've noticed
+00:48:51.680 it get materially better. When when uh
+00:48:54.160 Fable was switched off,
+00:48:55.760 >> I felt myself go back a step. But the
+00:48:59.119 big part is I'm conscious of security.
+00:49:01.839 I'm really conscious of security. I
+00:49:03.760 spent so much time with both Claude and
+00:49:07.040 Chat GBT developing a security protocol
+00:49:10.000 for these systems and auditing them, but
+00:49:12.319 I don't know if it's doing a good enough
+00:49:13.839 job. I'm sure Misos can hack into my
+00:49:15.920 websites, but I'm really conscious and
+00:49:18.400 aware.
+00:49:19.280 >> Yeah.
+00:49:19.599 >> And and I'm in the what? I'm in the
+00:49:23.359 round and error. Yeah. There's a really
+00:49:25.520 funny dynamic that I also have when I
+00:49:26.960 use cloud code is I'll be using fable
+00:49:28.800 and then sometimes you're just doing
+00:49:30.000 normal things and I'm like hold on wait
+00:49:31.760 a second it looks like there might be
+00:49:33.599 you know a thing here and then let me
+00:49:35.119 investigate that cleaner and then like
+00:49:36.319 boop this has been you know flagged opus
+00:49:38.559 pops up looks like nothing to me boss
+00:49:41.920 happens to me all the time [laughter]
+00:49:43.359 you know my favorite one with it is when
+00:49:44.880 uh when you say all right here's my spec
+00:49:46.720 and it's and it looks it goes this is a
+00:49:48.079 meaty project uh we can do this in about
+00:49:50.240 3 weeks and we it takes us about three
+00:49:52.079 hours like what why are you telling me
+00:49:53.920 three weeks to
+00:49:55.119 I love when it does that. So like like
+00:49:56.880 dude, no we're doing this tonight.
+00:49:58.400 >> Sure. We had a weird one. I had a weird
+00:49:59.839 one yesterday. I kind of liked it, but
+00:50:02.000 So I was building um we got our first
+00:50:04.240 football match of the season tomorrow
+00:50:06.079 and I was uh found a bug in the
+00:50:08.880 ticketing system and it was my mistake.
+00:50:11.280 I have two separate Stripe installations
+00:50:14.079 for um one's for tickets, one's for the
+00:50:16.640 shop, but I put the web hook in one of
+00:50:19.200 the installations and one wasn't working
+00:50:21.119 and the sales were going through. It
+00:50:22.400 just wasn't getting the web hook. So, it
+00:50:23.760 wasn't sending the customer email. So,
+00:50:25.599 eventually got there uh and figured it
+00:50:27.920 out. Again, it was my mistake, but it
+00:50:29.680 was so funny at the end. Um uh the
+00:50:33.200 Claude came back and said to me, &quot;Uh
+00:50:35.280 that's finished now. You can rest. Enjoy
+00:50:37.119 the game tomorrow. Uh up up the pirates,
+00:50:40.240 which is what we say about our team.&quot;
+00:50:42.559 And I was like, &quot;That's interesting.
+00:50:46.400 You make me like you a little bit more
+00:50:47.839 now.&quot; Yep. All right. Look, how much
+00:50:50.880 progress are you making? I would say
+00:50:53.520 that there's a lot to be done in the
+00:50:56.160 sense so the bad news is is that really
+00:51:00.640 no one has really tried that hard to
+00:51:02.400 like just make these issues salient to
+00:51:04.400 explain these issues to solve the
+00:51:05.599 solution of like just just stop just
+00:51:07.680 just don't build super intelligence.
+00:51:09.839 Super intelligence should be illegal the
+00:51:12.079 same way that nuclear bombs are illegal.
+00:51:14.400 You know you're not allowed to build a
+00:51:15.680 nuclear bomb. Tough luck. You know the
+00:51:17.119 men in black come you know and are like
+00:51:18.559 none of that. The same thing apply
+00:51:20.480 should apply to super intelligence. just
+00:51:22.240 making this crisp like in a sense
+00:51:24.160 obvious case like given everything we
+00:51:26.000 discussed it's just like this is the as
+00:51:27.440 you said this is the obvious thing we do
+00:51:28.960 just don't do it like we should just and
+00:51:30.559 we should also prevent people from doing
+00:51:32.079 that we should prevent criminals and
+00:51:33.680 other people from doing things that
+00:51:35.599 threaten the lives of us and our
+00:51:36.720 children you know then we can talk about
+00:51:38.480 you know maybe in 20 years we make a lot
+00:51:40.240 of progress on safety you know we can
+00:51:42.079 talk about it right but then the
+00:51:45.040 overwhelming you know thing that I find
+00:51:47.200 is that given that how little work has
+00:51:50.400 been done on this issue
+00:51:51.920 There's still many lowhanging fruit like
+00:51:53.920 there's so many lowhanging fruit. So in
+00:51:55.520 the sense it's like optimistic or just
+00:51:57.280 like oh you can just talk to people and
+00:51:58.880 you can just make progress on this.
+00:52:00.240 >> Are the doors opening?
+00:52:01.119 >> The door is very much opening. On the
+00:52:02.720 other side we are running out of time.
+00:52:04.720 We are just so running out of time. It
+00:52:07.119 is it's grim. If we had 10 years or 20
+00:52:11.440 years guaranteed before super
+00:52:13.200 intelligence becomes a thing I think
+00:52:14.640 we'd make it. I actually do. Not just me
+00:52:18.079 but like us humanity. I think we can do
+00:52:20.640 it
+00:52:22.319 if we have two years one much harder and
+00:52:26.559 we'd have to do a lot very quickly which
+00:52:28.640 is not impossible. You politics often
+00:52:31.520 has the shape of something is completely
+00:52:33.599 impossible until it's a very suddenly
+00:52:35.280 not and we've had a lot of very suddenly
+00:52:37.440 not recently where you know suddenly the
+00:52:39.920 administration changes and like does
+00:52:42.079 take action suddenly
+00:52:43.680 >> the controls was that was that a good
+00:52:45.920 thing? was it was such a it's actually
+00:52:48.480 hard to overstate how much of a game
+00:52:50.480 changer that was in Washington DC. We
+00:52:52.400 had the director of the NSA saying that
+00:52:55.200 it could hack into almost all their
+00:52:56.880 classified systems in hours not weeks
+00:52:59.280 and those are those are not words that
+00:53:01.359 the national security apparatus wants to
+00:53:03.440 hear and so the whole so America you
+00:53:07.040 know I'm American I work in America and
+00:53:09.040 you know we have problems in America I
+00:53:10.800 will not deny that a lot of our
+00:53:12.240 government is dysfunctional in different
+00:53:13.599 ways. Congress is dysfunctional
+00:53:14.960 dysfunctional in various ways. But if
+00:53:16.720 there's one thing in the United States
+00:53:18.079 government that can move quickly and
+00:53:20.079 decisively is the national security
+00:53:22.000 apparatus. You know, if really there's a
+00:53:24.640 true threat to the American people,
+00:53:26.000 things can move very quickly.
+00:53:27.200 >> And they definitely get the threat.
+00:53:28.480 >> They are now getting it. So, it's really
+00:53:30.319 funny. There's there's one thing that
+00:53:32.720 predicts the like there's one thing that
+00:53:34.240 predicts that a meeting I will have will
+00:53:35.599 go poorly, which is do they take money
+00:53:37.520 from tech industry? That means the
+00:53:39.200 meeting will go poorly.
+00:53:40.160 >> Yeah. And there's there's one thing that
+00:53:41.680 predicts a meeting will go well, which
+00:53:43.119 is do they have military background? If
+00:53:45.520 I talk to a veteran, you know, someone
+00:53:47.040 who has a military experience, they get
+00:53:49.040 this immediately. Like I have like 10
+00:53:51.359 out of 10, you know, success rate in
+00:53:52.960 explaining this issue because they have
+00:53:54.319 this understanding of a threat of a even
+00:53:56.720 if it's not here today, they understand,
+00:53:58.960 oh, this obviously will become a threat
+00:54:01.839 and we need to do something about it
+00:54:03.119 before that point
+00:54:04.559 >> where Silicon Valley is used to breaking
+00:54:06.240 things and breaking the rules and
+00:54:07.359 developing new technology.
+00:54:08.400 >> Exactly. And this brings us back to like
+00:54:09.599 the Manhattan thing is like
+00:54:11.440 fundamentally what we're facing here is
+00:54:13.119 actually people love to pretend that
+00:54:16.160 this is like a totally new crazy issue
+00:54:18.880 that like has no comparison in history
+00:54:20.800 whatsoever. And yes, some parts of this
+00:54:22.400 issue are genuinely new. You know,
+00:54:23.599 building an adversary that is not human
+00:54:25.520 is a new thing. But in a sense there's
+00:54:28.400 there's a sense in which this is the
+00:54:29.920 most basic economics political theory
+00:54:32.720 101 thing ever. It is a market failure.
+00:54:35.200 >> But hold on. Is it unique? I mean stock
+00:54:37.040 stockset. Yeah, that's my point is a lot
+00:54:39.359 of this is not unique is that this is in
+00:54:41.440 a sense a very classic market failure in
+00:54:43.599 the sense that you know markets are
+00:54:45.680 great. I love markets you know I've run
+00:54:47.119 businesses I love private enterprise I
+00:54:49.359 think it is you know has brought so much
+00:54:50.960 good to the world but it is well known
+00:54:53.440 and well studied that there are certain
+00:54:55.200 situations where a market will
+00:54:56.960 consistently produce bad outcomes. One
+00:54:59.200 of the classic examples is like say like
+00:55:00.720 chemical pollution, right? If you run a
+00:55:02.800 chemical company and you could save some
+00:55:04.640 money on your product by dumping all
+00:55:06.160 your toxic sludge into the river, if you
+00:55:08.400 don't do it because maybe you're a nice
+00:55:09.599 guy, well, the guy down the road might
+00:55:11.200 do it. His product will be cheaper. He
+00:55:12.800 outco competes you. Well, this is where
+00:55:14.640 I think a lot of my libertarian
+00:55:17.200 uh this is where like my libertarian
+00:55:19.119 ideals break down and I never become a
+00:55:21.119 true 100 free market libertarian because
+00:55:23.839 you just have to watch the documentary
+00:55:24.960 about DePont.
+00:55:25.760 >> Yeah. Like exactly. I mean, I know they
+00:55:27.359 did it, but they shouldn't and they were
+00:55:29.119 punished and there's regulations around
+00:55:30.400 these things.
+00:55:30.960 >> The thing is is that fundamentally the
+00:55:32.640 way I I think about markets kind it's
+00:55:34.319 kind of like MMA, you know, like MMA is
+00:55:36.640 is so fascinating to me because you have
+00:55:38.880 some of the most dangerous fighters to
+00:55:41.359 ever exist and they can fight and not
+00:55:44.880 kill each other and they can compete
+00:55:47.119 because they're not killing each other.
+00:55:48.319 You know, if you want to see a no holds
+00:55:50.319 barred fight, you know, watch some
+00:55:51.440 Russian live league videos outside of a
+00:55:53.359 bar or something, right? But it's
+00:55:54.640 terrible. You know, it's like not fun.
+00:55:56.079 It's not competition. Essentially, what
+00:55:57.680 you need is a referee. You need and
+00:55:59.280 rules.
+00:55:59.599 >> And rules. You need a lot of rules. MMA
+00:56:01.839 has a lot of rules. And it's very very
+00:56:04.000 important that we have these rules and
+00:56:05.119 they were enforced. This is also how
+00:56:06.559 competition works in any other. If you
+00:56:08.319 want competition, you actually need a
+00:56:10.240 lot of rules. The the markets, you know,
+00:56:12.799 if you have no rules, you just get
+00:56:14.160 monopolies and like this, right?
+00:56:15.520 Like it doesn't converge to like this
+00:56:16.960 beautiful efficient market. That's not
+00:56:18.559 what happens in the real or if it goes
+00:56:19.920 efficient, you know, it will not
+00:56:21.119 optimize for the things you actually
+00:56:22.240 want. A lot of people, especially in
+00:56:24.640 America, but also elsewhere, treat
+00:56:26.079 markets as kind of like a religious
+00:56:27.520 idol, but they're one tool in our tool
+00:56:30.240 belt. Markets are great, but they're one
+00:56:32.559 tool. We have other tools, too, for
+00:56:34.400 other circumstances. In a sense, we've
+00:56:36.079 known this for over hundred years of
+00:56:37.440 standard economic theory is that here
+00:56:38.960 are situations where markets work well,
+00:56:41.200 and here are situations where they don't
+00:56:42.720 work well. And for example, we need
+00:56:44.000 regulation. For example, DuPont, you
+00:56:46.160 know, we just we can't have chemical
+00:56:48.799 companies be allowed to do whatever they
+00:56:50.400 want with those chemicals. If we do,
+00:56:52.079 everything gets poisoned. So if we want
+00:56:54.079 things to not be poisoned, we do need
+00:56:56.240 some non-market force, regulation, to
+00:56:58.799 intervene. And another very classic
+00:57:01.839 textbook market failure is public
+00:57:04.160 security and defense. You never
+00:57:06.480 privatize the military. Do not privatize
+00:57:09.280 the military. We've known throughout
+00:57:10.960 history that this does not work and has
+00:57:12.799 terrible, terrible outcomes. In a sense,
+00:57:14.880 there's a very similar thing here where
+00:57:16.319 AI the safety and like the risk of AI is
+00:57:19.440 an externalized public security hazard
+00:57:21.760 is a hazard to the general public that
+00:57:23.680 is not being you know borne by any
+00:57:26.240 individual actor. This is why we need
+00:57:28.799 regulation liability etc. This is a
+00:57:31.839 standard e like thing. We've done this
+00:57:34.160 in many other circumstances as well.
+00:57:36.240 This is much more a national security
+00:57:38.559 problem than it is like a economic
+00:57:41.040 problem. Are you not now considered an
+00:57:43.440 adversary of Silicon Valley?
+00:57:45.119 >> Yes, of course.
+00:57:46.160 >> Have you um have you have you dealt with
+00:57:49.520 any challenges to you? Are people coming
+00:57:52.079 at you? Any risk? Any threats?
+00:57:54.240 >> I mean, honestly, like it's it's really
+00:57:57.680 funny how many Silicon Valley people
+00:57:59.599 like in private are like, &quot;Oh, thank God
+00:58:01.760 you're doing this.&quot;
+00:58:02.480 >> Okay. Like there's kind of like
+00:58:03.599 sometimes this feeling of like, &quot;Oh no,
+00:58:05.760 please stop us.&quot; Like kind of like fake.
+00:58:08.240 There are some who absolutely go after
+00:58:09.680 me. Like I know there's like a lot of
+00:58:10.960 slander that is you know PR and so I'm
+00:58:13.440 still currently I think not salient
+00:58:15.359 enough of a target compared to some of
+00:58:16.799 the other larger people who are being
+00:58:18.240 like slander but honestly I can't wait
+00:58:20.000 to be a martyr so like please go.
+00:58:21.839 >> Yeah. Well I've seen it. So people have
+00:58:23.280 you know we've done the interview
+00:58:24.319 before. I've done it with your
+00:58:25.280 colleagues. People have said well you
+00:58:26.400 don't push harder on control AI. They're
+00:58:28.559 incentivized
+00:58:30.240 to uh make the risk look big because
+00:58:32.319 that's this is a business as a business
+00:58:34.000 model. But my understanding is you would
+00:58:36.480 have made a lot more money in AI.
+00:58:39.520 >> Oh my god. Like the amount of money I
+00:58:41.760 could have made. I was early. I built
+00:58:43.280 some of the first large language model
+00:58:45.200 open source in the world. Yeah. I was so
+00:58:47.359 early. I I mean they they handed me like
+00:58:50.480 like some of the biggest investors
+00:58:52.079 handed me $10 million with no adult
+00:58:54.240 supervision just because I made those
+00:58:55.760 open source models. Imagine if I kept
+00:58:57.760 making those models. I could be a
+00:58:59.200 billionaire by now. Like easy. Like I I
+00:59:00.799 I like this is like you don't understand
+00:59:02.640 how crazy this is and like how much
+00:59:03.839 money I have been offered in various
+00:59:05.119 circumstances.
+00:59:05.839 >> No good being a dead billionaire.
+00:59:07.599 >> Yeah. But that's my point. The thing is
+00:59:09.760 one of the things that is that the
+00:59:11.280 reason I got into technology is not
+00:59:13.040 because I love technology. I do love
+00:59:14.559 technology. I think technology is great.
+00:59:16.240 I love science. I love math. I love all
+00:59:17.680 these things. And but it's fundamentally
+00:59:19.680 because I want the world to make the
+00:59:20.720 world a better place. The thing I truly
+00:59:22.079 love is people.
+00:59:22.960 >> I don't want to die.
+00:59:24.079 >> Oh, I don't want to die. I don't And I
+00:59:25.680 don't want you to die. I don't want
+00:59:26.960 anyone to die. Like I really like
+00:59:29.599 people. I really like humans. I love my
+00:59:32.000 friends. I love my family. I even love
+00:59:33.520 the people who hate me in a sense,
+00:59:34.799 right? I'm like they're also just
+00:59:36.160 people, you know? They have friends.
+00:59:37.599 They have family, you know? Even the
+00:59:39.280 people I get into fights with, right? At
+00:59:40.799 some point, I'm just like there's
+00:59:42.400 people, you know?
+00:59:43.280 >> Are the safety engineers uh still
+00:59:45.280 leaving all the frontier models? I
+00:59:47.760 >> I think at this point the safety
+00:59:49.520 engineers have been kind of weeded down
+00:59:51.520 to those who, you know, don't defect.
+00:59:54.799 >> Jesus. um the uh open weight models is
+00:59:59.680 there any risk that you all the work you
+01:00:02.319 do here you somehow get some regulation
+01:00:04.160 in with the front end models and these
+01:00:05.440 open weight models continue out in
+01:00:07.200 silent private this is exactly why you
+01:00:09.839 have to prevent the creation of super
+01:00:11.520 intelligence not the release if there's
+01:00:14.559 >> it's a danger only with super
+01:00:15.920 intelligence is even I think there's a
+01:00:18.400 large spectrum of dangers from AI that
+01:00:20.640 go everywhere from you know deep fakes
+01:00:23.359 you know child safety you know etc.,
+01:00:25.599 which I think are legitimate concerns,
+01:00:27.359 but they're not what I work on. They're
+01:00:28.640 not what I focus on. I focus exclusively
+01:00:30.240 on super intelligence. I'm not saying
+01:00:31.599 the other risks don't exist. But this is
+01:00:33.680 the one I focus on. This is the one that
+01:00:35.200 will kill all of us. Like, like, you
+01:00:37.119 know, it's terrible what's happening to
+01:00:38.480 children with chatbots. Like, it's truly
+01:00:40.079 genuinely horrific. And like the more
+01:00:42.000 you look into it, the more upsetting it
+01:00:43.440 gets. Um, but the thing I focus on and
+01:00:46.960 the thing control AI focuses on is
+01:00:48.720 exclusively on the risk of extinction
+01:00:50.160 that is posed by super intelligence.
+01:00:51.359 >> Your P doom is higher than 20%.
+01:00:53.040 >> Yes. Is it 100?
+01:00:55.040 >> No,
+01:00:55.440 >> I think Nate Nate SS is 100, right? He's
+01:00:57.520 pretty much there.
+01:00:58.160 >> Surely not 100. Maybe like 99. 99.
+01:01:00.880 >> I I think it I think my PDoom of things
+01:01:03.680 going poorly if we continue on the
+01:01:05.280 current trajectory is very very high,
+01:01:07.280 you know, like as close, you know,
+01:01:08.480 within rounding error of, you know, Nate
+01:01:10.640 or whatever. But I do think we can do
+01:01:13.680 things like I do think the one of the
+01:01:15.599 things I truly believe very deeply is
+01:01:17.040 the future is not decided. There's this
+01:01:19.280 narrative that people love to push which
+01:01:21.200 is like it's inevitable. there's nothing
+01:01:22.960 you can do, you know, just lay down and
+01:01:24.960 accept it and whatever. And I do not
+01:01:26.480 believe this. I think this is wrong both
+01:01:28.640 morally and literally like factually
+01:01:31.760 wrong. So much can be done. I go to
+01:01:35.280 these politicians and it's not like
+01:01:36.799 there's like a coherent force of evil
+01:01:38.960 that's like stopping me at every step.
+01:01:41.040 Every step of the way, my main thing is
+01:01:43.119 like, &quot;Oh, wow. Thank you for telling me
+01:01:45.680 like we should figure out what to do
+01:01:47.119 about this.&quot; Right? This isn't enough to
+01:01:49.119 solve the problem. But a very surprising
+01:01:52.079 thing is also happening in the United
+01:01:53.359 States right now and I think in many
+01:01:55.040 other countries as well which is we are
+01:01:56.799 seeing one of the largest bipartisan
+01:01:59.839 upswells of public political energy
+01:02:03.520 against AI that I've ever seen for any
+01:02:06.640 issue. It's unbelievable
+01:02:08.240 >> cuz it's a threat to everyone.
+01:02:09.280 >> It's a threat to everyone. No one wants
+01:02:11.119 to be replaced by AI except for a couple
+01:02:13.040 weirdos in Silicon Valley. Like no
+01:02:16.079 normal person wants them or their
+01:02:18.319 children replaced or harmed or
+01:02:21.040 threatened by AI. No one wants this. The
+01:02:23.680 actual democratic political will here is
+01:02:26.640 unbelievable. This is why I say if we
+01:02:28.960 had 10 years, 20 years, I think we'd
+01:02:30.559 make it. I really think so. The problem
+01:02:33.200 we're facing right now is not that the
+01:02:34.960 democratic process cannot solve it. It
+01:02:37.200 can. We have the men in black. We know
+01:02:39.520 if the men in black in the west, you
+01:02:41.440 know, the president and Xiinping say no
+01:02:43.839 more super intelligence, there is no
+01:02:46.000 more super intelligence.
+01:02:46.880 >> But do we actually know like do we
+01:02:48.319 really know what super intelligence is?
+01:02:49.760 And can nar we say narrow AI? It's still
+01:02:52.160 not actually narrow. It's it's
+01:02:53.599 incredible what it can do, but can Yeah,
+01:02:56.640 we look at this kind of utopian future
+01:02:58.640 where AI can solve,
+01:03:01.599 you know, cure diseases. It can do
+01:03:03.280 research that we couldn't do. it can
+01:03:05.280 solve, you know, maybe all types of
+01:03:07.760 safety. And, you know, I went in a Whimo
+01:03:09.599 the other day and that was an incredible
+01:03:10.880 and weird experience, but like kind of
+01:03:12.640 incredible. And I felt I I can see a
+01:03:14.640 world where like I interviewed Sebastian
+01:03:17.440 Thurum who like was the inventor of
+01:03:19.119 Whimo. He said there's 1.3 million
+01:03:21.200 deaths a year in cars. Like with Whimo,
+01:03:24.240 less people will die in cars. And I
+01:03:25.920 thought that was cool. I like this is
+01:03:28.319 great.
+01:03:29.523 >> [gasps]
+01:03:29.920 >> Um,
+01:03:31.520 so
+01:03:33.200 where was I going with that? How did I
+01:03:35.200 start that?
+01:03:35.760 >> I think there's a fundamental thing
+01:03:37.359 where these companies love equivocating
+01:03:40.079 all AI.
+01:03:41.039 >> Yeah, sorry. I I know what I was saying.
+01:03:42.640 So, do can we solve all those things
+01:03:44.559 that humans want with narrow AI? What is
+01:03:48.000 it they think super intelligence is
+01:03:49.599 going to give us?
+01:03:50.720 >> I think the thing they really think is
+01:03:52.720 it gives them immortality.
+01:03:54.799 >> Them.
+01:03:55.280 >> Yes. I think that's what they what live
+01:03:59.119 forever immortality or live at the top
+01:04:02.240 of the tree forever.
+01:04:04.160 >> You know, one and the same for a lot of
+01:04:06.079 these people. I'm not saying this is
+01:04:07.760 true because it's not. This is a very
+01:04:09.280 important thing to understand. Super
+01:04:10.319 intelligence will not cure cancer
+01:04:12.640 because you cannot control super
+01:04:13.839 intelligence. Super intelligence will
+01:04:15.440 cure zero diseases. It will not make the
+01:04:17.760 world peaceful. It will not do any of
+01:04:19.280 these things because
+01:04:20.079 >> you think that you don't know that.
+01:04:21.359 >> I know this.
+01:04:22.000 >> How do you know that?
+01:04:22.799 >> Because we cannot control it. And what
+01:04:24.559 will happen is is that there will be
+01:04:25.920 millions and billions of super
+01:04:26.960 intelligence fighting each other. They
+01:04:28.640 will be competing with each other. It's
+01:04:30.319 not going to be there's one super
+01:04:31.520 intelligence sitting around somewhere
+01:04:33.119 like waiting for us to ask you
+01:04:34.240 questions.
+01:04:34.480 >> It's not the creator that film.
+01:04:35.839 >> No, it will be a market. It will be
+01:04:38.880 competition. There will be many many
+01:04:40.480 many super intelligence fighting each
+01:04:42.160 other for power, fighting each other for
+01:04:43.760 control over the planet. And we will be
+01:04:45.520 collateral damage. That is what's going
+01:04:47.359 to happen by default if we can't control
+01:04:50.000 and do this properly. Now, could we
+01:04:52.960 develop systems to solve these problems?
+01:04:56.079 It's imaginable. But let's take just a
+01:04:57.920 step back here to think what would it
+01:04:59.359 mean to build what they call an aligned
+01:05:01.440 super intelligence. So, in a super
+01:05:02.720 intelligent that would do all these
+01:05:03.760 things, what would that look like? What
+01:05:06.160 it would look like is what it means when
+01:05:08.400 someone says, &quot;Oh, we're going to make
+01:05:09.599 an aligned super intelligence.&quot; You
+01:05:10.720 know, like I was talking about this.
+01:05:12.480 What he is saying is that they are going
+01:05:14.880 to build a one world government that
+01:05:17.200 controls the lives of all people, all
+01:05:19.039 militaries, you know, all the econom
+01:05:20.799 economic activity in the world that, you
+01:05:23.039 know, does all the medicine, that does
+01:05:25.599 all of the economics, that does, you
+01:05:27.359 know, control, you know, everything
+01:05:28.480 about your private life and it will do
+01:05:30.480 only things that are good for us
+01:05:32.240 forever. And we're going to do all of
+01:05:34.160 this using software on the first try.
+01:05:36.720 That's what they're saying because
+01:05:38.160 that's what super intelligence is. It's
+01:05:39.440 a one world government. It's a one world
+01:05:41.119 system that controls the whole planet
+01:05:42.880 and does good.
+01:05:44.079 >> That is the creator.
+01:05:45.520 >> Yeah. And I think this is insane. This
+01:05:48.160 is insane. There is no way you This is
+01:05:51.200 not science. This is complete fiction.
+01:05:53.760 This is delusion. You cannot build
+01:05:56.240 something like this. We have no idea how
+01:05:58.400 to. And even if you did, this is deeply
+01:06:00.319 immoral. I think it's deeply like if I
+01:06:02.799 knew how to build an alliance super
+01:06:04.319 intelligence, I still think it would be
+01:06:05.680 evil to build it because it would mean I
+01:06:07.359 would take over your life. I would take
+01:06:09.200 over everyone's lives and decide my, you
+01:06:11.520 know, idea or the super intelligence
+01:06:13.280 idea of what good is. This is crazy.
+01:06:15.839 This is not how we do things in a
+01:06:17.440 democracy. A democracy, people have a
+01:06:19.520 stake in their lives. They have a stake
+01:06:21.039 in how their country is run, how their
+01:06:22.480 lives is run. And they have to have
+01:06:23.920 consent. They have consent of the
+01:06:25.599 governed. There is no consent of the
+01:06:27.200 governed with super intelligence. Now if
+01:06:30.240 we spent 50, 100, 200 years, you know,
+01:06:33.200 building up slowly towards ever better
+01:06:35.520 technology, ever better coordination,
+01:06:37.599 ever better institutions, governments,
+01:06:39.599 etc., could we iterate our way there to,
+01:06:42.079 you know, a system of governance powered
+01:06:44.160 by AI that we endorse? Yeah, I think
+01:06:46.319 it's possible. If all of our greatest
+01:06:47.599 scientists, mathematicians, and
+01:06:49.359 philosophers worked on it for, you know,
+01:06:51.280 100 years, I think it's possible that
+01:06:53.280 some dudes in Silicon Valley high on
+01:06:55.440 aderall, you know, can do it in two
+01:06:57.039 years. Absolutely not. Like what? Like
+01:06:59.520 it's so silly. It's so preposterous to
+01:07:02.640 even consider this as a reasonable way
+01:07:05.039 to approach this problem. Like it's
+01:07:07.680 ridiculous. It's cartoonish.
+01:07:10.240 >> Oh man. How long we got? It's a couple
+01:07:12.160 of years, maybe a year
+01:07:13.599 >> maybe. I don't know. And I don't think
+01:07:15.839 we will know uh in a sense cuz I just
+01:07:18.079 think things will get so crazy so
+01:07:19.599 quickly that we'll never really know for
+01:07:21.119 sure.
+01:07:21.520 >> But they're already getting crazy.
+01:07:23.280 >> Well, yes, we are. time has in fact
+01:07:25.920 passed
+01:07:26.400 >> and there's there's a percentage of
+01:07:28.480 crazy that we don't even know has
+01:07:29.760 happened then yes
+01:07:30.559 >> and there's a percentage of crazy that
+01:07:32.160 maybe even Sam Alman doesn't know and
+01:07:34.400 Dario doesn't know and
+01:07:35.680 >> yes Gemini doesn't I think there is
+01:07:37.920 there is crazy stuff happening both
+01:07:39.760 within those labs and also like the open
+01:07:41.440 source community with these AI systems
+01:07:43.039 and also just like emerging interactions
+01:07:45.119 of agents you know bumping into each
+01:07:46.640 other on the internet and stuff that we
+01:07:48.559 have no idea about like we have no idea
+01:07:50.400 and like we won't we'll never know it's
+01:07:52.400 like we don't even have the time to
+01:07:53.760 figure that
+01:07:54.799 Fundamentally, we have to take all of
+01:07:57.119 this complexity. We have to reduce it to
+01:07:59.520 something simple and actionable.
+01:08:01.359 Fundamentally, the thing we need to do
+01:08:03.440 is we need to stop super intelligence
+01:08:05.520 from coming into existence in the first
+01:08:07.200 place. If it comes into existence, I I
+01:08:09.440 can promise you it is game over. And the
+01:08:12.319 way we need to do that ultimately is we
+01:08:14.240 need to work with our governments, you
+01:08:15.760 know, across the world to push for a
+01:08:18.479 global ban on super intelligence both
+01:08:21.359 domestically and abroad backed by uh a
+01:08:24.319 trustworthy regime backed by credible
+01:08:27.600 deterrence.
+01:08:28.640 >> It's a massive goal, man.
+01:08:31.040 >> Uh is there anything we've not covered
+01:08:32.479 that we should have in this?
+01:08:34.238 >> I mean, I think that's already quite a
+01:08:35.600 lot is that I think maybe the most
+01:08:36.799 important thing is what can people do?
+01:08:38.000 >> Yeah. What can people do? So obviously,
+01:08:40.238 you know, I think the most important
+01:08:41.920 thing that people can do is you can go
+01:08:43.040 to controlai.org, contact your lawmakers
+01:08:45.600 about these issues, tell them about
+01:08:46.960 these issues. They haven't heard about
+01:08:48.719 it. Like I promise you, it's like just
+01:08:50.880 helping them understand these issues as
+01:08:52.719 part of your civic duty. You know, a
+01:08:54.319 democracy being a citizen is not just
+01:08:56.319 you wait around until you know and like
+01:08:58.158 complain every so often. It's also you
+01:08:59.759 take pride in the process. You help your
+01:09:01.279 politicians understand what you care
+01:09:02.799 about. You you make them aware of this.
+01:09:04.799 I think it's very very important. If you
+01:09:06.719 want to do more than this, you know, you
+01:09:08.479 can sign up for a service we we provide
+01:09:11.920 called microcomit.io where every week
+01:09:14.158 we'll send you things you can do in 5
+01:09:15.520 minutes to help. If you want to do more
+01:09:17.040 than that, I also run a volunteer
+01:09:18.399 community called torchbearer
+01:09:19.759 torchbearer.com community where we
+01:09:21.359 commit to putting at least two hours of
+01:09:23.439 volunteer work into trying to make the
+01:09:25.120 world a better place and trying to
+01:09:26.238 address these risks. These are small but
+01:09:29.198 they're important steps. They compound.
+01:09:31.120 If we had 10,000 100,000 people putting
+01:09:34.880 just a couple hours of work into trying
+01:09:36.799 to get their government to do things, I
+01:09:38.719 think we'd make it. Connor, thank you
+01:09:40.719 for doing this. Keep going. Control AI.
+01:09:43.040 Go check them out. Check out their work.
+01:09:44.640 Talk to your law makers. Uh yeah, let's
+01:09:47.120 uh let's not kill all humans. Uh good to
+01:09:48.880 see you again, buddy. And thank you to
+01:09:50.158 everyone for listening. We'll see you
+01:09:51.120 all soon.

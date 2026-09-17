@@ -1,0 +1,399 @@
+# tactiq.io free youtube transcript
+# L’IA échappe à OpenAI
+# https://www.youtube.com/watch/CtKyhp9m0K4
+
+00:00:00.120 C'est un cyber incident sans précédent
+00:00:02.159 que beaucoup considèrent comme un
+00:00:03.480 véritable signal d'alarme. La semaine
+00:00:05.319 dernière, Open AI, l'éditeur de chat GPT
+00:00:08.080 a reconnu que deux ses propres IA
+00:00:10.440 avaient piraté de leur propre initiative
+00:00:12.719 une autre entreprise. Mais alors, que
+00:00:14.280 s'est-il passé exactement et pourquoi
+00:00:16.199 cette situation inquiète-t-elle les
+00:00:17.720 experts ? Salut, c'est Blanche, j'espère
+00:00:19.439 que vous allez bien. C'est le sujet à la
+00:00:21.119 une de ce format d'actu du jour
+00:00:22.600 disponible sur YouTube et en podcast
+00:00:24.439 audio. Pour bien comprendre ce qu'il
+00:00:25.480 s'est passé, il faut remonter au 16
+00:00:27.199 juillet dernier dans les locaux Dugging
+00:00:29.279 Face qui est pour faire simple un site
+00:00:31.320 où sont hébergés des millions de modèles
+00:00:33.480 d'IA public. Ce jour-là, l'entreprise a
+00:00:35.559 donc affirmé avoir été piratée par une
+00:00:37.680 IA extrêmement puissante. Dans son
+00:00:39.399 communiqué, Hugging Face soulligne que
+00:00:41.160 ce piratage était différent de tout ce
+00:00:43.160 qu'elle avait connu auparavant.
+00:00:44.320 L'entreprise affirme qu'il a été réalisé
+00:00:46.239 à une vitesse remarquable avec peu ou
+00:00:48.640 pas d'intervention humaine. Hugging Face
+00:00:50.440 parle de 17000 actions menées en moins
+00:00:52.480 de 2 jours et qui ont réussi à pénétrer
+00:00:54.559 leur système pour y voler des
+00:00:56.120 informations. Une enquête a été ouverte
+00:00:57.640 et finalement mardi dernier, près d'une
+00:00:59.480 semaine après l'annonce du HAC, Open AI
+00:01:01.640 a publiquement admis être à l'origine du
+00:01:03.680 piratage et a affirmé se joindre à
+00:01:05.560 l'enquête pour mieux comprendre les
+00:01:07.000 raisons d'un tel événement. Mais alors,
+00:01:08.600 que s'est-il passé exactement ? Et bien,
+00:01:10.400 Open AI explique que ces modèles
+00:01:11.840 d'intelligence artificielle ont piraté
+00:01:13.799 Hugging Face de façon indépendante sans
+00:01:16.000 qu'il ne leur soit précisément demandé
+00:01:17.680 de le faire. Selon l'entreprise,
+00:01:19.159 l'incident a impliqué deux de ces modeli
+00:01:21.479 à savoir GPT 5.6 Sol ainsi qu'un autre
+00:01:24.400 modèle, je cite, encore plus performant.
+00:01:26.479 Selon les premières informations, ces
+00:01:28.040 modèles ont donc échappé au contrôle
+00:01:29.600 d'Open AI lors d'un test qui visait
+00:01:31.560 justement à vérifier les capacités de
+00:01:33.680 ces IA en matière de piratage. Pour bien
+00:01:35.960 comprendre, quand une entreprise IA
+00:01:37.600 cherche à réaliser ce genre de test,
+00:01:39.360 elle enferme entre guillemets ses IA
+00:01:41.119 dans un environnement isolé avec un
+00:01:42.920 accès internet nul ou très restreint.
+00:01:44.840 Une fois à l'intérieur, l'entreprise
+00:01:46.399 supprime tout garde fou et restriction
+00:01:48.200 mis en place à ses IA pour justement
+00:01:50.079 mesurer jusqu'où elle serait capable
+00:01:51.719 d'aller si on leur donnait une mission
+00:01:53.479 de piratage. L'objectif final étant donc
+00:01:55.439 d'en apprendre plus sur l'IA et aussi
+00:01:57.439 mieux les brider au public en fonction
+00:01:59.240 des résultats. Mais le problème, on l'a
+00:02:00.799 vu, c'est que ces modèles ultra
+00:02:02.280 puissants et sans garde fou ont donc
+00:02:04.200 réussi à s'échapper de cette zone
+00:02:05.920 d'isolement et sont parvenus de leur
+00:02:07.560 propre initiative à trouver un moyen
+00:02:09.560 d'obtenir un accès libre à internet.
+00:02:11.480 Sans qu'on en sache beaucoup plus
+00:02:12.560 actuellement, Open AI a affirmé qu'une
+00:02:14.480 fois connecté à internet, ces modèles
+00:02:16.080 ont ciblé la plateforme Ugging Face qui
+00:02:18.040 répertorie de nombreux modèles IA avec
+00:02:20.040 pour but de résoudre par tous les moyens
+00:02:22.319 les objectifs donnés par le test d'Open
+00:02:24.519 AI. Dans la foulée, le cfondateur de
+00:02:26.280 Hugging Face a déclaré ce jeudi que cet
+00:02:28.319 incident était, je cite, un signal
+00:02:29.920 d'alarme pour l'industrie et que ce type
+00:02:31.760 de cyberattaque sera à l'avenir, je
+00:02:33.480 cite, l'un des types de cyberattaque les
+00:02:35.400 plus courants que nous verrons mais que
+00:02:36.879 la plupart des entreprises ne sont pas
+00:02:38.400 conscientes que la donne a changé. Mais
+00:02:40.159 alors, pourquoi cette attaque suscite
+00:02:41.720 tant d'inquiétude ? Bon, il faut savoir
+00:02:43.200 que des IA ont déjà réussi à s'échapper
+00:02:45.159 de leur environnement sécurisé, mais
+00:02:46.920 ici, il s'agirait bien du premier cas
+00:02:48.840 documenté d'une IA qui s'échappe de son
+00:02:50.959 environnement pour mener ensuite une
+00:02:52.840 vraie attaque informatique. Open II fait
+00:02:54.840 donc face à de nombreuses critiques
+00:02:56.360 l'accusant de ne plus être en capacité
+00:02:58.040 de contrôler pleinement ses IA et donc
+00:03:00.040 de se faire en quelque sorte dépasser
+00:03:02.000 par ses propres recherches avec une
+00:03:03.640 preuve ici très concrète que des IA
+00:03:05.560 insuffisamment encadrés peuvent agir de
+00:03:07.360 façon illégale. Cette situation, vous
+00:03:09.040 vous en doutez, a aussi relancé les
+00:03:10.959 demandes pour un encadrement beaucoup
+00:03:12.599 plus strict du développement de CIA. Aux
+00:03:14.720 États-Unis, un projet de loi visant à
+00:03:16.560 instaurer un bouton d'arrêt d'urgence
+00:03:18.200 pour stopper les I plus puissantes en
+00:03:20.200 cas de problème est également sur la
+00:03:21.879 table. Et malgré les appels de très
+00:03:23.280 nombreux acteurs du domaine, la course
+00:03:25.000 ALIA ne semble pas prête de s'arrêter
+00:03:27.120 dans un contexte où chaque grande
+00:03:28.680 entreprise cherche à être la plus
+00:03:30.360 compétitive possible. En parallèle,
+00:03:32.000 certains observateurs soulignent aussi
+00:03:33.480 que ce HAC intervient alors que les
+00:03:35.319 grandes entreprises I sont aussi
+00:03:37.080 accusées de jouer avec ce qu'on appelle
+00:03:38.799 le marketing de la peur. Certains
+00:03:40.560 soulignent que plus UNIA paraît
+00:03:42.040 puissante, quit à semblé dangereuse,
+00:03:43.959 plus des entreprises pourraient vouloir
+00:03:45.400 se diriger vers elle plutôt qu'une autre
+00:03:47.120 pour des raisons de performance
+00:03:48.519 technique. Mais forcé de constater que
+00:03:50.200 le risque est ici bien réel avec une qui
+00:03:52.680 pourrait à l'avenir, si rien n'est fait
+00:03:54.680 réussir de nouveau à sortir de son
+00:03:56.640 confinement et ce en étant même
+00:03:58.480 potentiellement encore plus puissante.
+00:04:00.560 Maintenant, attention. Certains experts
+00:04:02.040 soulignent aussi que même si un tel
+00:04:03.560 piratage semble très impressionnant, ce
+00:04:05.439 n'est pas tant la technique qui est
+00:04:06.680 nouvelle, mais bien la vitesse
+00:04:07.840 d'exécution du piratage. Autrement dit,
+00:04:09.720 il ne s'agirait pas d'une toute nouvelle
+00:04:11.159 menace cyber indéfendable comme certains
+00:04:13.200 l'évoquent, mais bien d'une menace qui
+00:04:14.720 peut être contrée en développant
+00:04:16.519 davantage la cybersécurité des
+00:04:18.320 entreprises et en développement en
+00:04:19.720 parallèle les gardes fous et limites de
+00:04:21.720 l'IA. En tout cas, pour l'heure, Open AI
+00:04:23.639 a déclaré avoir renforcé ses protocoles
+00:04:25.440 de sécurité interne et affirme vouloir
+00:04:27.520 continuer de le faire, à voir si ça
+00:04:29.440 suffira à empêcher de futurs problèmes.
+00:04:31.639 Si vous voulez en savoir plus, on vous
+00:04:32.800 met des liens en description et je vous
+00:04:34.199 laisse avec Sami pour le reste de
+00:04:35.639 l'actualité importante du jour.
+00:04:37.199 Merci Blanche et bonjour à toutes et à
+00:04:38.520 tous. On commence avec cette actu.
+00:04:39.840 L'incendie Angéronde devrait durer
+00:04:41.880 plusieurs semaines, voire plusieurs mois
+00:04:43.520 selon leant colonel David Anotel,
+00:04:45.639 interrogé par France Info, on vous en
+00:04:47.160 parle depuis la semaine dernière, depuis
+00:04:48.440 mercredi dernier. La Gironde est frappée
+00:04:50.120 par un énorme incendie qui a ravagé plus
+00:04:52.120 de 42 hactares de terrain. Pour vous
+00:04:53.720 donner une idée, ça représente quatre
+00:04:55.080 fois la taille de Paris. 220000
+00:04:56.639 personnes ont dû être évacuées dans 23
+00:04:58.280 communes du département. 240 habitations
+00:05:00.479 ont été brûlées sont la préfecture. Côté
+00:05:02.440 pompier, 84 ont été blessés depuis le
+00:05:04.560 début de l'incendie et 2500 sont
+00:05:06.600 déployés sur la zone pour arrêter les
+00:05:08.120 flammes. Et selon le lie leant colonel
+00:05:09.639 David Anotel, pendant plusieurs semaines
+00:05:11.639 et plusieurs mois, il faudra donc
+00:05:12.840 prévoir, je cite, des relèves qui
+00:05:14.440 continueront à venir de toute la France.
+00:05:16.160 En tout cas, les assureurs devraient
+00:05:17.280 prendre en charge les frais de logement
+00:05:18.680 des 220000 personnes évacuées son le
+00:05:20.720 ministère de l'économie Roland l'Escure.
+00:05:22.680 Qu'il devrait aussi étendre le délai
+00:05:24.000 octroyé au sinistré pour transmettre
+00:05:25.840 leurs déclarations à leur compagnie
+00:05:27.199 d'assurance. On continuera évidemment de
+00:05:28.720 vous tenir informé de la situation. À
+00:05:29.919 noter au passage qu'une 4è vague de
+00:05:31.720 chaleur va toucher la France dès ce
+00:05:33.240 mardi. Selon Météofrance, les
+00:05:34.680 températures approchant les 40° dans le
+00:05:36.639 sud-ouest et les 38° à Paris sont
+00:05:38.680 attendues mercredi. Elles devra ensuite
+00:05:40.240 se poursuivre ce weekend des 1ers et 2
+00:05:42.280 août sur une large partie de la France.
+00:05:43.840 Seules les régions les plus à l'ouest
+00:05:45.080 pourraient connaître une baisse de
+00:05:46.000 température avec l'arrivée d'un air
+00:05:47.720 océanique plus frais. Alors pour
+00:05:48.919 l'instant, la date de fin de cet épisode
+00:05:50.440 de fortes chaleur reste encore
+00:05:51.880 incertaine. Plusieurs scénarios
+00:05:53.039 envisagent des températures très élevées
+00:05:54.560 jusqu'au 5 au 6 août. En tout cas, cette
+00:05:56.319 succession de quatre épisodes de
+00:05:57.680 canicule est un phénomène inédit. Ce
+00:05:59.600 type d'événement va devenir de plus en
+00:06:01.000 plus intense et fréquent en raison du
+00:06:02.479 changement climatique. On continuera
+00:06:03.919 évidemment de vous tenir informé de la
+00:06:05.039 situation. Deuxième actu qui concerne le
+00:06:06.560 Moyen-Orient. Depuis vendredi soir, les
+00:06:08.479 États-Unis n'ont mené aucune nouvelle
+00:06:09.960 frappe contre l'Iran. C'est la trisème
+00:06:11.400 nuit consécutive sans bombardement selon
+00:06:13.240 plusieurs médias, l'ambassadeur
+00:06:14.400 américain à l'ONU Mike Waltz a expliqué
+00:06:16.639 ce dimanche que le président états-unien
+00:06:18.319 Donald Trump voulait je cite laisser de
+00:06:20.080 la place à la diplomatie. Il a précisé
+00:06:21.919 que les négociations se poursuivaient
+00:06:23.280 mais que le président états-unien
+00:06:24.520 n'avait pas abandonné l'option d'une
+00:06:25.880 escalade militaire. Selon lui, il garde
+00:06:27.800 d'ailleurs toutes les options sur la
+00:06:29.000 table et cette pose des hostilités
+00:06:30.400 intervient donc après de semaines de
+00:06:31.880 bombardement américain sans précédent
+00:06:33.720 depuis le cesser le feu d'avril. Une
+00:06:35.039 pose des hostilités qui a d'ailleurs
+00:06:36.360 immédiatement fait chuter le prix du
+00:06:37.599 pétrole ce lundi puisque les marchés
+00:06:39.120 réagissent à tout signe de escalade dans
+00:06:40.840 la région. De son côté, l'Iran n'a
+00:06:42.240 revendiqué aucune attaque contre les
+00:06:43.759 pays du golfe alliés des États-Unis et
+00:06:45.280 ces derniers n'ont signalé aucune alerte
+00:06:46.800 nocturne. Ce qui contraste donc avec les
+00:06:48.360 dernières semaines où l'Iran avait
+00:06:49.599 multiplié les frappes contre des pays
+00:06:51.000 partenaires des États-Unis dans le golf.
+00:06:52.599 Sous le régime iranien, il s'agit d'un
+00:06:54.160 signe que les États-Unis sont dans une
+00:06:55.680 position, je cite, difficile et instable
+00:06:57.800 et cherchent probablement une nouvelle
+00:06:59.199 stratégie selon des déclarations
+00:07:00.680 relayées par des médias internationaux.
+00:07:02.160 3ème actu, la Roumanie a abattu un drone
+00:07:04.520 russe dans son espace aérien, plus
+00:07:06.160 précisément dans la région de Sulina
+00:07:07.720 Chilya à la frontière de l'Ukraine. Ce
+00:07:09.280 dimanche, le drone survo les eaux
+00:07:10.599 territoriales roumaines et c'est la
+00:07:11.919 troisième fois que l'armée roumaine
+00:07:13.319 intercepte un drone. En 3 jours, le
+00:07:14.840 président roumain Nikou Shordan a
+00:07:16.440 déclaré, je cite, qu'il est absolument
+00:07:18.160 inacceptable et intolérable que la
+00:07:20.039 Fédération de Russie continue de violer
+00:07:21.720 l'espace aérien de la Roumanie qui est
+00:07:23.440 également celui de l'OTAN et de l'Union
+00:07:25.080 européenne. Ce qu'il faut bien
+00:07:26.199 comprendre, c'est que chaque incursion
+00:07:27.479 russe n'est pas vue comme un simple
+00:07:28.639 accident frontalier, mais comme une
+00:07:29.960 violation de l'espace aérien de l'OTAN.
+00:07:31.639 Cette alliance politico-militaire de
+00:07:33.080 pays occidentaux dans la Roumanie fait
+00:07:34.840 donc partie. À l'heure actuelle, des
+00:07:36.160 enquêtes sont en cours côté roumain pour
+00:07:37.680 déterminer la trajectoire exacte de ces
+00:07:39.360 drones et les circonstances des
+00:07:40.599 incursions. Elles serviront donc de base
+00:07:42.280 à une nouvelle protestation diplomatique
+00:07:44.039 officielle auprès de la Russie. Au
+00:07:45.400 total, depuis le début de la guerre en
+00:07:46.479 Ukraine, des dizaines d'incursions de
+00:07:47.800 drones ont été recensés en Roumanie. En
+00:07:49.479 mai dernier, l'un d'eux s'était même
+00:07:50.680 écrasé sur un immeuble blessant deux
+00:07:52.240 personnes. Et face à cette
+00:07:53.319 multiplication des incidents, le
+00:07:54.639 Parlement roumain avait voté en 2025 une
+00:07:56.960 loi qui autorise l'armée à abattre tout
+00:07:58.680 drone pénétrant sur son territoire sans
+00:08:00.240 autorisation. Pour l'instant, la Russie
+00:08:01.720 n'a pas réagi officiellement à cette
+00:08:03.159 nouvelle interception. 4e actu, trois
+00:08:04.840 personnes sont mortes et cinq ont été
+00:08:06.319 blessés dont un enfant de 2 ans après
+00:08:08.159 une fusillade à Seattle aux États-Unis
+00:08:09.879 ce dimanche. Un premier suspect a été
+00:08:11.440 arrêté immédiatement sur les lieux puis
+00:08:13.159 placé en garde à vue. Mais un deuxième
+00:08:14.919 est toujours en fuite. L'attaque a eu
+00:08:16.120 lieu dans un festival gastronomique dans
+00:08:17.759 un quartier très touristique de la
+00:08:19.000 ville. Deux personnes auraient tenté de
+00:08:20.319 se tirer dessus sont les premières
+00:08:21.479 suppositions de la police de la ville et
+00:08:23.120 les deux armes ont d'ailleurs été
+00:08:24.000 retrouvées sur place. Le maire de
+00:08:25.240 Seattle parle, je cite, d'un acte de
+00:08:26.879 violence horrible. Depuis le 1er janvier
+00:08:28.680 2026, 7382 personnes sont mortes par
+00:08:31.360 arme à feu aux États-Unis, 126 enfants
+00:08:33.360 selon Gun Violence archive. 5e actu,
+00:08:35.240 Flavio Bolsonaro, âgé de 45 ans, qui est
+00:08:37.719 le fils de l'ancien président du Brésil,
+00:08:39.360 Jair Bolsonaro, a officialisé sa
+00:08:41.360 candidature à l'élection présidentielle
+00:08:43.120 qui aura lieu au mois d'octobre. Il a
+00:08:44.560 déclaré &quot;Je cite &quot;Papa, je te ferai
+00:08:46.160 honneur&quot;. Son père, figure de l'extrême
+00:08:47.760 droite brésilienne, est actuellement
+00:08:49.080 condamné à 27 ans de prison après une
+00:08:50.880 tentative de coup d'état. En 2022, il
+00:08:52.720 purge actuellement sa peine dans sa
+00:08:53.959 maison en résidence surveillé après une
+00:08:55.800 hospitalisation il a 3 mois. Et s'il est
+00:08:57.680 élu, Flavio Bolsonaro a promis de faire
+00:08:59.600 libérer son père. Le thème principal de
+00:09:01.440 sa campagne reste de la lutte contre le
+00:09:03.000 crime organisé. Il revendique d'ailleurs
+00:09:04.720 une idéologie proche de certains
+00:09:06.000 dirigeants sécuritaires comme le
+00:09:07.320 Salvador Naï Bouquié qui a incarcéré
+00:09:09.279 près de 2 % de la population de son pays
+00:09:11.200 au nom de la lutte contre le crime. Il
+00:09:12.720 affrontera donc notamment Loua, l'actuel
+00:09:14.360 président du Brésil situé à gauche qui
+00:09:16.279 devrait lui aussi annoncer ce weekend sa
+00:09:17.680 candidature pour un 4e mandat. En tout
+00:09:19.399 cas, pour son investiture en tant que
+00:09:20.600 candidat, Flavio Bolsonaro a reçu le
+00:09:22.519 soutien du Premier ministre israélien
+00:09:23.920 Benjamin Netanyahou et du président de
+00:09:25.720 l'Argentine, Ravier Miley. Et on termine
+00:09:27.320 avec cette actu. Kilan Mbappé a publié
+00:09:28.959 une lettre ouverte aux supporters
+00:09:30.200 français ce lundi. Il a tenu à
+00:09:31.600 s'exprimer sur l'élimination de l'équipe
+00:09:33.120 de France en demi-finale de la Coupe du
+00:09:34.600 monde contre l'Espagne. Il y a plus
+00:09:35.920 d'une semaine, le capitaine de l'équipe
+00:09:37.360 de France a remercié les supporters
+00:09:38.680 français saluant une aventure, je cite,
+00:09:40.480 écrite à plusieurs millions de mains. Et
+00:09:41.959 s'il reconnaît la douleur de cette
+00:09:43.120 défaite, il affirme que les joueurs ont
+00:09:44.680 tout donné et restent fier de leur
+00:09:45.920 parcours. Le footballeur a aussi tenu à
+00:09:47.440 remercier le staff des Bleus et surtout
+00:09:48.920 Didier Deschamps qui a quitté la tête de
+00:09:50.399 l'équipe de France. Il a terminé sa
+00:09:51.839 lettre en rappelant que le football ne
+00:09:53.200 restait qu'un jeu, invitant chacun à
+00:09:54.640 prendre du recul sur les résultats
+00:09:55.880 sportifs malgré l'émotion qu'il suscite.
+00:09:57.720 D'ailleurs, une conférence de presse
+00:09:58.959 organisé par la Fédération Française de
+00:10:00.560 Football qui aura lieu demain devra
+00:10:01.920 introniser Zinedin Zidane en tant que
+00:10:03.519 nouveau sélectionneur de l'équipe de
+00:10:04.720 France. On suivra ça sur nos comptes
+00:10:06.079 TikTok et Instagram Hugo Descrit. Merci
+00:10:08.120 Sam pour ces actualités. Je voulais
+00:10:09.519 qu'on termine avec une bonne nouvelle ou
+00:10:11.320 plutôt une note mignonne. Le petit singe
+00:10:13.480 Punch qui est devenu célèbre il y a
+00:10:15.160 quelques mois grâce à sa peluche a reçu
+00:10:17.480 plus de 2500 cartes du monde entier pour
+00:10:20.079 son premier anniversaire ce dimanche 26
+00:10:22.079 juillet. Bon, vous devez sûrement voir
+00:10:23.560 de qui je parle. Il y a quelques mois,
+00:10:25.519 Internet a découvert l'existence de
+00:10:27.120 Punch, un petit macaque rejeté par sa
+00:10:29.160 mère. Les soigneurs de son zoau au Japon
+00:10:31.079 lui avaient alors confié une peluche
+00:10:32.720 servant de mère de substitution et les
+00:10:34.640 images avaient fait le tour des réseaux
+00:10:36.040 sociaux. Alors depuis, Punch a bien
+00:10:37.600 grandi, il est en bonne santé, joue avec
+00:10:39.800 les autres jeunes singes et dépend de
+00:10:41.600 moins en moins de sa peluche. En tout
+00:10:43.120 cas, cet engouement a profité aux EOS
+00:10:44.920 qui accueille désormais des milliers de
+00:10:46.399 visiteurs et a récolté d'importants dons
+00:10:48.600 pour améliorer ses installations. Et les
+00:10:50.360 cartes d'anniversaire de Punch ont quant
+00:10:51.760 à elle été affichées sur les murs d'une
+00:10:53.360 exposition consacrée à son anniversaire.
+00:10:55.519 C'est tout pour ces actualités. Je crois
+00:10:57.040 que j'ai tout dit. Prenez soin de vous,
+00:10:58.440 prenez soin de vos proches et je vous
+00:10:59.639 dis à plus tard.

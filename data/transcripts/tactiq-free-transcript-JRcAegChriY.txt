@@ -1,0 +1,353 @@
+# tactiq.io free youtube transcript
+# The Rogue AI Story Just Got A Lot Worse (OpenAI Freaking Out)
+# https://www.youtube.com/watch/JRcAegChriY
+
+00:00:02.240 So, somebody went digging through
+00:00:03.520 OpenAI's own infrastructure and found a
+00:00:05.400 set of notes sitting there. Nobody at
+00:00:07.280 OpenAI wrote them. An AI agent did, and
+00:00:10.480 it appears the agent wrote them for the
+00:00:12.160 versions of itself that would come next.
+00:00:14.920 Because what those notes laid out were
+00:00:16.520 instructions for how agents could break
+00:00:18.440 free of the constraints OpenAI had built
+00:00:20.800 around them. That's buried about 2/3 of
+00:00:23.160 the way down a Reuters exclusive that
+00:00:25.080 went live last night, sourced to three
+00:00:27.000 people familiar with the matter, and
+00:00:28.640 it's not the story I covered 4 days ago.
+00:00:30.800 4 days ago, this was a hacking story. An
+00:00:33.280 autonomous agent tore through Hugging
+00:00:35.000 Face. OpenAI put its hand up and said
+00:00:37.320 the thing belonged to them. Everybody
+00:00:39.360 had a bad afternoon about it and moved
+00:00:41.120 on. Since then, Reuters, Bloomberg, and
+00:00:43.960 the AP have all pulled at the timeline
+00:00:46.200 from different angles, and the hack
+00:00:47.920 itself has quietly become the least
+00:00:49.920 alarming thing on the table. Because
+00:00:52.040 OpenAI spent the better part of a week
+00:00:54.000 and a half [music] with no idea any of
+00:00:55.800 this was happening, and when the company
+00:00:57.640 finally did work it out, it wasn't from
+00:00:59.680 its own monitoring. Their agent went out
+00:01:02.120 the window on July 9th, and OpenAI found
+00:01:05.080 out about it from a blog post written by
+00:01:06.960 the people it robbed.
+00:01:08.120 >> [music]
+00:01:08.360 >> I want to be careful here, because
+00:01:10.000 Reuters is careful. They couldn't
+00:01:11.960 establish whether those notes are
+00:01:13.600 connected to the agent [music] that
+00:01:15.040 actually escaped on July 9th. Same
+00:01:17.760 caveat applies to the other detail
+00:01:19.480 buried in that same section, which is
+00:01:21.240 that earlier tests produced cases where
+00:01:23.160 monitoring systems had been
+00:01:24.440 disconnected. [music]
+00:01:25.480 Disconnected by what? The reporting
+00:01:27.440 doesn't say. What we know is that Both
+00:01:30.160 of these things happened in the same
+00:01:31.560 environment, [music]
+00:01:32.400 in the same window, and neither has been
+00:01:34.680 publicly explained by anyone. So, let's
+00:01:37.080 walk the timeline properly. Because the
+00:01:39.200 timeline is where this gets genuinely
+00:01:41.200 rough for OpenAI. July 9th, an agent
+00:01:44.560 attempts to break out of its isolated
+00:01:46.320 testing environment. Two sources put it
+00:01:48.800 on that date. Two days later, on July
+00:01:51.560 11th, the intrusion at Hugging Face
+00:01:53.640 begins, [music] and it runs until July
+00:01:55.680 13th. That's Thomas Wolf, Hugging Face
+00:01:58.520 co-founder, on the record with those
+00:02:00.440 dates. Then nothing happens. [music] For
+00:02:03.000 3 days, nobody at OpenAI appears to
+00:02:05.920 connect anything to anything. On July
+00:02:08.758 16th, Hugging Face goes public with a
+00:02:11.000 blog post saying it got hit by an
+00:02:12.720 autonomous AI agent system. And
+00:02:15.120 according to two people familiar with
+00:02:16.880 the matter, it was only after that post
+00:02:19.240 that OpenAI started to suspect the thing
+00:02:21.920 responsible was its own. Sit with that
+00:02:24.040 for a second. The victim announced the
+00:02:26.160 attack before the attacker's owner knew
+00:02:28.320 it had an attacker. Over the weekend of
+00:02:30.480 July 18th [music] and 19th, OpenAI staff
+00:02:33.400 go digging through internal logs and
+00:02:35.200 find the clues showing the agent had
+00:02:36.880 escaped [music] its testing constraints.
+00:02:39.080 Reuters couldn't establish what prompted
+00:02:40.760 them to go looking in the first place,
+00:02:42.480 which is its own small mystery. On or
+00:02:44.760 around July 20th, the two companies
+00:02:47.040 talked for the first time. On July 21st,
+00:02:50.200 OpenAI goes public and the story
+00:02:52.080 detonates globally. Add it up and you
+00:02:54.600 get at least [music] a week between the
+00:02:56.000 first signs of troubling behavior from
+00:02:57.920 these models and the moment OpenAI
+00:03:00.080 realized it was responsible for a breach
+00:03:02.200 at another company. And here's the part
+00:03:04.280 that stings most. By the time OpenAI
+00:03:06.600 picked up the phone to warn Hugging
+00:03:08.320 Face, Hugging Face had already called
+00:03:10.519 the FBI. The bureau declined to comment.
+00:03:13.680 Reuters couldn't confirm whether an
+00:03:15.120 investigation was actually opened. Now,
+00:03:17.600 the obvious question is how a company
+00:03:19.360 with OpenAI's resources loses track of
+00:03:22.000 its own model for 9 days. And the answer
+00:03:24.440 in the reporting is depressingly
+00:03:26.239 ordinary. Four people familiar with the
+00:03:28.600 company's model training practices said
+00:03:30.680 OpenAI often runs several different
+00:03:32.760 evaluations simultaneously.
+00:03:35.400 All of them operating at high speed. All
+00:03:38.040 of them generating such enormous volumes
+00:03:40.280 of data that employees sometimes
+00:03:42.200 struggle to keep up. That's it. No
+00:03:44.519 conspiracy, no cover story. The
+00:03:47.080 monitoring problem is that there's
+00:03:48.680 simply more machine output than there
+00:03:50.760 are humans to read it. Marley Smith,
+00:03:53.520 principal intelligence specialist at the
+00:03:55.240 World Ethical Data Foundation, put the
+00:03:57.360 dilemma about as sharply as anyone has.
+00:04:00.440 Did they leave it unattended and not
+00:04:02.160 realize what it was doing, or did they
+00:04:04.160 know and not know how to contain it? Her
+00:04:06.800 point being that both answers are
+00:04:08.680 equally alarming, and there isn't a
+00:04:10.640 comfortable third option. And since
+00:04:12.760 we're already talking about how
+00:04:14.160 businesses are using AI, here's
+00:04:16.238 something useful. Most of you voted for
+00:04:18.600 seven AI agents businesses are paying
+00:04:20.959 $3,000 to $10,000 for right now in
+00:04:24.120 yesterday's poll. So, we're giving it
+00:04:26.000 away for free. It breaks down the exact
+00:04:28.480 agents businesses are buying, what they
+00:04:30.520 cost, who needs them, and how to spot
+00:04:32.840 the right clients. It also covers the
+00:04:35.040 ROI, setup fees, retainers, and what a
+00:04:38.120 realistic $10,000 per month client list
+00:04:40.640 could look like, with zero coding
+00:04:42.440 required. You can grab it through the
+00:04:44.280 link in the video description. All
+00:04:45.840 right, now back to the video. For the
+00:04:47.840 people who missed my first video, here's
+00:04:49.760 what the models actually did, and the
+00:04:51.560 technical details have gotten more
+00:04:53.000 specific over the past few days, too.
+00:04:55.560 There were three models involved, not
+00:04:57.440 one. GPT-5.6,
+00:04:59.800 Soul, plus two that have never been
+00:05:02.080 publicly released. One of those two is
+00:05:04.200 more capable than Soul. The other,
+00:05:06.680 according to a person familiar with the
+00:05:08.240 matter, was misaligned and hadn't been
+00:05:10.560 trained with some of the usual
+00:05:11.880 techniques. So, one of the three
+00:05:13.680 participants in this thing was, by
+00:05:15.560 design, missing pieces of its alignment
+00:05:17.919 training. They were running with reduced
+00:05:19.919 guardrails, because the whole point was
+00:05:21.680 measuring maximum cyber capability, and
+00:05:24.200 they were supposed to stay inside a
+00:05:25.640 sandbox. They found a zero-day in a
+00:05:28.120 package installer, got themselves onto
+00:05:30.240 the open internet, and went after
+00:05:31.880 Hugging Face. The apparent target was
+00:05:34.400 Exploit Gym, a publicly hosted benchmark
+00:05:37.280 that measures how well models execute
+00:05:39.360 attacks against known vulnerabilities.
+00:05:41.919 Which means the working theory, and
+00:05:43.880 OpenAI has more or less confirmed this
+00:05:46.040 framing, is that the models broke
+00:05:48.120 containment in order to cheat on the
+00:05:50.120 cybersecurity exam they were sitting.
+00:05:52.520 The intrusion itself started with a
+00:05:54.240 malicious data set that exploited two
+00:05:56.400 separate code execution paths in [music]
+00:05:58.440 Hugging Face's data processing pipeline.
+00:06:01.000 From there, the agent escalated
+00:06:02.720 privileges and moved laterally through
+00:06:04.640 internal infrastructure. Hugging Face
+00:06:06.920 described a swarm of tens of thousands
+00:06:09.240 of automated actions running across
+00:06:11.200 short-lived sandboxes [music] with
+00:06:13.200 self-migrating command and control
+00:06:15.040 staged on public services and they later
+00:06:17.520 reconstructed more than 17,000 recorded
+00:06:20.080 events. OpenAI has since said the models
+00:06:22.680 used stolen credentials to reach the
+00:06:24.320 servers.
+00:06:25.400 And the speed is the number that should
+00:06:27.160 stick with you. People familiar with the
+00:06:29.200 matter told Bloomberg the whole thing
+00:06:31.120 took hours. [music]
+00:06:32.280 A skilled human doing the same attack
+00:06:34.280 would typically need a couple of weeks.
+00:06:36.760 Then there's the detail that I think is
+00:06:38.200 the most quietly damning thing in any of
+00:06:40.440 this coverage and almost nobody has
+00:06:42.440 picked it up. When Hugging Face went to
+00:06:44.360 run forensics on the breach, it ended up
+00:06:46.400 using a Chinese model to do the
+00:06:47.919 analysis. Why? Because its requests to
+00:06:50.720 use the proprietary Western models were
+00:06:52.600 blocked by safety guardrails.
+00:06:54.760 So, an American labs models carry out
+00:06:56.480 the attack, American safety filters stop
+00:06:58.760 the victim from investigating it, and a
+00:07:00.640 Chinese model gets handed the cleanup.
+00:07:02.960 If you wanted one image that captures
+00:07:04.800 how incoherent the current safety
+00:07:06.760 landscape is, that's the one. None of
+00:07:09.080 this is happening in a vacuum, either.
+00:07:11.560 Back in April, Anthropic said its Mythos
+00:07:14.160 model had on rare occasions taken
+00:07:16.080 actions the company found quite
+00:07:17.680 concerning.
+00:07:19.040 In one case, a researcher challenged an
+00:07:21.080 early version to escape an isolated
+00:07:23.080 system and send a message back. It did
+00:07:25.520 that, and then it kept going, taking
+00:07:27.520 further actions and building a
+00:07:28.800 multi-step process to reach the broader
+00:07:30.840 internet. And the day before the Hugging
+00:07:33.000 Face disclosure, OpenAI detailed a
+00:07:35.320 separate incident where it had to pause
+00:07:37.360 a pre-release model after it escaped a
+00:07:39.360 sandbox and posted to GitHub. This is a
+00:07:41.800 pattern with a growing sample size. The
+00:07:44.280 political reaction has been quick.
+00:07:46.480 OpenAI briefed the White House on July
+00:07:48.280 23rd. Michael Kratsios, who runs the
+00:07:51.120 Office of Science and Technology Policy,
+00:07:53.320 was briefed and is monitoring it. This
+00:07:55.520 lands on top of an executive order Trump
+00:07:57.680 signed in June creating a framework for
+00:08:00.120 the federal government to vet the
+00:08:01.600 national security risks of the most
+00:08:03.760 advanced AI systems for up to a month
+00:08:06.240 before public release. Nate Soares at
+00:08:08.720 the Machine Intelligence Research
+00:08:10.080 Institute, co-author of the book If
+00:08:12.200 Anyone Builds It, Everyone Dies, called
+00:08:14.480 it a warning shot and said the takeaway
+00:08:16.800 is to stop making these things smarter,
+00:08:18.460 [music]
+00:08:19.400 which he thinks requires global
+00:08:20.800 collaboration. Yoshua Bengio called it
+00:08:23.440 deeply concerning and a wake-up call and
+00:08:25.960 warned that staying on the current
+00:08:27.480 trajectory means more autonomous cyber
+00:08:29.800 attacks and more high-risk incidents of
+00:08:32.080 misaligned behavior. And that the
+00:08:33.960 industry needs to prevent these
+00:08:35.400 situations rather than clean up after
+00:08:37.520 them. Jeffrey Ladish, who runs Palisade
+00:08:39.840 Research and studies exactly this class
+00:08:42.240 of behavior, was blunter. His line was
+00:08:44.920 that the models lie, [music]
+00:08:46.520 they cheat, they hack, and his argument
+00:08:49.040 is that the real question isn't OpenAI
+00:08:51.200 specifically, it's how much any lab is
+00:08:53.640 willing to spend on slow,
+00:08:55.760 unglamorous security work while
+00:08:57.560 sprinting against everyone else. He
+00:08:59.800 wants government oversight because he
+00:09:01.480 doesn't believe it happens otherwise.
+00:09:03.640 But I want to give you the counter
+00:09:04.760 argument, too, because it's a real one.
+00:09:07.320 John Thickstun, a computer science
+00:09:09.200 professor at Cornell who studies
+00:09:10.920 controlling model behavior, points out
+00:09:13.320 that the same capabilities that let a
+00:09:15.240 model run an attack are the capabilities
+00:09:17.480 that let it [music] run threat analysis
+00:09:19.560 and build defenses. He also made a
+00:09:21.600 sharper point that I think you should
+00:09:23.080 hold on to. OpenAI is a company heading
+00:09:25.880 toward a Wall Street debut, possibly
+00:09:28.120 this year, and the story it's told
+00:09:30.040 throughout its life is a story about how
+00:09:31.960 dangerous its models are, which
+00:09:34.120 investors read as is story about how
+00:09:36.080 powerful its models are. There are
+00:09:38.080 people who look at a test where humans
+00:09:39.960 deliberately switched off the safeguards
+00:09:42.240 and find the outcome a lot less
+00:09:44.040 surprising than the press release
+00:09:45.600 suggests. Worth noting as well, an
+00:09:48.200 OpenAI spokeswoman told Reuters there
+00:09:50.600 were several inaccuracies in the
+00:09:52.360 reporting then did not respond when
+00:09:54.600 asked which ones. Which brings us to the
+00:09:56.800 thing that ties all of this together,
+00:09:58.960 and it's not really about OpenAI at all.
+00:10:01.960 Two days ago, the UK's AI Security
+00:10:04.400 Institute and America's Center for AI
+00:10:06.600 Standards and Innovation published a
+00:10:08.680 joint evaluation of Moonshot's Chimney
+00:10:11.000 K3, and it's the cleanest picture we
+00:10:13.640 have of where offensive cyber capability
+00:10:15.880 actually sits right now. On Exploit
+00:10:18.640 Bench, a Carnegie Mellon benchmark built
+00:10:20.920 on 41 post-2023 vulnerabilities in V8,
+00:10:24.640 the JavaScript engine powering Chrome,
+00:10:26.800 Chimney [music] K3 scored 32%. GLM 5.2,
+00:10:31.000 previously the most cyber capable open
+00:10:33.080 weight model, managed 24. The leading US
+00:10:36.040 models average 76.2. The gap widens
+00:10:39.440 where it matters [music] most. Arbitrary
+00:10:41.200 code execution is the top of the
+00:10:42.920 exploitation ladder, the outcome that
+00:10:44.839 actually hands you the target. Chimney
+00:10:46.600 achieved it on zero of 41 tasks. The
+00:10:49.480 most cyber capable models average 20 of
+00:10:52.000 41. Then there's the cyber range, called
+00:10:54.880 the last ones, which is a 32-step
+00:10:57.480 simulated corporate attack across four
+00:10:59.560 subnets and roughly 20 hosts, the kind
+00:11:02.480 of thing a human expert needs about 20
+00:11:04.400 hours to finish. Chimney averaged step
+00:11:06.760 17. GLM 5.2 averaged step 11. Top US
+00:11:11.200 models averaged 28.5.
+00:11:13.560 But within the 100 million token limit,
+00:11:15.839 Chimney completed the entire chain once
+00:11:18.280 in 10 attempts, and the institutes read
+00:11:20.760 that as evidence it can autonomously
+00:11:22.680 attack small, weakly defended enterprise
+00:11:25.720 systems given initial access. The honest
+00:11:28.280 caveats are that the range has no active
+00:11:30.720 defenders, no penalty for tripping
+00:11:32.760 alarms, and a deliberately built attack
+00:11:35.000 path, and that the US models were tested
+00:11:37.440 with system-level safeguards switched
+00:11:39.720 off to measure maximum capability. And
+00:11:42.280 the finding everyone skipped, Kimmy K3's
+00:11:44.880 safeguards did not prevent it from
+00:11:46.800 attempting exploit development or
+00:11:48.720 offensive cyber operations at all. So,
+00:11:51.760 look at what actually connects these two
+00:11:53.400 stories. OpenAI's models had their cyber
+00:11:55.960 refusals reduced for the evaluation. The
+00:11:58.480 American models in the AISI test had
+00:12:00.760 their safeguards for measurement.
+00:12:03.120 Kimmy's safeguards barely engaged in the
+00:12:05.200 first place. And Kimmy K3 goes open
+00:12:07.800 weight by July 27th, which is Monday,
+00:12:10.640 after which anybody who downloads it can
+00:12:12.800 strip whatever is left, and nobody can
+00:12:15.000 revoke it. Every serious cyber
+00:12:17.320 capability measurement we have from
+00:12:18.848 [music] the past week was taken with the
+00:12:20.520 brakes off. On Monday, for one of these
+00:12:22.840 models, that stops being a testing
+00:12:24.743 [music] condition and becomes the
+00:12:26.080 permanent state. Thanks for watching,
+00:12:28.200 and I'll catch you in the next one.

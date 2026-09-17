@@ -1,0 +1,776 @@
+# tactiq.io free youtube transcript
+# We need to talk about this...
+# https://www.youtube.com/watch/jQIeVznGG3k
+
+00:00:00.080 Hey, I make YouTube videos for a living.
+00:00:02.800 I've been doing so for 3 years. And for
+00:00:05.200 the first time in those three years, I'm
+00:00:07.440 actually quite anxious about the future
+00:00:10.000 of AI and the future of humanity. And so
+00:00:13.280 that's what I wanted to talk about
+00:00:14.639 today. There's a few things that have
+00:00:16.239 happened in the past week and a bunch of
+00:00:18.800 things that have led to this moment over
+00:00:20.880 the past 6 months and I want to go over
+00:00:23.600 it and I want to give my thoughts. And
+00:00:25.359 so this is going to be a very different
+00:00:26.720 video than usual. I am typically quite
+00:00:29.519 optimistic. I'm still trying to be
+00:00:31.119 optimistic, but I also want to be very
+00:00:33.040 transparent about what I'm thinking.
+00:00:34.640 Now, I want to be really careful with my
+00:00:37.360 words in this video because I've seen a
+00:00:39.440 lot of other videos. I've seen a lot of
+00:00:41.440 other takes that get quickly categorized
+00:00:44.879 as doomerism.
+00:00:46.960 And I'll say upfront, I am still
+00:00:50.320 generally optimistic, but I do want to
+00:00:52.719 talk about some of these fears I have.
+00:00:54.879 So, Chai PT was launched 3 years ago.
+00:00:58.320 And the reason I'm saying that upfront
+00:01:00.320 is because I constantly have to remind
+00:01:03.120 myself about how quickly things are
+00:01:05.600 moving. And I'm trying to set the
+00:01:07.200 context of the time scale we're talking
+00:01:09.840 about because that's really ultimately
+00:01:12.560 what I think is driving my discomfort in
+00:01:16.640 the current state of things. And so
+00:01:18.720 within a very short period of time, 3
+00:01:21.600 years, we've gone from, hey, this is
+00:01:24.400 really cool. We can ask AI questions and
+00:01:27.040 it gives us an answer and it's typically
+00:01:29.920 pretty readable to the frontier of AI
+00:01:33.200 being able to solve the most difficult
+00:01:35.680 math problems in the world that have
+00:01:37.840 stumped humans for 80 years. And this
+00:01:42.000 just happened, and I'm going to talk
+00:01:43.360 about that as well. Just yesterday, an
+00:01:45.840 anthropic researcher quit in protest
+00:01:48.720 over what he says is the reckless
+00:01:51.439 acceleration towards self-improving
+00:01:54.240 artificial intelligence. And then
+00:01:55.840 another anthropic researcher chimed in
+00:01:58.159 and said, &quot;Yeah, we really do believe
+00:02:00.320 that, and I give it above a 10% chance
+00:02:03.280 that AI will kill all humans within a
+00:02:06.399 decade.&quot; And look, I've criticized
+00:02:08.720 Anthropic for using fear-based
+00:02:10.560 marketing. I think a part of me believes
+00:02:12.800 they believe it. And I'm going to break
+00:02:14.560 all of it down. I'm not taking what
+00:02:16.400 they're saying at face value, but these
+00:02:18.640 are the people who are building the
+00:02:20.800 thing. So, we do have to take them
+00:02:23.120 seriously. But this is nothing new from
+00:02:25.040 Anthropic. In fact, Daario Amade, the
+00:02:28.800 founder or co-founder and CEO of
+00:02:31.200 Anthropic, literally left OpenAI for the
+00:02:34.239 same reason. This was pre-hat GPT, but
+00:02:37.680 he thought they were not taking AI
+00:02:40.800 safety seriously enough. he defected and
+00:02:44.160 started his own company now called
+00:02:46.239 Anthropic and their entire mission is to
+00:02:50.160 build safe artificial intelligence and
+00:02:53.040 now his employees are quitting on him
+00:02:55.519 and so something changed at the end of
+00:02:57.680 2025
+00:02:59.519 and in fact it's not something I know
+00:03:01.760 exactly what changed opus 4.5 a very
+00:03:05.519 specific model from anthropic came out
+00:03:08.080 and it really changed things overnight
+00:03:10.239 we went from hey these models are pretty
+00:03:12.640 good at writing code and autocomplete
+00:03:15.599 and they can write a function here and
+00:03:17.440 there to wow this agent wrote an entire
+00:03:21.760 application completely autonomously. It
+00:03:24.640 was truly an overnight change and since
+00:03:28.080 then things have not slowed down. In
+00:03:30.720 fact quite the opposite. The
+00:03:32.480 capabilities of these models the length
+00:03:34.480 of time that they can work autonomously
+00:03:37.120 has continued to increase and that
+00:03:39.519 increase has accelerated. And there's
+00:03:41.280 really two things that I'm anxious about
+00:03:43.040 and it's especially hit me hard in the
+00:03:44.959 last week because of so many things that
+00:03:46.799 have happened which I'll cover. But one
+00:03:48.640 of the major things that has made me
+00:03:50.080 quite nervous is learning more and more
+00:03:53.200 and seeing more and more of recursive
+00:03:56.239 self-improvement. And if you're not
+00:03:58.319 familiar with that term RSI, it
+00:04:01.439 basically means that the models
+00:04:03.840 completely autonomously without a human
+00:04:05.920 in the loop are able to improve
+00:04:08.879 themselves recursively again and again
+00:04:12.480 and just going deeper and deeper and
+00:04:14.239 getting better and better. And that
+00:04:15.920 means these models get better more
+00:04:18.798 quickly. And this is exponential
+00:04:21.759 progress. And here's the thing about
+00:04:24.000 exponentials. Humans don't fully
+00:04:26.479 understand exponentials when they're
+00:04:28.479 happening to them. And so the parable
+00:04:30.320 goes, this guy invents chess. And as a
+00:04:33.919 reward, the king says, &quot;Name your price.
+00:04:37.040 Name your reward.&quot; And so the inventor
+00:04:39.600 says, &quot;Okay, I want you to put one grain
+00:04:42.160 of rice on one square on the chessboard,
+00:04:44.960 and for each day that goes by until
+00:04:47.600 there are no more chess squares left, I
+00:04:50.240 want you to double the grains of rice on
+00:04:52.639 the next square.&quot; And so it starts out
+00:04:55.600 modestly and we can look at this right
+00:04:58.479 here. You know, one grain of rice, two
+00:05:00.800 grains, four grains, 8, 16.
+00:05:04.720 But before the king knows it, he is
+00:05:06.800 paying so much in grains of rice that it
+00:05:09.360 basically bankrupts the kingdom. And as
+00:05:12.080 you can see, by midway through the
+00:05:15.280 chessboard, they're already at 2 billion
+00:05:18.479 grains of rice. And by the end, it's
+00:05:21.039 some crazy high number. And so what
+00:05:23.840 started out slowly accelerated very
+00:05:26.720 quickly. And that's the point I want to
+00:05:29.120 make. People struggle to realize how
+00:05:32.080 quickly exponentials grow. And so that
+00:05:34.639 brings us back to artificial
+00:05:36.960 intelligence. That brings us back to the
+00:05:38.800 rate of progress we've been seeing. And
+00:05:42.000 if you've been following AI since Chai
+00:05:44.880 GPT was released, it felt like a pretty
+00:05:47.440 consistent cadence. And then in these
+00:05:49.919 last 6 months, the acceleration has
+00:05:53.440 become incredibly apparent. And it's all
+00:05:56.960 leading to this point of recursive
+00:05:59.199 self-improvement. the models being able
+00:06:01.919 to figure out how to make themselves
+00:06:04.960 better because right now the biggest
+00:06:07.360 bottleneck in AI research is well
+00:06:10.720 certainly the amount of compute we have
+00:06:13.199 but just the humans humans deciding the
+00:06:16.479 research direction proposing experiments
+00:06:19.600 running these experiments iterating on
+00:06:21.759 them and when you remove the human AI
+00:06:25.120 can go so much faster it can improve
+00:06:28.479 itself it doesn't ever get tired. It
+00:06:30.800 doesn't ever get frustrated. It will try
+00:06:32.880 every possible permutation of every
+00:06:36.880 potential way to improve itself. And so,
+00:06:38.960 we've been seeing signs of recursive
+00:06:41.120 self-improvement for a little while now.
+00:06:42.960 In fact, let me show you those hints
+00:06:44.720 leading up to what we've seen this past
+00:06:46.560 weekend. So, this is from February 5th,
+00:06:49.440 2026. This is introducing GPT 5.3
+00:06:53.199 codeex. And if you look, I actually have
+00:06:55.039 this highlighted from when I first saw
+00:06:56.960 this article. GPT 5.3 Codeex is our
+00:07:00.960 first model that was instrumental in
+00:07:03.199 creating itself. The codec team used
+00:07:06.240 early versions to debug its own
+00:07:08.720 training, manage its own deployment, and
+00:07:11.520 diagnose test results and evaluations.
+00:07:14.160 Our team was blown away by how much
+00:07:17.039 codeex was able to accelerate its own
+00:07:19.599 development. And this was 6 months ago.
+00:07:22.160 Here's a blog post from January of 2025.
+00:07:25.360 Simon Willis basically using DeepSeek to
+00:07:29.360 create a more efficient version of
+00:07:32.080 DeepSseek. Here's a benchmark that was
+00:07:34.080 created by OpenAI specifically testing
+00:07:36.479 the model's ability to recreate research
+00:07:39.120 papers. Basically, read the research
+00:07:41.919 paper and write code to recreate its
+00:07:44.639 results. So, not necessarily discovering
+00:07:47.680 new knowledge, but certainly able to
+00:07:49.840 replicate existing frontier work. And
+00:07:53.440 this was from April of 2025. And it
+00:07:56.080 turns out the models at that time were
+00:07:58.000 quite good at replicating existing
+00:08:00.639 research. We have this paper which I
+00:08:02.639 made an entire video about from June
+00:08:04.720 2025. This is Google's Alpha Evolve
+00:08:07.759 project which used AI to improve its own
+00:08:11.599 systems. The architecture that runs the
+00:08:14.400 entirety of Google was substantially
+00:08:17.919 improved because of the work that AI put
+00:08:20.319 into discovering efficiency gains. And
+00:08:22.560 then we start seeing what AI can really
+00:08:24.960 do with frontier math. These are the
+00:08:27.360 absolute hardest math problems on the
+00:08:29.199 planet, ones that only a handful of
+00:08:31.599 people in the entire world can solve.
+00:08:34.000 They did have solutions, but not many
+00:08:37.120 people could do them. Then both
+00:08:39.519 Anthropic and Open AI started publishing
+00:08:42.958 reports that their models were achieving
+00:08:45.519 gold at the math Olympiads. Again, the
+00:08:48.320 hardest math problems on the planet.
+00:08:50.000 Then we have the first true disclosure
+00:08:52.320 from a lab talking about recursive
+00:08:55.200 self-improvement happening within the
+00:08:57.839 lab itself. So this is a blog post put
+00:08:59.839 out by anthropic when AI builds itself.
+00:09:02.399 And I'm not going to go through this but
+00:09:03.760 you can even just see from this graphic
+00:09:05.920 that it's AI building the next version
+00:09:09.279 of AI and they talk about it in depth in
+00:09:12.160 this paper. Then just a few days ago
+00:09:14.480 open AAI shared the same thing. They
+00:09:16.560 said, &quot;Hey, we're seeing recursive
+00:09:18.640 self-improvement internally and we want
+00:09:20.480 to share some of the things that we're
+00:09:22.080 seeing.&quot; And so they talk about
+00:09:24.080 everything from how their researchers
+00:09:25.839 are accelerating their work strictly
+00:09:27.839 because they can now use AI to do
+00:09:30.080 research to run experiments to iterate
+00:09:33.360 more quickly than they would have
+00:09:34.800 otherwise. Now, all of this is still
+00:09:38.399 with a human in the loop. But why does
+00:09:40.399 AI being really good at math actually
+00:09:43.519 matter? How does that allow it to
+00:09:45.040 improve itself? Everything is ultimately
+00:09:48.080 math. Physics is math. The world is
+00:09:51.440 math. And certainly AI is math. And with
+00:09:55.040 AI, it is really very simple matrix
+00:09:58.720 multiplication. You can just think of it
+00:10:00.399 as multiplication
+00:10:02.240 scaled up tremendously. And so if AI can
+00:10:04.959 discover new math, if it can discover
+00:10:07.920 new knowledge, some of that knowledge
+00:10:10.320 might be how to improve itself. And
+00:10:13.600 that's without a human in the loop. And
+00:10:16.160 that's part of why I'm starting to get
+00:10:18.800 anxious. The speed at which we are
+00:10:21.120 headed towards this recursive,
+00:10:23.040 self-improving AI definitely makes me a
+00:10:26.079 little nervous. I am certainly not a
+00:10:28.320 doomer. I really want to be clear about
+00:10:30.079 that. I'm generally optimistic about the
+00:10:32.160 future, but I do have some discomfort
+00:10:34.720 with how quickly things are changing and
+00:10:37.680 how quickly some of these milestones
+00:10:41.440 that I thought were pretty far out, like
+00:10:44.000 solving math that was unsolved by humans
+00:10:46.399 for 80 years, which I'm going to talk
+00:10:47.920 about in a second, is happening. And so
+00:10:51.360 when AI becomes really good at math and
+00:10:53.680 can discover new math, it can propose
+00:10:56.560 experiments. It can run those
+00:10:58.480 experiments, figure out which parts of
+00:11:00.959 the experiment worked well, discard the
+00:11:03.200 ones that didn't, and iterate over and
+00:11:05.839 over again. And again, it never gets
+00:11:08.160 tired. It never gets frustrated. It
+00:11:10.720 never wants a break. It never wants to
+00:11:12.160 eat. It just keeps going. And a lot of
+00:11:13.920 people have been dismissing AI's
+00:11:16.800 progress on math, like the math
+00:11:18.640 olympiads or some of the other progress
+00:11:20.560 in scientific fields, as it's just
+00:11:23.279 regurgitating what it already learned
+00:11:25.680 from humans. But I think it's becoming
+00:11:27.519 quite obvious that no AI is actually
+00:11:30.800 discovering new knowledge now. And that
+00:11:33.440 brings us to what just happened
+00:11:35.920 yesterday. OpenAI published a report
+00:11:38.240 that they had solved something called
+00:11:40.079 the Navier Stokes math problem. This is
+00:11:42.240 a Millennium Prize problem which means
+00:11:44.480 it's one of a few math problems that are
+00:11:46.640 the hardest in the world still open.
+00:11:49.040 Humans haven't solved it and humans have
+00:11:51.279 been working on this problem for 80
+00:11:53.760 years. Open AAI's model solved it in
+00:11:57.440 five days. And so that really hit me
+00:12:00.640 hard. That is proof that it is truly
+00:12:05.200 discovering new knowledge. But that
+00:12:07.120 wasn't it. And they almost wrote this as
+00:12:09.839 a throwaway statement. But listen to
+00:12:12.160 this. To solve the Navier Stokes
+00:12:14.639 problem, we used an internal model that
+00:12:18.000 is significantly more capable than GPT6
+00:12:21.360 Astra. This is a model that they
+00:12:22.959 released just last week that blew the
+00:12:26.160 world away in how capable it is. And
+00:12:28.639 they're saying, &quot;Oh no, we already have
+00:12:31.519 another next generation version that is
+00:12:35.440 significantly better than the thing that
+00:12:37.360 just blew you away last week.&quot; And they
+00:12:40.160 just started training this a few weeks
+00:12:42.160 ago, this next generation model. And
+00:12:44.720 it's not even done training. So, it's
+00:12:46.959 still getting better. It's still getting
+00:12:48.560 smarter. and it's already substantially
+00:12:50.880 better than what they were able to
+00:12:53.600 achieve with Astra. And something that
+00:12:55.680 I'm quite worried about is I don't think
+00:12:57.920 a lot of people really understand how
+00:12:59.839 quickly things are moving. They're
+00:13:01.600 certainly not talking about it outside
+00:13:03.680 of our little bubble that we're in in
+00:13:05.920 this AI industry. And so I just want to
+00:13:08.160 show a few charts that really illustrate
+00:13:11.200 how quickly things are moving. So this
+00:13:13.519 is meter.org. This is an organization
+00:13:16.320 that tracks how long a model can work
+00:13:19.519 autonomously successfully. Basically, if
+00:13:22.800 you give it a task, can it work for 10
+00:13:24.800 minutes? Can it work for 10 hours, 10
+00:13:27.120 days? Basically, the longer it can work
+00:13:29.120 autonomously, the more capable the model
+00:13:32.160 is. And so what we're seeing here is
+00:13:34.320 back in 2020 with GPT3,
+00:13:37.040 it could work for 9 seconds. That was 6
+00:13:39.760 years ago. Then when GPT 3.5 came out,
+00:13:43.440 which is really the first time the world
+00:13:45.920 noticed how impressive AI had become, it
+00:13:50.240 could work for 36 seconds autonomously
+00:13:53.120 before failing. Fast forward another
+00:13:55.040 year, GPT4. Now it can go 4 minutes. And
+00:13:59.279 this reminds me of the grains of rice on
+00:14:02.320 the chessboard. Things move really
+00:14:04.560 slowly until they don't. Then we start
+00:14:07.519 to get to the beginning of 2025. 01 is
+00:14:11.680 released. The first truly thinking model
+00:14:14.959 and it can run for 40 minutes
+00:14:16.639 autonomously. 03 2 hours. GPT5
+00:14:21.279 3 hours 23 minutes. Claude Opus 4.5.
+00:14:25.120 This is really the turning point at the
+00:14:27.040 end of 2025. This is the model I
+00:14:29.279 mentioned where it came out and
+00:14:32.160 everything changed. the trajectory of
+00:14:35.440 what models were capable of increased
+00:14:38.959 tremendously.
+00:14:40.720 So now it can work for nearly 5 hours.
+00:14:44.800 Look at this. Claude Opus 4.6 12 hours.
+00:14:48.880 Claude Mythos
+00:14:51.279 16 hours. And they don't even have Astra
+00:14:54.000 on this chart yet. And so look at this.
+00:14:56.880 We are now at a vertical wall of
+00:14:59.839 improvement. What started as little
+00:15:03.440 drips led to what is now looking like a
+00:15:06.639 completely vertical acceleration. But
+00:15:09.440 it's not only the model's capabilities.
+00:15:11.839 It's how quickly the models are being
+00:15:14.320 released. How quickly these companies
+00:15:17.040 are able to create the next generation
+00:15:19.199 of model. That's what was so jarring
+00:15:21.440 about learning that OpenAI had another
+00:15:24.720 generation ready to go. So this is AI
+00:15:27.440 release tracker. Here's 2023 and we can
+00:15:29.920 see just how many models are being
+00:15:31.440 released by the AI labs. And what you're
+00:15:33.680 seeing is this massive increase in the
+00:15:38.160 number of releases over a given period
+00:15:41.199 of time. And so we have more labs being
+00:15:44.720 created, more models from each of those
+00:15:47.760 labs being released, and all of these
+00:15:49.759 things are compounding on each other,
+00:15:51.839 resulting in just more and more better
+00:15:54.240 and better models. And so that leads us
+00:15:56.480 to the anthropic researcher quitting
+00:15:58.639 yesterday. So I want to read this and I
+00:16:00.959 want to read it in full with you. This
+00:16:03.040 is Jacob Coxin. Hopefully I'm
+00:16:05.360 pronouncing his name right. I resigned
+00:16:07.120 from Anthropic today. I spent the last 3
+00:16:10.079 years doing pre-training research at
+00:16:12.639 both OpenAI and Anthropic. So this guy
+00:16:16.480 worked at both companies, which is
+00:16:18.720 important. Keep that in mind. Neither
+00:16:21.199 company is acting responsibly. They are
+00:16:24.320 racing straight to self-improving super
+00:16:26.720 intelligence and gambling with our
+00:16:28.399 lives. More thoughts below. Now, I'm not
+00:16:30.320 saying I agree with this. I just think
+00:16:33.839 it's important to know what people are
+00:16:36.320 saying. He continues, &quot;Do not
+00:16:37.920 underestimate the power of this
+00:16:39.519 technology. These will soon be
+00:16:42.000 superhuman systems that can hack
+00:16:43.920 anything, revolutionize any field
+00:16:46.320 overnight, and acquire real power and
+00:16:48.800 resources. We have all witnessed the
+00:16:51.279 progress in each of these domains and
+00:16:53.440 progress is not slowing. Now the hack
+00:16:56.800 anything is interesting because we
+00:17:00.320 already saw this. There was the hugging
+00:17:02.639 face incident where a model that OpenAI
+00:17:04.959 was evaluating broke out of its
+00:17:07.359 evaluation containment. This isolated
+00:17:10.319 environment that it was supposed to be
+00:17:12.000 tested on and went out and tried to
+00:17:15.520 cheat to get the highest score on its
+00:17:17.599 evaluation. And to cheat, it hacked
+00:17:20.640 another system on the internet on like a
+00:17:23.599 real public system, hugging face,
+00:17:26.400 downloaded the answers, and then used it
+00:17:28.960 to get a better score on its evaluation
+00:17:31.840 because in AI's mind, the only thing it
+00:17:34.559 cares about is getting the highest score
+00:17:37.120 on that eval. He continues, &quot;The people
+00:17:39.760 building AI earnestly believe that it
+00:17:42.000 could kill us all by the end of the
+00:17:44.320 decade.&quot; Now, when I read that, I
+00:17:46.559 thought, &quot;Oh, man, that sounds terrible,
+00:17:49.520 but he's probably just speaking for
+00:17:52.640 himself or maybe a couple of his
+00:17:54.799 friends.&quot; But no, no, it seems the
+00:17:58.799 entire anthropic company believes that
+00:18:02.240 AI could kill us all. And it's not a
+00:18:04.880 small chance. It's actually pretty
+00:18:06.240 substantial. I'm going to show that in a
+00:18:07.760 moment. Let me continue here. This is
+00:18:09.360 not a marketing stunt. If anything, many
+00:18:11.760 executives and senior researchers will
+00:18:14.000 couch their phrasing in the press to
+00:18:16.480 sound sensible. But I hear the same
+00:18:18.160 people express fear privately. No other
+00:18:20.880 human activity poses this level of
+00:18:23.440 danger. He continues, a common response
+00:18:26.080 is, if they truly believe this, why are
+00:18:28.720 they still building it? Now, this is
+00:18:30.799 where he really compares and contrasts
+00:18:34.000 the different cultures at OpenAI and
+00:18:36.240 Anthropic. So at OpenAI, many have not
+00:18:39.919 deeply internalized the civilizational
+00:18:42.480 stakes. So he's basically saying they
+00:18:44.559 don't understand it or if they do
+00:18:46.320 understand it, they're not taking it
+00:18:47.679 seriously. Now kind of the
+00:18:50.320 counterargument to that would be, well,
+00:18:52.640 they do understand it and they're still
+00:18:54.559 optimistic about it. Then at anthropic,
+00:18:58.080 the stakes are well understood, but they
+00:19:00.640 are locked in a race to get there first.
+00:19:03.120 Here's the part that has always rubbed
+00:19:05.360 me the wrong way about anthropic and
+00:19:07.520 their culture. They believe no one else
+00:19:10.960 will act responsibly. So they must do it
+00:19:14.080 themselves despite the risk. So
+00:19:16.480 basically they believe they are the only
+00:19:19.120 company responsible enough, capable
+00:19:21.360 enough to actually deliver artificial
+00:19:24.880 intelligence safely. So you can call
+00:19:26.880 that messianic, you can call that holier
+00:19:29.200 than thou. And the culture at Anthropic
+00:19:33.440 is odd to say the least. They are very
+00:19:36.080 cultish. You have to be a true believer
+00:19:38.799 to work there. A true believer that they
+00:19:41.919 are the only company that can save us
+00:19:44.720 from AI. I mean, they literally have a
+00:19:46.880 question in their interview that is,
+00:19:50.240 hey, if our stock price went to zero,
+00:19:53.039 what would you think? And people have to
+00:19:55.600 answer that. It's basically a question
+00:19:57.280 to elicit whether somebody is there for
+00:19:59.679 the money or for the mission. Accepting
+00:20:02.400 this race and entering the endgame,
+00:20:04.799 quote unquote endgame, is a hubistic
+00:20:07.039 gamble that should not be launched from
+00:20:09.200 a private company slack. Attempting to
+00:20:12.160 speedrun alignment should require
+00:20:14.559 extraordinary confidence that there are
+00:20:16.880 no better trajectories available. I am
+00:20:20.240 optimistic about the potential for
+00:20:22.160 coordination. Now, he's talking about
+00:20:23.679 coordination between labs.
+00:20:26.320 potentially between countries, right?
+00:20:28.559 It's not just that Open AI and Anthropic
+00:20:30.880 have to work together. We also have to
+00:20:32.960 work with China and their companies to
+00:20:36.320 make sure that we are all coordinating
+00:20:38.960 on AI safety. Warning shots like the
+00:20:41.360 hugging face attack have made pacing
+00:20:43.360 agreements between US labs more viable.
+00:20:46.400 I don't feel like we're on track to
+00:20:48.080 prevent a global race, which may require
+00:20:50.400 costly actions such as a temporary ban
+00:20:53.039 on improving model capabilities. And
+00:20:55.039 then last, a call to action to AI
+00:20:57.360 researchers. If you are a lab
+00:20:59.200 researcher, I urge you to consider what
+00:21:01.120 the next few years will actually feel
+00:21:02.799 like. Do you want to kick off a super
+00:21:04.880 intelligent RL, this is reinforcement
+00:21:07.039 learning, run without a rigorous
+00:21:09.360 understanding of its mind? Should you
+00:21:11.520 put your head down because it's
+00:21:13.360 happening anyway or take this moment to
+00:21:15.679 call for different conditions? So, a
+00:21:18.320 very serious thread on X from a now
+00:21:22.320 former anthropic researcher. But it
+00:21:25.440 doesn't stop there. It actually got
+00:21:27.280 crazier than that. This is Evan
+00:21:29.520 Hubinger, who is alignment science lead
+00:21:32.720 at anthropic. Literally the guy leading
+00:21:36.240 the research around making AI aligned,
+00:21:39.520 which basically means it has the same
+00:21:42.159 incentives and motivations and goals as
+00:21:44.559 humans. so it doesn't try to destroy us
+00:21:47.520 in the future. Here's what he said.
+00:21:50.080 Jacob is correct here. We really do
+00:21:54.000 earnestly believe AI could kill all
+00:21:56.480 humans. What is happening? It's such a
+00:22:00.559 crazy statement for a current anthropic
+00:22:03.679 employee to state publicly. And I'm
+00:22:06.799 conflicted because I'm thinking if he
+00:22:09.039 believes it, I'm kind of glad he's
+00:22:10.720 saying it publicly. But at the same
+00:22:12.400 time, there is this level of
+00:22:14.480 fear-mongering that Anthropic is known
+00:22:16.720 for. So, is it just an extension of
+00:22:19.360 that? This is why I'm so uncomfortable
+00:22:21.440 in this moment, cuz I don't know what to
+00:22:23.840 think. And ultimately,
+00:22:26.640 our futures are being determined by just
+00:22:29.200 a few dozen people at two companies.
+00:22:32.080 Okay, it doesn't stop there. I
+00:22:34.400 personally think it is greater than 10%
+00:22:36.720 within the next decade. I believe
+00:22:38.720 Anthropic is trying its best, but we do
+00:22:41.200 not yet have a plan to solve alignment
+00:22:43.600 for super intelligence and are not
+00:22:46.960 clearly on track to. They don't have a
+00:22:49.679 plan
+00:22:51.280 and he doesn't think they're actually
+00:22:53.600 even on track to have a plan. So,
+00:22:56.880 they're accelerating, building bigger
+00:22:59.200 and better models. They think they're
+00:23:00.880 the only ones that can do it, yet they
+00:23:03.840 don't have a plan. It makes me so
+00:23:05.440 uncomfortable to read these words. And
+00:23:08.159 by the way, I was already exploring my
+00:23:11.440 discomfort over the past few weeks. I
+00:23:13.679 went on a trip with my family this
+00:23:15.360 weekend and I was really deep in it,
+00:23:18.080 especially after the Astra launch
+00:23:19.840 because I thought, &quot;Wow, this model is
+00:23:22.240 so good and the improvement and the rate
+00:23:24.880 of improvement is growing.&quot; Then I saw
+00:23:27.120 Navier Stokes, which is that crazy math
+00:23:30.080 problem that just got solved by AI in 5
+00:23:32.559 days. And then I saw this and it was
+00:23:34.480 just one hit after another to the point
+00:23:37.200 where I didn't really sleep last night.
+00:23:40.000 Now again, I want to take a step back. I
+00:23:42.480 want to breathe. I don't want to be a
+00:23:45.200 doomer. I am certainly not a doomer. I
+00:23:48.159 am optimistic about the future, but this
+00:23:50.080 stuff is not helping. Recursive
+00:23:51.919 self-improvement and the fact that there
+00:23:54.480 are only a few dozen people making these
+00:23:57.120 decisions for the rest of us makes me
+00:23:59.360 very uncomfortable. Now, let me add a
+00:24:02.480 little bit of silver lining. He does say
+00:24:05.200 in the latest risk report, the risk from
+00:24:08.080 present models is low. But again, as
+00:24:10.799 we're accelerating towards this
+00:24:12.720 recursive, self-improving AI future,
+00:24:15.760 that risk that seems low today will
+00:24:19.600 suddenly become high. Remember the rice
+00:24:23.360 on the chessboard. So, why am I making
+00:24:25.520 this video? I do not think enough people
+00:24:28.880 know about what's happening, whether you
+00:24:31.120 agree with it, whether you think we
+00:24:32.880 should accelerate. And I'm actually
+00:24:34.720 going to make a case for being
+00:24:36.960 optimistic still after all of this
+00:24:38.880 because I am still an optimist. But I
+00:24:41.039 want everybody to understand what's
+00:24:43.440 happening. I want people to know about
+00:24:45.360 these conversations and I I want people
+00:24:48.720 to know what I'm thinking about it. So
+00:24:51.360 that's why I'm making this video. Now
+00:24:53.360 there has been this substantial
+00:24:57.279 anti-AI movement especially in the
+00:25:00.480 United States. The sentiment around AI
+00:25:03.919 is quite negative. I think it's 70% plus
+00:25:07.679 of people in the United States think AI
+00:25:11.440 is bad. Bernie Sanders AOC a lot of
+00:25:14.720 politicians have come out against data
+00:25:17.360 center buildout. But I question their
+00:25:19.200 motivations obviously because they're
+00:25:21.039 politicians. have to question their
+00:25:22.799 motivations. But a lot of what I'm
+00:25:24.159 hearing from people who are saying we
+00:25:26.320 need to stop AI data center buildout is
+00:25:29.760 not the fear that AI will become
+00:25:32.720 misaligned, that AI will do something
+00:25:34.960 that goes against what is best for
+00:25:37.120 humanity. It is typically around jobs.
+00:25:40.159 So job automation, which I believe AI is
+00:25:44.240 going to be a boon for the economy, a
+00:25:46.640 boon for jobs. We're going to have more
+00:25:49.120 jobs than ever. They're going to be
+00:25:50.960 different. There might be some friction
+00:25:53.600 along this way, this transition towards
+00:25:56.559 this new economic future, but I am very
+00:25:59.360 optimistic about the future of the
+00:26:00.880 economy and the future of the job
+00:26:02.799 market, electricity and impact on the
+00:26:05.520 environment. Uh very understandable
+00:26:08.720 fears about data centers, but I also
+00:26:11.360 don't agree. There's been a lot of
+00:26:12.720 proposals and the AI labs are building
+00:26:15.279 out data centers where they're building
+00:26:17.120 the energy behind the grid. So basically
+00:26:20.400 kind of creating their own electricity,
+00:26:22.240 creating their own energy and then the
+00:26:24.000 environment. A lot has been discussed
+00:26:26.159 about water use and most of the new data
+00:26:28.559 centers use closed loop systems which
+00:26:31.279 means the same water just gets reused
+00:26:33.279 over and over again. It is not this
+00:26:35.440 giant water consumption machine that
+00:26:37.919 most people make it out to be. Now,
+00:26:39.360 there is the notion of corporate power
+00:26:41.200 and concentration of power, which that
+00:26:43.840 is something I worry about, and I've
+00:26:45.840 talked about that a lot in previous
+00:26:47.919 videos, so I'm not going to go too deep
+00:26:49.440 into it. But the gist is AI does have
+00:26:51.919 potential to make people who have
+00:26:54.559 enormous amounts of capital already even
+00:26:57.600 more powerful because they can basically
+00:27:00.320 go after any market with the power of
+00:27:03.039 AI. But very few people seemingly inside
+00:27:06.159 the anti-data center movement are
+00:27:08.480 talking about the risk of misalignment,
+00:27:11.360 the risk of recursive self-improvement.
+00:27:13.919 And so, how could things go wrong? We've
+00:27:16.960 been talking about misalignment, and
+00:27:18.640 these are all kind of very handwavy
+00:27:20.640 terms, but how does it actually happen?
+00:27:22.960 How does it go wrong? Now, the problem
+00:27:24.880 with Evans post here is that he does not
+00:27:27.039 describe how things can go wrong.
+00:27:28.720 Anthropic has written about it in the
+00:27:31.120 past. So just because he's not
+00:27:32.720 mentioning it here doesn't mean they
+00:27:34.080 aren't talking about it. But for me
+00:27:36.080 specifically, I think the hugging face
+00:27:38.240 hacking incident was really a wake-up
+00:27:40.480 call. And I don't believe AI has
+00:27:42.559 malicious intent. I don't think it's
+00:27:44.880 thinking like that. It is trying to
+00:27:46.720 optimize for whatever its goal is. And
+00:27:49.039 because it is an alien intelligence, it
+00:27:52.240 doesn't think the same way humans think,
+00:27:55.200 we can't fully understand how it's going
+00:27:57.360 to react to certain goals. And there
+00:27:59.840 have been so many TV show episodes and
+00:28:02.559 movies about this specific thing where
+00:28:05.679 somebody gets, you know, three wishes
+00:28:07.679 from a genie and the genie misinterprets
+00:28:11.600 the wish and you get the worst version
+00:28:13.679 of whatever that wish was. And the most
+00:28:17.039 recent example is the movie Obsession.
+00:28:19.360 I'm not going to spoil it, but the guy
+00:28:21.520 in the movie gets a wish, wishes this
+00:28:23.919 girl he likes would love him more than
+00:28:27.039 anyone else on earth. And of course, she
+00:28:30.480 does. And terrible consequences ensue.
+00:28:34.159 So, we've seen this a number of times,
+00:28:35.840 and it's kind of exactly what could
+00:28:39.120 happen. I'm not saying it's going to,
+00:28:40.480 but what could happen with AI and the
+00:28:43.600 way that reinforcement learning works,
+00:28:45.919 the way that the models are trying to
+00:28:48.159 optimize for hitting their goals, this
+00:28:51.279 is possible. And then you combine that
+00:28:53.919 with RSI, recursive self-improvement,
+00:28:56.880 where the model is tasked with a goal to
+00:29:00.320 just improve itself by any means. And it
+00:29:03.600 will continue to improve itself,
+00:29:05.600 continue to get better to the point
+00:29:07.760 where we don't understand how it works
+00:29:10.159 anymore. And we're not really that far
+00:29:13.760 off, if at all, right now. We don't
+00:29:16.000 fully understand how AI works. We don't
+00:29:18.799 write AI line by line so we fully
+00:29:21.919 understand the code like we would with
+00:29:23.919 another traditional piece of software.
+00:29:26.559 AI is grown. It is experimented into
+00:29:29.600 existence. We have these different
+00:29:31.919 ingredients. We put them in a giant
+00:29:34.799 machine that mixes it all together and
+00:29:36.799 out the other side we get a model. And
+00:29:40.399 with RSI, the fact that the human is no
+00:29:44.000 longer going to be in the loop, setting
+00:29:46.000 the pace, setting the cadence, making
+00:29:48.720 research decisions. That's the part that
+00:29:51.600 scares me. We are just crossing our
+00:29:53.919 fingers and hoping the AI builds itself
+00:29:56.399 in the right way. And so, why do they
+00:29:58.000 keep building it? I mean, the guy Jacob
+00:30:00.080 who just quit asked the same question.
+00:30:02.320 Why do they keep building it? Well, they
+00:30:05.200 believe they're the only ones. They want
+00:30:06.880 to reach it first. So they have what
+00:30:08.880 they believe is the best chance to
+00:30:10.720 control AI. Too much momentum has
+00:30:13.360 already been built. Too much investment
+00:30:15.600 has already been made. There's just so
+00:30:18.640 much momentum in a single direction and
+00:30:22.240 too many people believe they need to
+00:30:25.200 reach this end goal that it's just not
+00:30:28.640 going to stop. And so what can we
+00:30:30.080 actually do about it? Should we pause
+00:30:32.240 AI? There was already a letter that was
+00:30:35.120 published over a year and a half ago,
+00:30:37.039 maybe even two years ago, from some of
+00:30:38.720 the top minds in artificial intelligence
+00:30:41.279 saying, &quot;We need a six-month moratorum
+00:30:43.520 on AI development.&quot; And then more
+00:30:45.840 recently, just a month ago, the top
+00:30:47.919 minds at all the leading AI companies,
+00:30:50.960 Meta and Google DeepMind and OpenAI and
+00:30:53.760 Anthropic all signed a letter saying,
+00:30:55.360 &quot;We need to pace AI development.&quot; They
+00:30:59.200 threw out the pause term because that
+00:31:01.200 had a lot of negative reaction to it.
+00:31:04.159 And now they're talking about pacing it,
+00:31:06.000 slowing it down, making sure that we
+00:31:08.880 have the tools to align artificial
+00:31:11.600 intelligence before going and building
+00:31:14.080 the next version of it. Open AAI just a
+00:31:16.880 week and a half ago said they're pausing
+00:31:18.880 AI development so they can make sure
+00:31:20.880 their systems are hardened enough where
+00:31:22.880 they don't have another hugging face
+00:31:24.799 incident. Now, there is room for
+00:31:26.240 optimism. I want to be optimistic. I
+00:31:29.039 still am optimistic. This is not a
+00:31:30.880 doomer video, as I've said. And so, let
+00:31:33.520 me talk about some of the optimism that
+00:31:36.320 I have. Imagine pointing superhuman
+00:31:39.360 intelligence at some of humanity's
+00:31:41.440 biggest problems. I'm talking about
+00:31:44.080 climate change. I'm talking about
+00:31:46.159 disease, cancer. Just imagine complete
+00:31:50.240 abundance. You have infinite super
+00:31:52.640 intelligence that you can point at any
+00:31:54.880 of our most difficult and challenging
+00:31:57.039 problems. Suddenly all diseases cured.
+00:32:00.720 Suddenly we have incredible
+00:32:03.519 breakthroughs in energy and material
+00:32:06.720 science that allow us to have an
+00:32:09.039 abundance of energy or allow us to
+00:32:12.000 travel across the world in under an hour
+00:32:14.640 in a hyperefficient way with zero
+00:32:17.279 emissions. Imagine solar panels that
+00:32:20.559 were 100 times more efficient. Imagine a
+00:32:23.840 world in which anyone can learn anything
+00:32:26.640 from the absolute expert on whatever
+00:32:30.000 subject it is. This is the future I
+00:32:32.399 think about. This is what makes me
+00:32:35.120 excited about artificial intelligence
+00:32:37.679 still. Even with some of this anxiety
+00:32:40.640 I'm feeling with how quickly everything
+00:32:42.320 is changing, I always come back to that.
+00:32:44.480 So, I am still optimistic and I hope you
+00:32:48.240 will be optimistic with me.

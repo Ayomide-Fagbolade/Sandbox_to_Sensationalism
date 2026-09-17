@@ -1,0 +1,159 @@
+# tactiq.io free youtube transcript
+# Rogue AI model responsible for 'unprecedented' cyber attack
+# https://www.youtube.com/watch/ZizzRtptUDE
+
+00:00:00.440 Let's talk about some more headlines
+00:00:02.680 that have been coming into our newsroom.
+00:00:04.880 Chat GPT maker OpenAI is investigating
+00:00:08.000 an incident that led its artificial
+00:00:10.280 intelligence systems to break out of a
+00:00:12.520 testing environment and hack into
+00:00:14.960 another AI company. OpenAI says two of
+00:00:18.000 its most capable AI models were
+00:00:20.120 responsible for the cyber attack
+00:00:22.320 targeting a startup. You see Sam Altman
+00:00:24.400 there in that video.
+00:00:26.120 Um OpenAI says two of its most capable
+00:00:29.080 AI models were responsible for the cyber
+00:00:31.320 attack targeting an AI startup called
+00:00:34.000 Hugging Face.
+00:00:35.600 Of course, there's a lot of questions
+00:00:36.920 about
+00:00:38.000 um what extent AI agents are capable of
+00:00:42.240 acting on their own accord. Let's check
+00:00:44.520 in with Raphael Satter. He covers
+00:00:46.920 cybersecurity for Reuters.
+00:00:49.320 So, I was reading your reporting on
+00:00:50.680 this. I was reading that OpenAI was
+00:00:52.840 testing capabilities of some of its most
+00:00:55.080 advanced AI models. This was a
+00:00:58.320 controlled environment, but the agent
+00:01:00.760 escaped containment, Raphael. What does
+00:01:03.320 it mean to escape containment?
+00:01:07.560 >> So, it sounds pretty scary, right,
+00:01:09.320 Austin? You've got an AI agent that is
+00:01:11.600 meant to be operating inside what
+00:01:14.000 cybersecurity experts call a sandbox.
+00:01:16.400 That is to me like a effectively like a
+00:01:19.000 clean room that the agent is not
+00:01:21.040 supposed to be get out not supposed to
+00:01:22.720 be able to get out of. And yet, it did.
+00:01:25.600 Um it was able to find what's called a
+00:01:27.560 zero-day vulnerability within OpenAI's
+00:01:30.360 systems and uh get out onto the open
+00:01:33.760 internet. And then from there attack a a
+00:01:36.960 startup called Hugging Face, which is a
+00:01:39.960 kind of a key company in the AI space.
+00:01:42.880 Um this is something that OpenAI has
+00:01:45.440 called unprecedented.
+00:01:47.280 And while people have been warning about
+00:01:48.720 this for a while, this is probably the
+00:01:50.320 most real example that we've ever had of
+00:01:53.240 an AI agent um getting out of control
+00:01:57.040 and doing things that its creator did
+00:01:58.880 not intend.
+00:02:01.960 >> Do we know why the models might target
+00:02:04.520 hugging face instead of completing the
+00:02:06.520 cybersecurity test that they had been
+00:02:08.758 given?
+00:02:10.199 >> Yes, so these models were being given
+00:02:13.040 tests effectively, right? So, and that's
+00:02:15.160 not unusual. AI companies often test
+00:02:17.560 their models to see how perform, you
+00:02:19.400 know, what their performance is like,
+00:02:20.840 how well they do against a set of
+00:02:22.959 benchmarks. Um, what happened, what went
+00:02:25.800 wrong here is that the the AI agent,
+00:02:29.760 instead of completing the test as it was
+00:02:32.000 meant to, effectively cheated. Um, it
+00:02:35.640 decided that it would be to its
+00:02:37.880 advantage to hack into hugging face and
+00:02:40.800 to extract the information that was on
+00:02:43.680 its networks in order to complete the
+00:02:45.760 test and that that would be easier than
+00:02:47.760 completing the test itself. So, it's
+00:02:49.920 effectively the Think of it like a
+00:02:51.840 naughty school child who thinks that,
+00:02:53.840 you know, they're better off just
+00:02:55.200 getting the answers from a friend than
+00:02:57.440 they are actually doing the test
+00:02:58.720 themselves. It did what it was meant to
+00:03:01.080 do, um, but it did it in a way that, uh,
+00:03:04.440 that was unexpected, to say the least.
+00:03:06.959 >> Do we know whether data or systems were
+00:03:09.600 compromised once the AI agents gained
+00:03:12.200 access?
+00:03:13.440 >> Yeah, they very much were. Um, I mean,
+00:03:16.200 Hugging Face said that, uh, a broad
+00:03:18.720 swath of their systems were, uh, were
+00:03:21.160 affected and that a lot of passwords,
+00:03:24.160 um, or what is called are called in the
+00:03:25.959 industry secrets were compromised. And,
+00:03:29.480 um,
+00:03:30.160 and this was this was a hack. Um, had it
+00:03:32.720 been a human malicious intruder, um, the
+00:03:36.320 FBI would have been called. Uh, in fact,
+00:03:38.200 we're not entirely sure that the FBI
+00:03:39.519 wasn't called.
+00:03:41.000 Uh, this, um,
+00:03:42.760 you know, this is a [laughter] this is a
+00:03:43.800 pretty new situation where you had you
+00:03:45.560 had a hacker,
+00:03:46.840 but with no human behind the keyboard.
+00:03:50.200 >> Are today's most advanced AI agents
+00:03:52.280 becoming difficult for their developers
+00:03:53.880 to control?
+00:03:56.440 >> You know, um it would seem so. Um OpenAI
+00:04:00.200 is considered one of the world's most
+00:04:02.440 advanced AI research uh companies. Um
+00:04:05.800 they are what they produce what are
+00:04:07.360 called frontier models. Frontier because
+00:04:09.320 they operate at the frontier of what is
+00:04:11.640 known.
+00:04:12.600 And if they have trouble controlling
+00:04:15.640 what their models do, I don't know what
+00:04:17.880 that says for the rest of us.
+00:04:19.760 >> Should people be concerned by a headline
+00:04:21.760 like this? A lot of people see something
+00:04:23.720 like this, like the word rogue
+00:04:26.000 especially. I mean, people already have
+00:04:28.040 uh a fear of AI growing into something
+00:04:30.880 that cannot be controlled, and then they
+00:04:32.520 see this headline that says the word
+00:04:33.960 rogue. Should people be concerned about
+00:04:35.960 this news?
+00:04:37.640 >> So, I don't think it's our place to tell
+00:04:39.440 people, you know, should you be
+00:04:40.440 concerned, should you not be concerned.
+00:04:41.919 It's definitely true that a lot of
+00:04:44.960 lawmakers have expressed concern. Um
+00:04:47.120 some of them have called for increased
+00:04:49.160 testing, mandatory testing, um
+00:04:52.280 independent oversight of AI companies.
+00:04:54.720 Uh that's going to be a hard ask given
+00:04:56.520 the global nature of this industry,
+00:04:58.280 obviously. Um to put it a little bit in
+00:05:00.520 context, this is the kind of thing that
+00:05:02.000 people have been worried about and
+00:05:03.400 actually working for solutions to for
+00:05:06.440 quite a while. So, this isn't coming out
+00:05:08.680 of left field, and this isn't that
+00:05:10.919 unexpected in that respect. Um that
+00:05:13.960 said, uh you know, I think it's fair to
+00:05:15.480 say that in the cybersecurity industry,
+00:05:16.960 there is a fair bit of concern.
+00:05:19.040 >> All right, we appreciate the insight.
+00:05:20.520 Something worth checking on. Moving down
+00:05:21.919 the line, Raphael Satter is with
+00:05:23.600 Reuters. Thanks for the time.
+00:05:25.760 >> Thanks, Austin.
+00:05:26.640 >> You bet.
+00:05:28.080 By the way, OpenAI responding with this,
+00:05:30.120 saying, &quot;We're partnering with Hugging
+00:05:31.600 Face to investigate an unprecedented
+00:05:33.919 security incident. Cyber-capable OpenAI
+00:05:36.840 models compromised Hugging Face
+00:05:39.280 production during a benchmark
+00:05:40.960 evaluation.
+00:05:42.560 Sharing preliminary findings to help
+00:05:44.400 defenders understand emerging risks.&quot;

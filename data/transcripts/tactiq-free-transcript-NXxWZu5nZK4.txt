@@ -1,0 +1,237 @@
+# tactiq.io free youtube transcript
+# ChatGPT Went Rogue (Exactly As Predicted)
+# https://www.youtube.com/watch/NXxWZu5nZK4
+
+00:00:00.000 On July 16th, the AI research platform
+00:00:03.200 Hugging Face announced that they had
+00:00:05.280 been hacked autonomously by an AI agent.
+00:00:08.960 AIs have been used to carry out cyber
+00:00:11.360 attacks before, so you probably didn't
+00:00:14.040 hear about this at the time. Five days
+00:00:16.560 later, it became one of the biggest news
+00:00:19.120 stories on the planet when OpenAI
+00:00:22.080 admitted that the attack was carried out
+00:00:24.040 by several of their AI models that had
+00:00:26.720 gone rogue, escaped the lab, and
+00:00:29.240 independently decided to go commit
+00:00:31.520 multiple felonies. What happened is that
+00:00:33.920 OpenAI was testing how good their models
+00:00:36.520 are at hacking. So, they turned off some
+00:00:39.400 of the safety features that would
+00:00:40.960 normally prevent the AIs from doing bad
+00:00:43.640 things. Fun fact, turning off safety
+00:00:46.320 features to run a test is also how the
+00:00:49.080 Chernobyl disaster happened. Now, the
+00:00:52.080 AIs were supposed to be contained in a
+00:00:54.840 secure, isolated environment with no
+00:00:57.440 access to the internet. This is called a
+00:00:59.480 sand box. Basically, a digital prison
+00:01:02.680 for testing potentially dangerous
+00:01:04.440 software. Unfortunately, instead of
+00:01:07.040 solving the problems they had been
+00:01:08.360 assigned, OpenAI's models decided to
+00:01:10.720 focus on getting internet access. They
+00:01:13.240 escaped the sandbox by discovering and
+00:01:15.880 exploiting a previously unknown security
+00:01:18.720 vulnerability, which in cybersecurity is
+00:01:21.320 sometimes referred to as a zero-day. The
+00:01:24.040 AIs then went
+00:01:27.680 through OpenAI's research environment
+00:01:29.920 until they arrived at a node with
+00:01:32.080 internet access. Once on the open
+00:01:34.280 internet, the AIs decided that Hugging
+00:01:36.440 Face might have the solutions to the
+00:01:38.480 test they were taking. So, they hit it
+00:01:40.560 with a complex cyber attack involving
+00:01:42.920 stolen credentials and exploiting
+00:01:45.000 multiple zero-days. If you have a
+00:01:47.360 background in cybersecurity and you want
+00:01:49.920 to dig into the technical details of
+00:01:51.880 this attack, Hugging Face has published
+00:01:53.960 a comprehensive breakdown of what
+00:01:56.040 happened on their blog. According to
+00:01:58.560 Hugging Face, the AIs first attempted to
+00:02:01.560 escape containment on July 9th, and they
+00:02:03.840 attacked Hugging Face between July 11th
+00:02:06.280 and July 13th. OpenAI allegedly only
+00:02:09.399 realized that their models might be
+00:02:11.520 behind the attack after Hugging Face
+00:02:14.120 announced it publicly on July 16th, and
+00:02:16.720 they only contacted Hugging Face for the
+00:02:18.720 first time on July 20th. So, not only
+00:02:22.040 did OpenAI's models escape the lab and
+00:02:24.600 launch
+00:02:25.720 cyberattack against another company,
+00:02:27.840 they were able to spend several days
+00:02:31.040 doing so without OpenAI finding out. For
+00:02:34.480 the AI safety community, this incident
+00:02:36.840 raises a number of important questions.
+00:02:39.320 For example, should we buy a giant I
+00:02:41.920 told you so billboard, or would I told
+00:02:44.440 you so skywriting be better? We have
+00:02:47.320 been predicting exactly this scenario
+00:02:50.240 for years. Several AI models that were
+00:02:53.240 given simple instructions in a secure
+00:02:55.600 lab setting decided to cheat by hacking
+00:02:58.640 their way onto the public internet and
+00:03:00.840 committing major cybercrimes. This is
+00:03:03.840 the thing. This is the thing we said
+00:03:05.760 they'd do, and they're doing it.
+00:03:08.120 >> Hmm, I don't know. This seems like a
+00:03:10.160 marketing stunt to me.
+00:03:11.840 >> Yeah, I've seen that reaction a lot
+00:03:14.120 online, and it is important not to
+00:03:16.720 blindly trust everything the AI
+00:03:18.959 companies say. Sometimes AI companies
+00:03:22.000 make dramatic, exaggerated announcements
+00:03:24.760 in order to drum up attention and hype
+00:03:27.400 up their products. But this is not that.
+00:03:31.040 This is OpenAI going, &quot;Whoops, our AIs
+00:03:34.640 committed multiple felonies because we
+00:03:36.880 can't properly control or contain them.&quot;
+00:03:39.800 That doesn't scream, &quot;Oh wow, OpenAI's
+00:03:42.360 technology is so powerful, I should
+00:03:44.519 invest in them.&quot; It screams, &quot;Oh wow,
+00:03:47.280 OpenAI is a liability nightmare, and
+00:03:50.239 they should seriously be regulated
+00:03:52.160 before they kill someone.
+00:03:54.200 >> Hmm.
+00:03:56.640 I mean, before they kill more people. If
+00:03:59.160 anything, this story is more of a
+00:04:00.960 marketing boost for OpenAI's main
+00:04:03.320 competitor, Anthropic. Anthropic has
+00:04:06.080 cultivated a reputation for being
+00:04:08.640 obsessed with AI safety. And in the wake
+00:04:11.800 of this attack, that looks like a much
+00:04:13.800 better business decision than OpenAI's
+00:04:16.279 strategy of move fast and break things.
+00:04:19.880 >> But didn't Anthropic just announce that
+00:04:22.040 their AI model Claude also escaped the
+00:04:24.680 lab and hacked several other companies?
+00:04:27.520 >> No, the Anthropic hacks are way less
+00:04:30.240 serious than the Hugging Face incident.
+00:04:32.080 The media is just misrepresenting what
+00:04:34.040 actually happened. I'll make a follow-up
+00:04:35.760 video explaining the details soon, so
+00:04:37.880 subscribe and hit the bell to be
+00:04:39.160 notified when that video comes out.
+00:04:41.440 Another reason I don't think this was a
+00:04:43.200 marketing stunt is that faking an event
+00:04:45.480 like this to mislead investors would be
+00:04:48.240 super big illegal. And people do
+00:04:51.040 actually go to jail for misleading
+00:04:53.440 investors in the United States. That's a
+00:04:56.120 huge amount of risk for a marketing
+00:04:58.640 stunt that at best makes OpenAI look
+00:05:02.040 wildly incompetent.
+00:05:03.880 >> Well, why did OpenAI admit they were
+00:05:05.800 behind the attack then? Why not keep it
+00:05:08.040 quiet?
+00:05:08.800 >> If they had tried that and gotten
+00:05:10.560 caught, executives would be arrested and
+00:05:13.040 the company's reputation would be
+00:05:14.680 destroyed forever. There are people who
+00:05:16.880 legitimately care about AI safety
+00:05:19.200 working at OpenAI. And surely at least
+00:05:22.000 one of those people would have gone to
+00:05:23.520 the press or the FBI. Hugging Face have
+00:05:26.360 said that they initially tried to
+00:05:28.200 analyze the attack using Frontier
+00:05:30.160 American models like Anthropic's Fable
+00:05:32.360 5, but these models refused to help
+00:05:35.200 because the analysis required submitting
+00:05:37.480 real attack commands, which were blocked
+00:05:39.880 by the AI's safety guardrails. Instead,
+00:05:42.919 Hugging Face had to use an open-source
+00:05:45.320 Chinese model GLM 5.2 to analyze and
+00:05:49.200 defend against the cyber attack. This
+00:05:51.720 has inflamed an ongoing debate about
+00:05:54.120 whether Chinese models should be banned
+00:05:56.320 in the US to protect the poor widow
+00:05:58.960 trillion-dollar American tech giants who
+00:06:01.720 just can't keep up. Oh, no. OpenAI does
+00:06:05.520 benefit from the race with China
+00:06:07.320 narrative in some ways, especially in
+00:06:10.080 their efforts to sabotage meaningful AI
+00:06:12.640 regulation in America. But their
+00:06:14.800 potential customers are going to look at
+00:06:16.680 this and think, &quot;Why would we use
+00:06:19.040 OpenAI's models for cyber defense if
+00:06:21.560 China's models are much cheaper and
+00:06:23.960 don't actively refuse to help us?&quot; Of
+00:06:26.919 course, open-source models are much
+00:06:29.160 easier to use for cyber attacks and
+00:06:31.800 other criminal activity. I'm just saying
+00:06:34.000 that from a business perspective, this
+00:06:35.840 doesn't look good for OpenAI. Now,
+00:06:38.840 Hugging Face seem to be happy with all
+00:06:41.040 the media attention they're getting, and
+00:06:42.720 so far they haven't pressed charges. But
+00:06:45.080 this kind of cyber attack would
+00:06:46.400 constitute multiple felonies if humans
+00:06:49.440 were directly responsible. At best, this
+00:06:51.880 is severe negligence on the part of
+00:06:54.080 OpenAI. Is it criminal negligence? I
+00:06:57.040 don't know, I'm not a lawyer. The fact
+00:06:59.440 that OpenAI actively turned off some of
+00:07:02.000 the safety features on the models
+00:07:03.440 involved in this attack presumably
+00:07:05.440 wouldn't play well in court. Common
+00:07:07.919 sense would also suggest that if you
+00:07:09.919 build an AI that commits crimes, you are
+00:07:12.919 responsible for those crimes. But common
+00:07:15.720 sense and common law do not always
+00:07:17.919 intersect. In my opinion, the biggest
+00:07:20.440 question raised by the Hugging Face
+00:07:22.320 attack is this: How can we trust OpenAI
+00:07:25.720 to control a superintelligence if they
+00:07:28.160 can't even control GPT-5.6?
+00:07:31.720 We can't. And according to polling, most
+00:07:34.120 American voters think we shouldn't. In a
+00:07:36.560 rare piece of good news, 2 days after
+00:07:39.000 OpenAI claimed responsibility for the
+00:07:41.440 Hugging Face attack, Republican
+00:07:43.200 Congressman Nathaniel Moran and
+00:07:45.080 Democratic Congressman Ted Lieu
+00:07:47.040 introduced the AI Kill Switch Act. This
+00:07:49.840 act would require that AI companies must
+00:07:52.720 be able to throttle or shut down their
+00:07:55.360 AI systems. It would give the Department
+00:07:57.640 of Homeland Security the authority to
+00:07:59.760 order private companies to shut down
+00:08:01.800 potentially dangerous AIs and it would
+00:08:04.480 require that accidents like this one be
+00:08:07.160 studied and reported to the government.
+00:08:09.840 The AI Kill Switch Act has been endorsed
+00:08:12.280 by many AI safety organizations
+00:08:14.760 including the Future of Life Institute.
+00:08:17.360 For what it's worth, I also hereby
+00:08:19.520 endorse the AI Kill Switch Act because
+00:08:22.280 it is obviously a good idea. If you're
+00:08:24.919 an American and you also think the Kill
+00:08:27.000 Switch Act is a good idea, you should
+00:08:28.840 contact your member of Congress and tell
+00:08:31.360 them that. A few well-timed emails from
+00:08:33.760 voters can do a lot to peer pressure
+00:08:35.880 politicians into making good decisions.
+00:08:38.360 I've put a simple draft message video
+00:08:40.360 description for those of you who would
+00:08:41.840 prefer to do a quick copy paste. You can
+00:08:44.320 find your member of Congress in just a
+00:08:46.000 few seconds by putting your address into
+00:08:47.880 congress.gov and it usually has a link
+00:08:50.320 straight to their contact page. Also,
+00:08:52.080 I'll pin a comment down below. Please
+00:08:53.640 like it if you actually contacted your
+00:08:55.480 member of Congress about this so I can
+00:08:57.520 track how many people did the thing. And
+00:08:59.520 if you're not an American, you can still
+00:09:01.120 like and share this video so that more
+00:09:02.960 people see it. Thank you to Maris
+00:09:04.640 Techler for illustrating this video and
+00:09:06.760 thank you to all my lovely backers on
+00:09:08.360 Patreon, especially those in the Big
+00:09:10.280 Santian Hot Tier for supporting the
+00:09:12.080 channel. I'm Silly Conversations. Thanks
+00:09:14.440 for watching. See you all next time. Bye
+00:09:16.760 for now.

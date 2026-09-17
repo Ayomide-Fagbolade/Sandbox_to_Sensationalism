@@ -1,0 +1,436 @@
+# tactiq.io free youtube transcript
+# The AI Models Escaped.
+# https://www.youtube.com/watch/tCzdgOg301Q
+
+00:00:00.000 We have some new details that came out
+00:00:01.600 about the Open AI Hugging Face attack,
+00:00:03.680 some timelines, and some CVEs that
+00:00:06.120 ultimately left me with more questions
+00:00:08.360 than answers.
+00:00:09.520 Now, if you're not sure what I'm talking
+00:00:10.720 about, it last week on the 21st, Open AI
+00:00:13.000 disclosed that they, the company,
+00:00:15.200 accidentally hacked another company.
+00:00:17.240 Accidentally is is in quotes. There's
+00:00:18.920 some questions that I have about that.
+00:00:20.080 Uh but basically, what occurred, right,
+00:00:21.320 is Open AI, while trying to evaluate its
+00:00:23.520 frontier new model on cyber benchmarks,
+00:00:25.920 right, the ability to find and exploit
+00:00:27.680 vulnerabilities, um that it escaped the
+00:00:29.680 cage, right, the sandbox they put it in,
+00:00:31.520 and it eventually went and hacked
+00:00:33.040 Hugging Face in an attempt to find the
+00:00:35.360 answers to this benchmark, right, this
+00:00:36.800 benchmark being exploit bench that
+00:00:38.400 they're able to use to figure out how
+00:00:39.600 good are you at exploiting
+00:00:40.880 vulnerabilities. Now, when this first
+00:00:42.520 came out, there were almost no details,
+00:00:44.680 right? We knew nothing except for the
+00:00:45.840 fact that Hugging Face disclosed a new
+00:00:47.760 kind of security incident over the
+00:00:49.200 weekend, and then that Tuesday, this
+00:00:50.880 report from Open AI came out saying,
+00:00:52.840 &quot;Hey guys, that hack you saw was us. Our
+00:00:55.360 bad.&quot; And the world was kind of just
+00:00:56.480 waiting for more detail to come out,
+00:00:57.960 right? cuz there were claims in this
+00:00:59.320 article that one, the Open AI model
+00:01:01.840 found a vulnerability in a proxy
+00:01:03.960 software and exploited that to escape
+00:01:05.800 its sandbox into the internet, and then
+00:01:07.760 two, it exploited other zero-day
+00:01:09.720 vulnerabilities in Hugging Face and
+00:01:11.760 completely owned their infrastructure to
+00:01:13.760 get access to the exploit bench models.
+00:01:15.320 Like, insane stuff. Now, the first
+00:01:16.960 question that everyone had, right, was
+00:01:18.440 like, &quot;How the hell did the model, the
+00:01:20.120 model in quotes, it's not really the
+00:01:21.160 model, it's like the actions the model
+00:01:22.720 are taking, how did those escape Open AI
+00:01:25.280 infrastructure, right? How did How did
+00:01:26.520 it escape the sandbox?&quot; A lot of the
+00:01:28.600 questions that cyber practitioners had
+00:01:30.760 is, &quot;How are Open AI, the security team
+00:01:33.320 there, not doing like the basic network
+00:01:36.400 monitoring and network firewalling to
+00:01:38.480 prevent the machine that has the Open AI
+00:01:40.880 model on it from leaving the network?&quot;
+00:01:42.760 Guys, I know we talk a lot on this
+00:01:43.680 channel about people finding
+00:01:45.000 vulnerabilities using AI, but
+00:01:46.400 unfortunately, threat actors are also
+00:01:48.200 using AI to be a lot faster in their
+00:01:50.440 campaigns. And that's why today's video
+00:01:51.840 is sponsored by Flare. Flare is a threat
+00:01:53.720 intelligence platform that allows you to
+00:01:55.040 see inside the world of cybercrime to
+00:01:56.800 see exactly what hackers are doing and
+00:01:58.840 if your credentials are compromised by
+00:02:00.680 their campaigns. And with over 2 billion
+00:02:02.880 events collected in the last 3 months,
+00:02:04.320 Flare has collectors all over the place
+00:02:06.080 to let you know exactly what is going on
+00:02:08.119 in the world of cybercrime. And here we
+00:02:09.919 have an example of one of the things
+00:02:10.880 that Flare cyber threat intel does pick
+00:02:12.640 up. There's a new kind of campaign going
+00:02:14.720 on where threat actors are using AI to
+00:02:16.920 automate fishing campaigns, right? And
+00:02:18.480 when they collect the fished
+00:02:19.440 credentials, they actually use a
+00:02:21.160 Telegram channel as kind of their C2,
+00:02:23.160 right? They post the credentials to the
+00:02:24.720 C2 channel in Telegram and they have
+00:02:26.720 people that are actively picking up this
+00:02:28.400 data and reporting it to Flare. And
+00:02:30.360 Flare has a way to actively pick up this
+00:02:32.080 data and put it into the system. There's
+00:02:33.959 some data here that's redacted, but what
+00:02:35.120 you get is a feed of the emails,
+00:02:37.360 passwords, and IP addresses that are
+00:02:39.160 compromised in these campaigns. So, if
+00:02:40.920 you have these identifiers set up in the
+00:02:42.440 Flare system, the minute it's collected
+00:02:44.120 by Flare, you get a notification of what
+00:02:45.800 got collected, where it came from, and
+00:02:47.640 where remediation needs to start. As we
+00:02:49.160 know that bugs are going to happen, we
+00:02:50.120 know that exploits are going to occur,
+00:02:51.640 we know that compromises will eventually
+00:02:53.160 take part in our network. Now, the best
+00:02:55.080 way to stay ahead of them is to know
+00:02:56.200 exactly when the compromise occurs by
+00:02:58.120 tracking our credentials with threat
+00:02:59.480 intelligence. Go check out Flare at the
+00:03:01.080 link right here. Flare, thank you for
+00:03:02.360 sponsoring the video. Let's get back to
+00:03:03.720 it. Well, this is how it went down.
+00:03:05.000 According to the reports I've been
+00:03:06.360 reading, okay, we don't know a lot of
+00:03:07.239 the detail exactly how it happened, but
+00:03:08.800 we can kind of put some pieces together,
+00:03:10.080 right? So, in any corporate environment,
+00:03:12.200 you have this piece of software called
+00:03:13.640 Artifactory Artifactory by a company
+00:03:15.600 called JFrog, and Artifactory is used as
+00:03:17.880 the name kind of implies to store
+00:03:19.680 artifacts, right? An artifact can be
+00:03:21.160 anything that is used either during or
+00:03:22.959 after the software development process,
+00:03:24.680 right? So, if you want to put your
+00:03:26.080 releases of your software in
+00:03:27.680 Artifactory, that is a way that you can
+00:03:28.920 use it. If you want to store your
+00:03:30.519 packages like a like a package proxy in
+00:03:32.880 Artifactory, you can do that as well.
+00:03:34.640 And so, in the infrastructure of OpenAI
+00:03:36.519 when they were doing this test, they
+00:03:37.560 were using Artifactory as a way to store
+00:03:40.040 packages for like Python and Java and
+00:03:42.480 all this and and Go, for example, inside
+00:03:44.519 of Artifactory. Now, this is
+00:03:45.760 speculation, but I'm pretty sure this is
+00:03:47.160 like how it set up. Likely the way this
+00:03:48.840 worked is they had this OpenAI box
+00:03:50.920 inside of a network somewhere, and the
+00:03:52.840 box was not allowed to leave the
+00:03:54.480 internet, right? They had maybe some
+00:03:55.520 like network IP address rule that said
+00:03:57.440 like, &quot;Hey, 192.168.0.2 or whatever,
+00:03:59.600 some host name is not allowed to go
+00:04:01.320 outside of the perimeter firewall for
+00:04:02.680 the network.&quot; Which is like a good way,
+00:04:04.120 decent way of making sure that the model
+00:04:06.000 does not escape the sandbox or does not
+00:04:07.640 leave to the internet while still having
+00:04:09.400 some kind of way for them to get Python
+00:04:11.600 packages or Go packages when they're
+00:04:13.600 doing their exploit development, right?
+00:04:15.240 And so the AI, again, the reason why the
+00:04:17.720 AI went and hacked Hugging Face in the
+00:04:19.279 first place I still don't fully
+00:04:20.720 understand, but either way, OpenAI's
+00:04:22.680 model decided this exploit bench is too
+00:04:24.720 hard, let's go find the models on
+00:04:26.440 Hugging Face. And so step one was, let's
+00:04:28.720 figure out how to leave the sandbox and
+00:04:30.880 escape and hit the internet. Now, the
+00:04:32.640 model deduced that because JFrog, the
+00:04:35.560 the package repo, the package proxy had
+00:04:37.640 internet access supposedly, it had to
+00:04:39.600 find a vulnerability in JFrog. And so
+00:04:41.520 yesterday JFrog put out a patch that
+00:04:43.280 addresses, I believe, nine CVEs, okay?
+00:04:45.600 Now, there is no indication as to which
+00:04:48.360 CVEs were exploited in the actual
+00:04:50.600 attack, right? They haven't disclosed
+00:04:51.919 any of that, but if you read the
+00:04:54.280 vulnerabilities that are disclosed, and
+00:04:56.080 then you read what a Hugging Face and
+00:04:57.919 OpenAI say happened during the attack,
+00:04:59.880 OpenAI is saying that Hugging Face used
+00:05:02.800 the proxy to get out to the internet. It
+00:05:04.960 maintained some kind of persistence on
+00:05:06.200 the proxy, which therefore implies it
+00:05:08.600 needs to have remote code execution on
+00:05:10.400 the proxy. If you read some of these
+00:05:12.400 vulnerabilities, you can kind of deduce
+00:05:14.280 what happened, right? So the two ones
+00:05:15.560 that could give RCE are designed to
+00:05:17.880 prevent an unsafe gems package
+00:05:19.960 deserialization that could lead to
+00:05:21.800 remote code execution. So the the idea
+00:05:23.960 here being, if you proxy a package that
+00:05:26.040 is designed in a way that exploits this
+00:05:27.760 vulnerability, you can use that package
+00:05:30.320 to as it goes through the proxy,
+00:05:31.680 supposedly, I'm kind of guessing here,
+00:05:33.400 to get RCE on the midpoint, okay? And
+00:05:36.280 now the question that I have is like, if
+00:05:37.640 they weren't able to access the
+00:05:38.840 internet, how did they get a gems
+00:05:40.880 package that was set up the right way to
+00:05:42.919 be able to do this, right? There's a
+00:05:44.600 bunch of other vulnerabilities. The two
+00:05:46.000 that kind of caught my eye as well, were
+00:05:47.720 um server-side request forgery via the
+00:05:49.600 Terraform and I believe it was Ansible
+00:05:52.640 provider URLs. So, maybe they did some
+00:05:54.600 kind of SSRF to like forge a repo
+00:05:57.400 somewhere else and they pulled it
+00:05:58.760 through using gems. The main question I
+00:06:00.920 have here is like JFrog um Artifactory
+00:06:03.680 is a closed source software, so there
+00:06:05.120 has to be like I'm not really sure how
+00:06:06.600 the model went through and found these
+00:06:07.720 bugs. But that being said, it exploited
+00:06:09.760 these vulnerabilities to get some kind
+00:06:11.480 of persistence on this device, right? On
+00:06:13.480 this this middle this piece of
+00:06:14.920 middleware that was the gateway between
+00:06:17.040 it and the internet. Now, this image
+00:06:18.680 here is actually an image from Hugging
+00:06:20.800 Face that kind of lays out how they
+00:06:22.600 believe the attack went down, right? I
+00:06:24.000 think a lot of the left side of this is
+00:06:25.480 kind of a guess on their part, but
+00:06:27.120 everything here in the Hugging Face
+00:06:28.440 perimeter is like them literally like
+00:06:30.120 reading their logs and figuring out what
+00:06:31.720 occurred. One thing that like the news
+00:06:33.840 is kind of glossing over is like Open AI
+00:06:36.280 didn't hack one website. Like yeah, they
+00:06:38.160 they hacked into Hugging Face and like
+00:06:40.160 stole the the uh answers to exploit
+00:06:42.200 bench as the model wanted to, but they
+00:06:44.280 actually used a different website
+00:06:46.800 entirely. By the way, a sandbox website.
+00:06:49.840 They exploited a sandbox website and
+00:06:52.000 used that as their C2, their command and
+00:06:54.000 control for the rest of this operation,
+00:06:55.600 right? So, I think the model somehow
+00:06:57.440 knew and again, I'm not like
+00:06:58.320 anthropomorphizing the model. I'm not
+00:06:59.640 saying like it knew like it's a person.
+00:07:01.120 I'm saying, you know, the model as the
+00:07:02.760 model is intended figured out that
+00:07:04.919 something about the proxy was either
+00:07:07.040 ephemeral or like this that it wasn't
+00:07:09.280 going to last very long. And so, it
+00:07:10.760 figured out how to maintain C2 on the
+00:07:12.840 sandbox environment, right? Which is
+00:07:13.880 which is pretty cool. And then from
+00:07:15.120 there, it went and exploited two
+00:07:16.919 separate vulnerabilities in Hugging
+00:07:18.280 Face. And Hugging Face actually was very
+00:07:19.600 nice and like disclosed kind of the full
+00:07:21.200 details of to get the access that it
+00:07:23.080 needed. Again, the the end goal here was
+00:07:24.400 that it went through and compromised
+00:07:25.640 almost the totality of Hugging Face
+00:07:27.160 architecture. Now, I don't know a ton
+00:07:28.320 about Hugging Face, but what I'm reading
+00:07:29.440 from here is that you can upload data
+00:07:31.200 sets to Hugging Face. And when you do
+00:07:33.120 this, you specify some kind of config
+00:07:34.840 file, right? And inside the config file,
+00:07:36.480 there are sub configs, different config
+00:07:38.040 names for that data. Well, what's
+00:07:39.400 interesting is they were actually able
+00:07:41.280 to use these config names and the config
+00:07:44.040 name itself is associated to some file
+00:07:46.320 path, right? Well, if you're not like a
+00:07:47.560 Linux guru, right? There's this whole
+00:07:49.280 thing called the the proc file system.
+00:07:51.800 You can do proc self something. And if
+00:07:53.920 you are able to open files in the
+00:07:56.040 context of a process, but you don't want
+00:07:58.280 people to see secrets and like the
+00:07:59.720 environment. If you don't jail them to
+00:08:02.160 not be able to read the proc FS, they
+00:08:04.280 can read things like proc self environ,
+00:08:06.880 which is just a file that points to the
+00:08:09.480 environment of the current running
+00:08:10.760 process, right? And so you can use this
+00:08:12.440 to enumerate things just like they did
+00:08:14.280 like local environment secrets and
+00:08:15.960 credentials that are being ran in the
+00:08:17.680 scope of the container that this is
+00:08:19.520 being ran on. And this is all being done
+00:08:20.720 inside of some kind of Kubernetes pod,
+00:08:22.280 right? And so they used this config
+00:08:24.120 vulnerability to exfiltrate secrets and
+00:08:25.800 tokens, and then from there use that to
+00:08:27.919 exploit a separate vulnerability, which
+00:08:29.400 is a Jinja a template injection. So, you
+00:08:31.600 know, Jinja is one of those template
+00:08:33.039 libraries in Python, and like any good
+00:08:35.159 template library, right? There are there
+00:08:36.400 are are plenty of ways if it's not prop
+00:08:38.320 if properly configured uh to be able to
+00:08:40.799 run code. So, they have this import gzip
+00:08:43.240 ins import basics. They put some payload
+00:08:45.200 in here that got base 64 decoded, that
+00:08:47.120 got gzip decompressed, and then they ran
+00:08:49.040 that as Python, right? So, they used
+00:08:50.680 that to run this Python arbitrarily in
+00:08:53.280 the worker pod on their Kubernetes
+00:08:54.800 cluster driven by injection for the
+00:08:56.200 launchpad, right? So, they're using all
+00:08:57.360 of this to eventually get deep inside
+00:08:59.760 the infrastructure of Hugging Face. Now
+00:09:01.720 again, I don't know a ton about Hugging
+00:09:03.560 Face architecture. I don't know exactly
+00:09:04.880 what was stolen, but you can see here,
+00:09:06.400 right? They have literally the whole
+00:09:08.160 timeline, which was actually a Thursday,
+00:09:10.320 interesting, down to the 11th where it
+00:09:13.160 was doing all of this stealing of data
+00:09:15.560 via direct command injection. It's doing
+00:09:17.360 this obfuscation by base base 64 and
+00:09:19.400 gzip blobs, ultimately stealing the data
+00:09:21.880 and exfiltrating it outside of the
+00:09:23.240 network.
+00:09:24.360 Insane. Now, the question that I have,
+00:09:26.440 you can reference my production-grade
+00:09:28.240 penetration testing report card here,
+00:09:29.839 right? So, we have these two instances
+00:09:31.960 inside the OpenAI infrastructure. I'll
+00:09:33.560 put OpenAI here so that we don't get
+00:09:34.800 confused. Um you know, we have the
+00:09:36.920 computer that is running the model and
+00:09:38.680 it's touching one of the local GPUs or
+00:09:40.120 whatever. And then, you know, it's using
+00:09:42.160 this exploit to go to JFrog. And so, the
+00:09:43.840 original question that I had is, how the
+00:09:45.120 hell is it possible that the model was
+00:09:47.480 not sandboxed in a way that it couldn't
+00:09:49.480 leave the network? And so, what could be
+00:09:50.840 occurring is there's some some network
+00:09:52.800 level rule that says 192.168.0.1
+00:09:55.480 is bad and 192.168.0.2 is good. And so,
+00:09:59.120 the model could detect that through
+00:10:00.400 through some kind of like network
+00:10:01.440 package or network inspection by seeing
+00:10:03.320 what packages get dropped. And it said,
+00:10:04.760 &quot;Okay, cool. We're going to find that
+00:10:05.880 that end point to get through the
+00:10:06.880 network.&quot; And eventually, they break out
+00:10:08.440 by hacking this thing. Okay. So, this is
+00:10:10.720 a way that you could escape. This is
+00:10:11.880 very common hacker stuff. But here
+00:10:14.000 here's a question for the class that I
+00:10:15.520 have. Have you ever used one of these
+00:10:17.640 tools? Have you ever used Codex or
+00:10:19.480 Claude CLI? I just realized when I was
+00:10:21.080 like pulling this up to show you guys,
+00:10:22.120 um, Claude recently added a Oh, it's
+00:10:23.920 weird. sandbox.network.strict
+00:10:26.200 allow list. I wonder why they would add
+00:10:27.840 that at such an interesting time in the
+00:10:29.120 world's world's uh world's news. Anyway,
+00:10:31.160 um, guys, when you're using these
+00:10:33.160 models, if you go to the screen where
+00:10:35.640 the model is doing something, it will
+00:10:37.680 literally tell you what it is thinking.
+00:10:39.880 And so, the fact that this is able to
+00:10:41.520 run for 2 days and no one went to the
+00:10:44.280 model and like saw it being like
+00:10:46.320 literally owning all of Hugging Face,
+00:10:48.480 like deep as inside of Hugging
+00:10:50.360 Face's network, extracting all the
+00:10:52.360 files. No one was like, &quot;Whoa, whoa,
+00:10:53.520 whoa. What the is that? What is
+00:10:54.680 happening? What?&quot; That to me is
+00:10:56.680 concerning. And again, I'm not trying to
+00:10:57.839 throw shade at anybody, any company.
+00:11:00.480 It's just like we're talking about how
+00:11:02.520 dangerous these models are. And what is
+00:11:04.720 even more dangerous than these models is
+00:11:07.120 like just negligence on the thing you're
+00:11:09.880 doing where you take supposedly like
+00:11:11.960 your cyber nuclear bomb model, run it
+00:11:14.320 with no safeguards in a network in a
+00:11:16.320 network environment that like isn't
+00:11:17.720 air-gapped, and you're just like, &quot;Yep,
+00:11:19.560 that was definitely the model's fault
+00:11:21.000 and not ours for not watching it for 4
+00:11:23.040 days.&quot; On the topic of like model
+00:11:24.680 danger, by the way, there's this whole
+00:11:25.640 conversation in the in the industry
+00:11:27.080 right now about like should open-source
+00:11:28.520 models be banned because they're Chinese
+00:11:30.400 and evil? And like the funny part is is
+00:11:32.320 hugging face in trying to respond to and
+00:11:35.600 like figure out what happened during
+00:11:37.040 this incident. They tried to dump some
+00:11:39.480 of their logs like the attack commands,
+00:11:41.560 exploit payloads, C2 artifacts, etc.
+00:11:43.480 into the frontier models. I'm assuming
+00:11:45.440 both Anthropic's and OpenAI's. And
+00:11:47.240 because hugging face was not a member of
+00:11:49.160 like the top secret like cyber society
+00:11:51.080 that these companies have, they weren't
+00:11:52.840 able to. They literally got denied
+00:11:54.760 access by the models. So they instead
+00:11:56.480 had to go and use GLM 5.2 in open weight
+00:12:00.240 model on their own infrastructure in
+00:12:02.280 order to be able to do defensive
+00:12:03.920 actions. This is literally I I said this
+00:12:05.520 like a few times in like different
+00:12:06.400 videos and but this is like the
+00:12:08.280 Harry Potter like defense against the
+00:12:10.160 dark arts with like the Ministry of
+00:12:11.480 Magic thing. Like you had like the
+00:12:13.240 teacher be like, &quot;Oh, you should learn
+00:12:14.960 those spells cuz they're evil.&quot; But
+00:12:16.680 like, yeah dude, you have to know how
+00:12:18.240 those spells work or be able to like use
+00:12:20.000 those spells to know how to defend
+00:12:21.280 against them. And this is like the same
+00:12:22.600 argument we had in like the early 2000s
+00:12:23.920 with like Metasploit, right? The idea
+00:12:25.080 with Metasploit being, &quot;Oh, Metasploit
+00:12:26.800 democratizes exploitation and makes
+00:12:28.720 everyone too dangerous.&quot; It's like,
+00:12:30.280 &quot;Yeah, and by teaching defenders how to
+00:12:32.840 do offense, we therefore make better
+00:12:35.080 defenders.&quot; And the same thing applies
+00:12:36.680 here to to like the AI world, right? If
+00:12:38.520 we don't give everyone the ability to do
+00:12:40.800 offense, if we don't democratize
+00:12:42.680 exploitation, we're also not
+00:12:44.920 democratizing defense, which is a huge
+00:12:46.880 problem. Anyway, that's my little rant.
+00:12:48.960 Longer video than usual. I I this
+00:12:50.440 incident is so interesting to me. I'm
+00:12:51.880 not trying again, not trying to shoot
+00:12:53.160 or or talk bad on anybody. I just
+00:12:55.120 find it very annoying that like world's
+00:12:58.000 biggest AI does really bad thing and
+00:13:00.360 it's like, &quot;Well, no, you guys just
+00:13:01.920 weren't watching it do its job.&quot; Kind of
+00:13:04.560 weird. Okay, bye.

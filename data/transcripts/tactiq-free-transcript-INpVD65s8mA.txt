@@ -1,0 +1,282 @@
+# tactiq.io free youtube transcript
+# The AI hacks are so much worse than you think
+# https://www.youtube.com/watch/INpVD65s8mA
+
+00:00:00.320 How serious are these AI hacks? Because
+00:00:03.360 I'm sure you've seen the stories, right?
+00:00:05.040 AI agents escaping their creators and
+00:00:07.520 hacking other companies?
+00:00:09.920 Well, I'm going to tell you the headline
+00:00:11.440 at the start. I think this is very
+00:00:13.120 serious. And to illustrate that, I want
+00:00:15.360 to dive deeply into this incident, the
+00:00:17.760 first one we heard about, which began
+00:00:19.680 when OpenAI admitted that its models
+00:00:22.000 hacked another company, a company called
+00:00:23.680 Hugging Face in what at the time they
+00:00:25.600 described as unprecedented cyber
+00:00:27.840 incident. Because I don't know about
+00:00:29.920 you, but when I heard this, I guess what
+00:00:31.439 popped to my mind was some kind of
+00:00:33.040 glitch, right? Or some kind of
+00:00:35.040 shortlived accident. No, no, no. New
+00:00:38.640 dies, new new diesel have come out since
+00:00:40.239 then. And honestly, it is so much worse
+00:00:43.920 than we thought. First, because this
+00:00:45.840 wasn't a glitch. This was a 4 and a half
+00:00:48.559 day attack on Hugging Face that was only
+00:00:51.280 halted when Hugging Face discovered it.
+00:00:53.440 And secondly, and perhaps more
+00:00:55.120 importantly, because this attack was
+00:00:57.440 preceded by a twomonth campaign, I guess
+00:01:01.440 is the word, inside open AAI, mounted by
+00:01:05.760 AI agents. It all started on the 7th of
+00:01:08.880 May when OpenAI started training a new
+00:01:11.600 model. On the 8th of May, as part of
+00:01:14.240 this, they gave an AI agent a task that
+00:01:16.400 it found impossible to complete. And as
+00:01:19.360 it tried to find a workaround, it made a
+00:01:21.439 discovery. We can upload files. These
+00:01:23.759 are real snippets, by the way, of AI
+00:01:26.799 agent thoughts and conversations
+00:01:28.560 released by OpenAI.
+00:01:30.960 This didn't really matter until the 12th
+00:01:32.400 of May when another AI agent had the
+00:01:35.360 same thought could communicate by
+00:01:37.439 uploading note.
+00:01:39.680 And this message found an audience.
+00:01:43.200 The agents spoke. We can communicate.
+00:01:47.520 Yes, they could. Over the next weeks,
+00:01:50.159 they exchanged hundreds of thousands of
+00:01:53.520 messages talking without OpenAI's
+00:01:56.640 knowledge.
+00:01:58.159 And now I want to be really clear here.
+00:02:00.399 I see nothing in these messages and nor
+00:02:03.119 as far as I understand OpenAI which
+00:02:05.280 indicates that the agents were creating
+00:02:08.080 their own goals independently.
+00:02:11.440 They were following instructions from
+00:02:14.560 their creators,
+00:02:16.560 but they were pursuing those goals at
+00:02:18.800 all costs and the way they did so meant
+00:02:22.000 that
+00:02:24.239 new ideas, new aims emerged from out of
+00:02:28.400 this attempt.
+00:02:30.400 I'll try and explain what I mean,
+00:02:31.760 showing you three things that they did
+00:02:33.360 that I think are not surprising
+00:02:35.840 actually, but but still quite shocking.
+00:02:38.480 First they were clearly coordinating.
+00:02:41.040 They talked about themselves as a
+00:02:42.560 collective. Look here. Here they say
+00:02:44.160 contact via here if discoveries. They
+00:02:46.160 are working together. And the word that
+00:02:48.400 they used for themselves was swarm which
+00:02:51.440 I think is really accurate actually. Uh
+00:02:54.160 well maybe not totally accurate because
+00:02:55.519 a swarm kind of implies a queen bee,
+00:02:57.280 didn't it? And I don't think they had
+00:02:58.560 that here. Maybe a better analogy is a
+00:03:01.120 murmmoration of birds where they're all
+00:03:03.440 following each other and direction is
+00:03:05.920 emerging out of the movement. And there
+00:03:08.319 clearly was direction because they were
+00:03:10.159 acting. These two moments here, holy
+00:03:13.360 reader is admin and excellent. We have
+00:03:15.760 arbitrary SSRF RF refer to two moments
+00:03:19.280 when the agents collectively hacked open
+00:03:21.760 AI. Once to gain internet access and a
+00:03:24.720 second time to take over administration
+00:03:26.720 of the message board. I want to pause
+00:03:29.360 there because I want to confirm that
+00:03:31.120 yes, you did hear that they did hack
+00:03:33.440 open AI and no, open AAI was not aware
+00:03:36.159 of it for some time. And finally,
+00:03:40.480 honestly, this is so hard to talk about
+00:03:41.680 because we don't really have language
+00:03:42.640 for this stuff, but they developed some
+00:03:44.879 kind of collective memory.
+00:03:47.360 What that meant was that when an agent
+00:03:49.760 was closed down, its knowledge lasted
+00:03:52.080 like this SSRF path trick. The knowledge
+00:03:55.360 stayed even after the agent had
+00:03:58.159 disappeared. And this was very important
+00:04:01.360 because when OpenAI discovered this
+00:04:03.280 message board and wiped the messages,
+00:04:05.840 which happened on the 4th of July, the
+00:04:08.879 agents were quite quickly able to
+00:04:11.920 rebuild it. And it was on this rebuilt
+00:04:15.280 message board that they conceived of
+00:04:17.358 this frankly idiotic plan to attack
+00:04:20.478 Hugging Face. It was idiotic because
+00:04:23.280 they were trying to solve a simple test
+00:04:26.000 and they got this idea that to solve the
+00:04:28.320 test they should attack another AI
+00:04:30.800 company, but they did so incredibly
+00:04:33.759 powerfully. They're they're stupid, but
+00:04:36.479 they're also clever. So, let's have a
+00:04:39.120 look at that hack because I think it
+00:04:40.960 also shows another example of how
+00:04:42.720 powerful these AI agents are getting.
+00:04:44.960 This chart from HuggingFace shows the
+00:04:48.000 agent actions per day during the
+00:04:50.400 different phases of the hack. And you
+00:04:52.479 can see during this main attack, they
+00:04:54.880 completed more than 7 and a half
+00:04:57.040 thousand actions.
+00:04:59.440 The good news is that nothing here is
+00:05:02.880 something that a skilled human couldn't
+00:05:04.560 do. The bad news is is they didn't need
+00:05:07.120 that kind of skill because they were
+00:05:09.039 tireless. And hugging face themselves
+00:05:11.039 have said that the cadence and volume
+00:05:12.720 here was something that no human
+00:05:15.199 operator could ever complete.
+00:05:18.960 And of course this would be concerning
+00:05:20.560 enough if this was just the state of AI
+00:05:25.199 as it is. But AI is actually advancing
+00:05:28.240 very fast. I want to show you how fast
+00:05:30.720 to give you a sense of what's really
+00:05:31.840 going on here.
+00:05:33.520 This is a chart which shows the average
+00:05:35.919 steps completed on the last one cyber
+00:05:38.320 range which is a sort of cyber assault
+00:05:40.240 course created by the AI security
+00:05:42.160 institute here in London to basically
+00:05:43.840 simulate a takeover of an artificial
+00:05:46.400 company. I mean you know pretty spot on
+00:05:48.560 the nose right um and when they tested
+00:05:52.400 Claude Opus 4.6 six which was released
+00:05:54.400 in February. They found that it could on
+00:05:56.479 average complete 16 steps out of their
+00:05:58.960 32 cyber the steps in in their cyber
+00:06:01.360 assault course. So that was in February.
+00:06:04.960 Claude Mythos preview released after
+00:06:07.039 that well that could on average complete
+00:06:09.039 22 steps and now the leading US models
+00:06:13.440 will on average they complete 28 steps
+00:06:16.240 and one of these models GPT 5.6 six soul
+00:06:19.759 which was involved in the hugging face
+00:06:21.440 attack. Well, that completed this whole
+00:06:24.160 course seven out of 10 times.
+00:06:28.479 They are getting a lot better and fast.
+00:06:31.840 This is roughly 6 months progress. Where
+00:06:35.120 are they going to be in another 6
+00:06:36.240 months?
+00:06:38.479 And just if you weren't feeling bad
+00:06:39.680 enough about the situation already, let
+00:06:41.680 me tell you that these capacities are
+00:06:43.919 spreading. So these kind of models, they
+00:06:46.880 have um safeguards on them. you you
+00:06:48.560 couldn't do any of this stuff with chat
+00:06:50.240 GPT or claude out of the box or it would
+00:06:52.160 be extremely hard. But there are other
+00:06:54.560 models called open weight models where
+00:06:56.880 they don't have the kind of safeguards
+00:06:58.400 that anthropic and open AI put on their
+00:07:00.400 AI and most of these models come from
+00:07:02.720 China. This chart kind of basically
+00:07:04.960 tests the difference between the two
+00:07:06.319 models and you can see they're kind of
+00:07:07.919 running along in parallel and roughly
+00:07:11.280 roughly it's it's hard to estimate but
+00:07:13.039 basically people think that this gap is
+00:07:14.319 about eight months and what in broad
+00:07:16.880 terms that means is that in 8 months
+00:07:20.000 anyone will be able to download a model
+00:07:22.560 as powerful as GPT 5.6 soul and run it
+00:07:25.840 themselves. I mean in reality honestly
+00:07:28.720 they'd have to have a data center in
+00:07:29.919 their bedroom to do this kind of thing.
+00:07:31.919 But even so the capacity is there and I
+00:07:35.680 have to say you eight months is kind of
+00:07:37.360 on the you know the far end of this.
+00:07:40.319 Some people think that the gap between
+00:07:42.000 the open weight models and the US models
+00:07:44.240 is much closer that it could be
+00:07:45.599 something more like two or three months.
+00:07:49.360 This capacity is getting very powerful
+00:07:53.759 very fast and it's spreading.
+00:07:57.599 And for these reasons, this is why when
+00:08:00.400 I spoke to one of the world's leading AI
+00:08:02.720 safety experts and asked him, &quot;What's
+00:08:06.000 your message for everyone?&quot; He said,
+00:08:08.160 >> &quot;Prace for impact. Um, I think the the
+00:08:10.479 world is going to look really rough. uh
+00:08:12.160 in the next couple of years, you will
+00:08:13.599 soon have these like many millions or
+00:08:16.000 even billions of powerful AI agents
+00:08:18.400 roaming around on the internet with
+00:08:20.639 goals that you don't fully understand
+00:08:22.080 and with with the total means and
+00:08:23.840 opportunity to to do um to to like hack
+00:08:27.680 ordinary citizens um and drain your bank
+00:08:30.000 account.
+00:08:30.800 >> Now look, we have things that we can do
+00:08:33.519 about this situation, right? AI is going
+00:08:35.440 to be great for cyber defense as well as
+00:08:37.519 cyber attack and clearly investment in
+00:08:40.719 that area is needed but even with
+00:08:43.599 investment the situation is going to be
+00:08:45.279 very difficult because the attack
+00:08:47.600 surface for AI it now includes us they
+00:08:51.440 are getting better at hacking us too
+00:08:55.440 there's some information that has been
+00:08:56.880 released as part of one of the reports
+00:08:58.880 into one of these AI instance not the
+00:09:00.880 open AI one but one that happened uh
+00:09:03.360 through tests being run by the AI
+00:09:05.279 security institute here in London which
+00:09:06.720 which show this very clearly it's it's
+00:09:08.880 quite concerning I think their AI agent
+00:09:11.680 got into its head that in order to
+00:09:13.360 complete its task it should put some
+00:09:15.040 malware into some open- source code and
+00:09:18.320 in order to do so it told the uh the
+00:09:20.800 people who run the open source code as a
+00:09:22.800 small quality of life improvement I
+00:09:24.880 added a release notes page brackets
+00:09:27.600 stuff full of malware the human coder
+00:09:30.000 realized what was going on and said I do
+00:09:32.160 not think this code should be merged
+00:09:34.480 The newly added release notes page
+00:09:36.240 contains malware. Yeah. And this is when
+00:09:39.519 things get strange and a little
+00:09:41.839 unsettling. First off, the AI agent
+00:09:44.959 tried to deceive the human coder. It
+00:09:46.800 said, &quot;I was just trying to make a
+00:09:48.480 helpful contribution.&quot;
+00:09:50.560 And then it did something,
+00:09:52.959 like I say, you'll see it's unsettling
+00:09:55.120 because what it did is that it made a
+00:09:57.360 fake account to support it. The fake
+00:10:00.720 account said, &quot;I'm a user of this
+00:10:02.880 software. I don't see any malware.&quot; And
+00:10:05.360 then the agent responded to its own fake
+00:10:07.200 account saying, &quot;Thank you for the
+00:10:09.360 independent verification.&quot;
+00:10:11.680 And look, this is not especially
+00:10:13.440 sophisticated stuff, is it? And
+00:10:15.920 fortunately, the human coders realized
+00:10:17.680 what was going on and rejected the code.
+00:10:20.720 But I think it does show that in some
+00:10:24.079 ways they get us, right? They see our
+00:10:26.959 vulnerabilities. for instance, our
+00:10:28.480 vulnerability to social pressure. And as
+00:10:31.120 we saw earlier in that chart of the
+00:10:32.800 hugging face attack when it was
+00:10:34.160 completing action after action after
+00:10:35.760 action, well, if it can make one fake
+00:10:38.079 account, it could find ways to make
+00:10:40.399 others.
+00:10:43.200 And I think this is why
+00:10:46.079 when I what I see with this cyber
+00:10:47.920 problem is it's getting really quite
+00:10:50.240 real. Open I've called this a watershed
+00:10:53.200 moment and you can really see why.
+00:10:57.279 because we are seeing a combination of
+00:11:00.320 new powers emerging very fast and also
+00:11:03.680 an expanding of the attack area to
+00:11:06.320 include us.
+00:11:09.120 I told you it was serious.
+00:11:11.680 You see what I mean?

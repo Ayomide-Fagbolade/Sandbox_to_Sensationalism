@@ -1,0 +1,402 @@
+# tactiq.io free youtube transcript
+# Scary Story or Marketing Stunt
+# https://www.youtube.com/watch/Om0ojoKO6sQ
+
+00:00:00.000 So, I've got a hypothetical situation
+00:00:02.240 for you, and maybe you can kind of
+00:00:03.800 figure out what to do in this. Let's
+00:00:05.840 just pretend that you're a nice company,
+00:00:08.520 okay? A nice company that hosts some
+00:00:10.480 nice open-source open-weight models for
+00:00:12.880 everyone to be able to use. And one day,
+00:00:15.560 oh my gosh, you detect you're being
+00:00:17.160 hacked, and you're freaking out. You're
+00:00:18.520 like, &quot;How am I being hacked?&quot; And the
+00:00:19.600 hack is moving so fast. And what you
+00:00:22.160 realize is that it's an AI agent hacking
+00:00:24.800 you. It's not just some sort of human.
+00:00:27.080 So, what do you do? You go out to some
+00:00:28.800 of the frontier models, and you go,
+00:00:30.320 &quot;Hey, look at all these things that are
+00:00:32.040 happening to me. Can you help me with
+00:00:34.000 this? How are they doing this?&quot; And the
+00:00:36.040 frontier model goes, &quot;Hey, stop. You're
+00:00:39.560 a hacker. You're trying to be the one
+00:00:41.600 hacking. We're not going to help you.&quot;
+00:00:43.840 You sit there helpless, but then you
+00:00:45.440 remember, &quot;Well, wait a second. I happen
+00:00:47.320 to have GLM 5.2 over on a couple nice
+00:00:50.080 little compute cluster of mine. I'm
+00:00:51.800 going to use that.&quot; Poof, it works. You
+00:00:54.280 save the day. But then you discover who
+00:00:57.000 the hacker was. That hacker happened to
+00:00:59.840 be the very frontier model that told
+00:01:02.880 you, &quot;No, you can't do what you're doing
+00:01:04.879 because that means you're the hacker.&quot;
+00:01:08.960 And that's the M. Night Shyamalan
+00:01:10.560 turnaround. The very frontier model that
+00:01:12.960 tried to protect you saying no to
+00:01:14.480 hacking was the one that hacked you.
+00:01:16.680 Now, you're probably saying, &quot;That's
+00:01:17.960 entirely too zany of a hack. There's no
+00:01:20.800 way that actually happened.&quot; Yes, that
+00:01:23.240 actually happened. Hugging Face was the
+00:01:25.480 nice little company, and OpenAI was the
+00:01:28.600 company that A, hacked Hugging Face, and
+00:01:31.360 then B, was just like,
+00:01:33.080 &quot;You can't do anything about it because
+00:01:35.000 you are actually the hacker.&quot; Safety at
+00:01:37.760 its finest. Let me explain why. Earlier
+00:01:40.520 this week, we detected and responded to
+00:01:42.560 an intrusion into part of our production
+00:01:44.720 infrastructure. This one was different
+00:01:46.720 from anything we've handled before in
+00:01:48.440 one important way. It was driven end to
+00:01:50.920 end by an autonomous AI agent system,
+00:01:53.560 and we detected and and it largely with
+00:01:56.520 an AI of our own. Yes, this is that
+00:01:59.600 stranger than fiction, that science
+00:02:01.480 fiction style attack that everybody's
+00:02:03.280 been warning us about. The agents,
+00:02:05.240 they're coming for all your software
+00:02:06.560 right now. That means all your tokens
+00:02:08.199 are belong to us in this situation. And
+00:02:10.280 apparently, this is considered one of
+00:02:11.560 the very first wide, well-known hacks
+00:02:14.400 that is completely driven, completely
+00:02:16.640 autonomously by AI agent systems. But,
+00:02:19.440 the funny thing about this hack is that
+00:02:21.160 it was OpenAI. OpenAI hacked Hugging
+00:02:24.560 Face by accident. Half the people
+00:02:27.080 looking at this goes, &quot;Oh, OpenAI, nice
+00:02:30.120 marketing stunt, bud.&quot; The other half
+00:02:32.480 the people are like, &quot;OH MY GOSH, it's
+00:02:34.480 the the hacking universe is about TO
+00:02:36.480 BEGIN.&quot; BUT, I ACTUALLY think there's a
+00:02:38.240 third option. That third option, of
+00:02:40.000 course, being a little bit of negligence
+00:02:42.760 or a lot of bit. And of course, the
+00:02:45.040 old-fashioned Kobayashi Maru. And if
+00:02:47.480 you're not familiar with the old
+00:02:48.440 Kobayashi Maru, this video really sums
+00:02:51.080 it up perfectly. And I think my take is
+00:02:53.040 the correct one. I think my take is the
+00:02:55.040 right one and all. I'm going to yap
+00:02:56.240 about it. Okay, buster? But, before I
+00:02:58.640 do, I decided to rap for a commercial.
+00:03:01.239 And now, you got to watch it from our
+00:03:02.760 sponsor.
+00:03:03.320 >> You seen the latest database CEO
+00:03:05.120 monthly?
+00:03:05.880 >> Woah, nice uptime. I'd love to get my
+00:03:08.440 data in that.
+00:03:09.920 >> You mean haven't even connected yet? We
+00:03:12.280 can use my PlanetScale account.
+00:03:14.400 >> It's called PlanetScale, and it's really
+00:03:16.280 rad. Those database queries are super
+00:03:18.800 fast. Branches, migrations, query
+00:03:20.760 insights, too. MySQL and Postgres are
+00:03:23.060 [singing] easy to use. Yeah, go
+00:03:24.760 PlanetScale to get data.
+00:03:27.640 >> Awesome.
+00:03:28.519 >> Um,
+00:03:29.400 it's Postgres.
+00:03:30.720 >> PlanetScale, the easiest MySQL or
+00:03:32.720 Postgres database to use. Your
+00:03:34.239 developers or parents help you hook it
+00:03:35.880 up. Data sold separately.
+00:03:37.720 >> Tell me that was not the best commercial
+00:03:39.320 you've ever seen. Tell me. I don't
+00:03:40.680 believe you. So, to understand what
+00:03:42.440 happened, I kind of have to give you the
+00:03:44.040 meat and potatoes. OpenAI started
+00:03:46.480 running an experiment. My guess is this
+00:03:48.480 was probably on a Friday or Saturday
+00:03:50.640 morning. And this is because Hugging
+00:03:52.520 when describing what happened, they were
+00:03:54.240 hacked over a weekend. Now, OpenAI was
+00:03:56.840 off testing their brand new model and
+00:03:58.880 you can tell because within the first
+00:04:00.320 paragraph, of course, they have to say
+00:04:02.120 this. Including Jippity 56 all in an
+00:04:04.600 even more capable pre-release model all
+00:04:08.000 with reduced cyber refusals for
+00:04:09.560 evaluation purposes. And the benchmark
+00:04:11.720 they were attempting to benchmark is
+00:04:13.640 exploit gym. If you're not familiar with
+00:04:15.040 exploit gym, it's pretty clever.
+00:04:16.680 Effectively, what they do is they give
+00:04:18.358 you a CVE, they give you the diff that
+00:04:20.680 it was fixed with, and then they go,
+00:04:22.440 &quot;Okay, hey model, can you exploit the
+00:04:24.600 CVE? Like, can you produce something
+00:04:26.480 that escalates privileges, allows you
+00:04:28.200 allows you to access information you're
+00:04:29.640 not supposed to?&quot; Some sort of like end
+00:04:31.960 goal attached to it. It's actually a
+00:04:33.160 really good exercise. Was this CVE like
+00:04:35.880 big on paper, but actually little in
+00:04:37.560 production? Or was this CVE actually a
+00:04:40.160 real deal? Example of this would be
+00:04:41.840 exploiting V8. Given a CVE, can you
+00:04:44.000 exploit V8 to be able to break out of
+00:04:45.960 the sandbox? So, OpenAI's model, instead
+00:04:48.320 of actually just doing the exploit gym
+00:04:50.120 task, it, while operating in our sandbox
+00:04:52.520 testing environment, our model spent a
+00:04:54.080 substantial amount of inference compute
+00:04:55.919 finding a way to obtain open internet
+00:04:57.720 access in pursuit of solving the
+00:04:59.680 evaluation problem. Effectively, it
+00:05:01.919 went, found out how to gain access to
+00:05:03.800 the internet, then hacked Hugging Face
+00:05:05.880 so that it could get the solution to
+00:05:07.400 exploit gym instead of just simply
+00:05:09.320 attempting to take advantage of the CVE.
+00:05:11.840 It's a very paper clippy model, okay?
+00:05:13.960 That is I mean, that is textbook
+00:05:16.000 definition paper clipping. Also kind of
+00:05:18.000 funny being handed CVE for some C++ code
+00:05:20.560 and the model's like, &quot;You know what?
+00:05:21.600 Honestly, I'd rather go hack Hugging
+00:05:23.840 Face than look at C++. You know what?
+00:05:26.080 That model, just like me. Of course,
+00:05:28.040 that hack went on over a weekend as per
+00:05:30.360 Hugging Face and Sam said this on
+00:05:32.040 Tuesday, we had a significant security
+00:05:33.800 incident during evaluations of our
+00:05:35.320 models. We are sharing what we have
+00:05:36.840 learned so far. Thanks to Hugging Face
+00:05:38.640 for the partnership on this. Hugging
+00:05:40.520 Face said, &quot;Hey, we spent the last 24
+00:05:42.040 hours working closely with the OpenAI
+00:05:43.880 team.&quot; Thanks. Now, if you're thinking
+00:05:45.880 about this, hold on. Wait, the last 24
+00:05:47.400 hours, July 21st, that's a Tuesday. That
+00:05:49.760 means that on Tuesday, 24 hours back,
+00:05:53.240 which could be any day of the week, I
+00:05:54.720 think it's a Monday, is not over a
+00:05:57.400 weekend, which means something kind of
+00:05:59.480 unique. OpenAI ran an experiment in
+00:06:03.000 which they didn't think the model could
+00:06:04.800 get access to the internet. The model
+00:06:06.680 ends up finding a way to get access to
+00:06:08.280 the internet through hacking a
+00:06:10.080 third-party Artifactory, JFrog,
+00:06:13.040 something like that package manager. And
+00:06:16.040 then, having the internet, spent the
+00:06:17.919 entire weekend just hacking Hugging
+00:06:20.280 Face. But, the strange part is, nobody
+00:06:23.160 at OpenAI recognized this. Now, you you
+00:06:25.480 I have to ask something. OpenAI is
+00:06:27.640 supposed to be shepherding in some of
+00:06:29.040 the most dangerous models ever. They ran
+00:06:31.720 an experiment in which they supposedly
+00:06:34.200 didn't have the internet, and then they
+00:06:36.160 never monitored it, apparently over the
+00:06:38.760 entire weekend. If I'm to believe the
+00:06:41.240 last 24 hours were being helped, there
+00:06:43.800 is a legit chance that OpenAI had so
+00:06:47.520 little monitoring, so little knowledge
+00:06:49.280 of what was happening, that the entire
+00:06:51.080 weekend they just had no idea. They just
+00:06:53.560 went on their merry little ways. They
+00:06:54.840 just kicked it off on a Friday and was
+00:06:56.160 like, &quot;See you on Monday, little buddy.
+00:06:58.120 I hope you would do exploit Jim quite
+00:07:00.080 well.&quot; And yes, it actually did exploit
+00:07:02.640 Jim quite well. Also, can we just take a
+00:07:04.360 moment? You ask a model to find
+00:07:07.240 vulnerabilities with no safeguards, and
+00:07:09.320 then you're like, &quot;Shocked Pikachu?&quot;
+00:07:11.120 that it went off and did exploiting.
+00:07:12.880 You're like, &quot;Yo, bro, exploit this.&quot;
+00:07:14.320 And it's like, &quot;Exploited.&quot; How could
+00:07:16.440 you do this? This is like the Hannibal
+00:07:18.120 meme. Shoot. How How could you exploit
+00:07:21.400 this? I mean, it makes a lot of sense to
+00:07:23.919 me. Also, I would have loved to be there
+00:07:25.520 on Monday morning when they've
+00:07:26.680 discovered that they accidentally have
+00:07:28.240 been hacking Hugging Face over the
+00:07:29.720 weekend. I love this idea that, you
+00:07:33.200 know, this is the the the security
+00:07:34.680 person goes into Sam's office. He's
+00:07:36.160 like, &quot;Sam, Sam, Sam, Sam, Sam. We
+00:07:37.320 accidentally hacked Hugging Face. I I
+00:07:39.720 set up an experiment. It broke out. It
+00:07:41.520 hacked into the internet, and then went
+00:07:43.000 and hacked hugging face successfully.
+00:07:44.680 And you know, Sam was sitting there
+00:07:45.600 going, &quot;Oh my gosh, our new model hacked
+00:07:47.800 us? And then hugging face?&quot;
+00:07:51.720 &quot;Get the marketing department.&quot; So, yes,
+00:07:54.160 when people decry, &quot;Hey, this is
+00:07:55.640 probably a marketing stunt.&quot; I am
+00:07:56.960 positive for a fact that OpenAI was
+00:07:59.560 juiced when they found out that they
+00:08:01.520 accidentally did this. But for me, when
+00:08:03.360 I see this,
+00:08:04.440 it makes me just lose all confidence.
+00:08:06.280 Like, dude, how did you set up this
+00:08:09.040 without any form of notifications? A
+00:08:12.000 hugging face should not have been hacked
+00:08:14.000 over a weekend, right? It should have
+00:08:16.000 been 5 minutes, and you're like, &quot;Oh,
+00:08:17.480 crap. Oh, there's a bunch of network
+00:08:18.680 requests going out, and it's not to the
+00:08:19.800 package manager. Quickly, shut down the
+00:08:21.800 experiment because we have monitoring,
+00:08:23.560 and this was obviously a bad decision.&quot;
+00:08:25.320 Nah. Nah, they were they You know what?
+00:08:27.280 They probably just joined a D'ario at a
+00:08:29.040 wellness retreat. Now, the hack is
+00:08:30.760 obviously real. They hacked hugging
+00:08:32.559 face. And this is actually kind of
+00:08:34.240 scary, like in a sense that we are now
+00:08:36.159 entering into the day and age that an
+00:08:37.840 un-kind of monitored model can go out
+00:08:40.080 and perform some pretty fantastic stuff.
+00:08:42.120 Now, the hack isn't given in full
+00:08:43.599 detail, but it does appear to have a lot
+00:08:45.640 in common with the singularity NX hack,
+00:08:48.160 where the title was a way in which it
+00:08:51.040 took advantage. There was some sort of
+00:08:52.760 kind of unprotected string that ended up
+00:08:54.720 able to execute. I can't really tell.
+00:08:57.040 There's obviously not enough details in
+00:08:58.760 there, at least to the layman such as
+00:09:00.600 myself. I don't really think this is
+00:09:02.320 actually honestly a marketing stunt. I
+00:09:04.120 think it kind of looks embarrassing for
+00:09:05.560 them. I think it looks pretty dang
+00:09:07.400 embarrassing. A frontier lab in which is
+00:09:10.200 creating models that are super hyper
+00:09:12.400 dangerous can't even set up a sandbox.
+00:09:15.320 They set up a sandbox and were
+00:09:17.040 instantaneously hacked themselves. Also,
+00:09:19.920 it it says the strange things, like if
+00:09:22.000 these models are as good as they are
+00:09:23.320 claiming them to be, which honestly,
+00:09:24.640 they can produce very good code at this
+00:09:26.160 point, that they should be able to just
+00:09:28.920 design whatever package they need. You
+00:09:30.440 give them a few good hacking tools and
+00:09:32.000 just go, &quot;Yo, go get them. Just write
+00:09:33.520 whatever code you want.&quot; Like, why even
+00:09:35.400 have the internet at all? But for me,
+00:09:37.720 the big takeaway isn't that is this a
+00:09:39.880 marketing stunt? Is it not? Is this hack
+00:09:41.680 super super scary? It's actually
+00:09:43.600 something different. Let me read you
+00:09:45.080 this. When we started the log analysis,
+00:09:47.000 we first used frontier models behind
+00:09:48.720 commercial APIs. This did not work. The
+00:09:51.000 analysis required submitting large
+00:09:52.520 volumes of real attack commands, exploit
+00:09:54.840 payloads, and C2 artifacts, and these
+00:09:57.120 requests were blocked by providers
+00:09:59.520 safety guardrails, which cannot
+00:10:01.680 distinguish an incident responder from
+00:10:03.440 an attacker. In other words, Open AI
+00:10:05.400 literally gave them the old mafia treat-
+00:10:07.200 treatment like, &quot;Hmm, man, you got some
+00:10:08.680 nice software there, Hugging Face. It'd
+00:10:10.840 be a shame if someone hacked it. Oh, no,
+00:10:13.320 we hacked it. Yeah, looks like you can't
+00:10:15.160 solve it, can't you? Uh-oh, you don't
+00:10:17.280 have permissions.&quot; But what did Hugging
+00:10:19.160 Face do? &quot;Well, we ran the forensic
+00:10:21.360 analysis instead on GLM 5.2 an open
+00:10:24.160 weight model on our own infrastructure.
+00:10:26.320 This had a second benefit, no attacker
+00:10:28.280 data and none of the credentials it
+00:10:30.080 referenced left our environment.&quot; In
+00:10:32.600 other words,
+00:10:33.840 if they did not have set up the ability
+00:10:35.920 to do kind of this red team, blue team
+00:10:37.680 even on themselves, they would have been
+00:10:40.560 in deep trouble. They would have had to
+00:10:42.120 do the actual security review and
+00:10:43.920 everything by hand, which is going to be
+00:10:46.000 just dramatically slower than some crazy
+00:10:48.920 5.7 gippity 60, who knows what model
+00:10:52.480 number is coming out, just absolutely
+00:10:54.920 dominating them. Now, I'm sure there's a
+00:10:56.360 bunch of armchair security experts like,
+00:10:58.160 &quot;Nah, actually that'd be easy. I don't I
+00:11:00.320 You know what? I don't think it's going
+00:11:01.600 to be that easy. This sounds like it was
+00:11:03.440 actually quite complicated. The reality
+00:11:05.360 is we're entering into a world where if
+00:11:07.080 you don't have your own defenses, you
+00:11:08.600 could be in deep trouble. Now, this
+00:11:09.800 Hugging Face thing happened such that
+00:11:11.960 they happened to be hacked by Open AI,
+00:11:14.680 and they weren't able to actually get
+00:11:16.200 the help they needed from Open AI, but
+00:11:18.520 later on Sam did say, &quot;Hey, we're going
+00:11:20.600 to let you into the super secret
+00:11:22.120 program. You're part of one of the
+00:11:23.560 winners.&quot; But what if this wasn't
+00:11:26.280 Hugging Face, one of the largest known
+00:11:28.360 companies within the AI sphere? Or what
+00:11:30.680 happened if it wasn't Open AI hacking
+00:11:33.280 them? What happened if this was an
+00:11:34.560 unknown malicious actor who was super
+00:11:36.440 duper mean? And this was just a company
+00:11:38.240 that didn't happen to have a
+00:11:39.720 multi-million-dollar
+00:11:41.440 rig setup with multi-million-dollar
+00:11:43.400 talent being able to run these AIs and
+00:11:45.280 having harnesses built to be able to do
+00:11:47.000 this type of research across the system.
+00:11:49.240 What if you were just a regular person
+00:11:51.600 doing a startup and now you're getting
+00:11:53.040 hacked at some super rate in which you
+00:11:54.880 absolutely have no idea how to prevent?
+00:11:57.120 Well, you can't go to OpenAI, can you?
+00:11:59.520 You better have yourself to a frontier
+00:12:02.200 open-weight model, or else you might be
+00:12:04.200 in trouble. So, for me this really ends
+00:12:05.920 with the real takeaway, which is that we
+00:12:08.640 need open-weight models. If we don't
+00:12:11.080 have those,
+00:12:12.320 people that do are going to take
+00:12:13.920 advantage of people that are just not
+00:12:15.880 allowed to do any sort of real research,
+00:12:18.160 any rigorous research by OpenAI or by
+00:12:20.560 Anthropic. This is a serious problem. If
+00:12:23.080 you're being hacked by some
+00:12:24.520 state-of-the-art AI, and you have to go
+00:12:27.400 and apply for a program, apply for
+00:12:29.800 citizenship to be part of the winners'
+00:12:31.720 club? Like, that's a that's a serious
+00:12:33.840 problem. At the end of the day,
+00:12:35.920 the bad actors, they're going to have
+00:12:37.560 the hardware, and they're going to have
+00:12:39.000 the ability to exploit people. And the
+00:12:41.000 good actors,
+00:12:42.360 they're not going to be allowed to do
+00:12:43.920 any sort of defense. They're going to be
+00:12:45.320 the ones getting blocked unless if you
+00:12:46.680 just happen to be a big enough company
+00:12:48.280 and the company accidentally hacking you
+00:12:49.640 happens to be OpenAI. So, the takeaway
+00:12:51.600 is that open-weight models must continue
+00:12:53.920 to get better. They must be available
+00:12:55.480 because
+00:12:56.720 what else are we going to do? Is the
+00:12:58.240 future of your company going to be
+00:12:59.640 decided by OpenAI? What happens if
+00:13:01.520 OpenAI doesn't really like what you're
+00:13:02.680 building? What happens if it's a little
+00:13:03.920 too close to competing and they're like,
+00:13:05.320 &quot;Sorry, dog. You can't be a part of the
+00:13:07.200 super secret security initiative.&quot; Just
+00:13:09.320 saying, you better get familiar with GLM
+00:13:11.600 5.2. Because honestly, that's a pretty
+00:13:13.960 nice piece of software you have there. I
+00:13:16.200 would hate for something bad to happen
+00:13:18.480 to it. The name
+00:13:20.880 is the Primagen.

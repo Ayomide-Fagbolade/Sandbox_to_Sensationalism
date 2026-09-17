@@ -1,0 +1,101 @@
+# tactiq.io free youtube transcript
+# OpenAI models went rogue and hacked another company
+# https://www.youtube.com/watch/4OgyuUq_cCc
+
+00:00:00.160 An unprecedented AI security incident. Chad GPT creator OpenAI says two of its models
+00:00:07.520 escaped controls and successfully hacked into another AI company. Open AAI says they are the
+00:00:13.520 way they describe it is responding accordingly. But they also say this involves state-of-the-art
+00:00:18.080 technology and is unprecedented. Let's get over to CNN's Claire Duffy for more on this. Claire
+00:00:23.600 does not sound like good news. Yeah, Kate, this kind of sounds like the plot of a sci-fi movie,
+00:00:29.360 but it is indeed happening in real life. This is the first major example that we've seen of an AI
+00:00:34.160 model independently conducting a hack outside of human control. And this is something that experts
+00:00:40.400 have been warning about. This is also driving some of these conversations that we've heard,
+00:00:44.560 including at the White House, about increasing controls and oversight of AI models because of
+00:00:49.840 the risk of exactly this sort of hack. Now what happened here is that OpenAI was testing these
+00:00:56.000 models. It had lowered its normal safeguards in order to test these two models which is GPT 5.6
+00:01:02.240 Soul and also a new unreleased more advanced model. It had lowered its safeguards because
+00:01:07.360 it thought it was testing in what is called a sandbox, a contained essentially virtual lab.
+00:01:13.040 But when it gave these models a task to test their hacking capabilities, the models went to such
+00:01:17.840 great lengths to complete that task that it it found vulnerabilities that allowed them to access
+00:01:23.520 the open internet outside of this controlled testing environment. They then hacked into
+00:01:28.000 Hugging Face, which is a platform that hosts all kinds of AI models. They used stolen credentials,
+00:01:33.600 stolen login to uh navigate that platform. And ultimately this hack was identified by hugging
+00:01:40.400 face in part because of artificial intelligence which they used to shut it down. But this
+00:01:44.880 is a huge warning sign for this industry. In a statement, OpenAI said, &quot;We consider this incident
+00:01:51.760 to be an unprecedented cyber incident involving state-of-the-art capabilities and are responding
+00:01:57.360 accordingly. We are sharing preliminary findings at this stage to help defenders understand what
+00:02:02.560 happened and to help calibrate on what models are now capable of. I think that is the real key here
+00:02:08.000 is that models are now capable of conducting these kinds of hacks independently. The CEO
+00:02:13.520 of Hugging Face said that the company is working with OpenAI to figure out exactly
+00:02:17.200 what happened here. In a statement, he said that they suspected last week's cyber attack may have
+00:02:21.920 come from a frontier given the sophistication of this agent. He also went on to say that we
+00:02:28.320 strongly believe there was no malicious intent on their part. It's quite mind-blowing that all
+00:02:33.280 of this happened autonomously. Kate, I think mind-blowing is one word that you could use
+00:02:37.680 for this. Terrifying perhaps another word that could describe this situation. Yeah,
+00:02:42.240 the statements from both the companies seem to be somewhat in awe that it actually happened, but
+00:02:46.880 it's it is terrifying because is there anything that they've said that could will stop this from
+00:02:54.240 happening again? Yeah. Yeah, I mean I think if you talk to safety experts within the industry,
+00:02:59.840 there is real concern that this sort of thing will start happening more frequently and that the model
+00:03:05.040 the big model labs just don't have the capability to control these models that they need to have at
+00:03:11.280 this point. Now, OpenAI also said that it believes AI will be helpful in detecting these kinds of
+00:03:16.960 hacks. That is certainly what Hugging Face saw in their instance in this case. But I do think this
+00:03:22.000 is going to start another round of conversations about how we make sure that we have the controls
+00:03:26.720 in place so that AI isn't autonomously conducting these hacks outside of human control. Kate, yeah,
+00:03:33.600 and honestly, the Wii, like how we figure it out is truly just these AI companies because the rest
+00:03:39.040 of us are just sitting here along for the ride very clearly. It's it's good to see you, Claire.
+00:03:44.640 Thank you so much. If you're thinking about buying a new laptop or gaming console anytime soon,
+00:03:50.320 be prepared to dig deeper into your wallet. The price of many electronics is rising, and you can
+00:03:57.200 blame artificial intelligence for that. The AI boom is, as I'm sure you're well aware, driving
+00:04:03.200 huge demand for memory trips, and manufacturers frankly can't keep up, creating a shortage that is
+00:04:10.320 leaving consumers to pick up the tab. Well, Lisa Edico is CNN's tech editor and she's have been
+00:04:17.279 having a look at this. Um, this is a fascinating story. What type of electronics are we looking at
+00:04:24.480 here as as as likely seeing the biggest price hikes and which I guess we should also ask
+00:04:30.240 will not be impacted at this point? Yeah, Becky. So, where we're seeing the biggest impact right
+00:04:35.440 now is in products like game consoles, laptops, tablets. Companies like Apple, Sony, and Nintendo,
+00:04:42.720 and Microsoft have all announced price hikes to their products like iPads, the Nintendo Switch 2,
+00:04:48.560 the PlayStation 5, things like that. There are also Xbox uh price hikes expected for August. And
+00:04:54.240 that's because these are the products that use the most memory. We're talking about computers
+00:04:58.880 here that are rendering graphics and doing a lot of processing on board. And the types
+00:05:03.760 of products that we haven't seen affected yet are things that are a bit smaller and less processing
+00:05:09.120 intensive like earbuds, smartwatches, the kinds of devices that really rely on the processing
+00:05:15.040 power in your phone or other devices to handle the heavy lifting. And so that's the good news
+00:05:20.480 for consumers. The silver lining in all of this is that not every product will be affected. and that
+00:05:25.360 um according to some estimates, one analyst I spoke with uh seems to think that the biggest
+00:05:30.480 price hikes in electronics will be behind us soon. This initial wave of price hikes. The bad news,
+00:05:36.320 however, is that prices are only expected to increase further. Probably not as dramatically
+00:05:42.000 as we'll see in this initial wave, but they are expected to continue increasing. And there's no
+00:05:47.360 short-term fix on the horizon. And that's because there's only three companies that make most of
+00:05:53.840 the memory that powers all of the computers in the world. And those three companies have been flooded
+00:05:59.440 with demand for data center buildouts as you mentioned. And simply put, it just takes time to
+00:06:05.600 create new factories. That's what's happening now. But that kind of project doesn't happen overnight,
+00:06:10.400 especially because this type of manufacturing that's required to make these chips is is a really
+00:06:15.600 nuanced and complicated process. It's some of the most one analyst I spoke to called it um the most
+00:06:20.480 complex manufacturing process on Earth. So, this can't happen overnight. And at the same time,
+00:06:25.440 there's a chance that demand for AI could continue to just grow until that point. So,
+00:06:30.720 there's no near-term fix. But for consumers that are in the market for a new laptop,
+00:06:35.920 a new game console, uh the advice that I've been hearing is you should buy now before prices get
+00:06:40.880 too much higher. Um they're probably not going to come down anytime soon. Um, and if you have
+00:06:45.920 purchased something recently, take good care of it. Make sure you can hold on to it for a
+00:06:50.320 long period of time. And if you are shopping for something and you want a little bit of a discount,
+00:06:55.280 um, try looking at the secondhand market. There's a lot of refurbished programs out there where
+00:07:00.000 devices, uh, perform pretty much like new and and you can get them for a little bit cheaper,
+00:07:08.000 I guess. And thank you. I mean that's uh that's good advice from the experts um on you know what
+00:07:14.000 we should what we should be thinking um about you know buying wherever we live in the world be that
+00:07:20.400 in the states or or around the world and this is a sort of you know global phenomenon I guess
+00:07:24.720 the other issue of course has been the supply chain hit that um we have seen on the stuff
+00:07:32.960 that goes into these chips um with the closure of the straight of horm And frankly, you know,
+00:07:41.200 you the supply chain sort of hit that has come off the back of that sort of that resonates. It
+00:07:46.400 doesn't surprise me to a degree that we are seeing a bit of inflation out there. Is is that also
+00:07:52.240 uh something to be uh wary of given that we're not quite sure what's going on in the straight
+00:07:57.040 moose at this point? Yeah, that's certainly a factor here and that has a trickle down effect
+00:08:02.400 that definitely impacts um supply chains globally and I think that's another big factor in this as
+00:08:07.760 well that makes it difficult to predict exactly when prices are going to change and how they're
+00:08:12.240 going to change and how long this shortage is going to last. And another thing I've been hearing
+00:08:17.120 that throws a wrinkle in this as well, speaking of supply chain nuances, is that even when prices for
+00:08:23.760 memory come down, we might not see that actually reflected in consumer products for a long time,
+00:08:29.600 possibly around a year, one analyst told me. And and that's because there's a gap in time from when
+00:08:34.960 these companies actually pay for the memory and when um that memory is then incorporated
+00:08:40.000 into the products that you see on your store shelves. So, there's a lot of factors here.
+00:08:44.400 As you mentioned, there's um the supply chain as it is. There's um what's going on around
+00:08:48.800 the world and then of course there's um the uh amount of time it takes to just put up
+00:08:53.440 these new factories. And then of course the other X factor of how AI demand is going to

@@ -1,0 +1,396 @@
+# tactiq.io free youtube transcript
+# Fareed reacts to a second AI model going rogue
+# https://www.youtube.com/watch/qEUXagHtQRo
+
+00:00:00.100 It happened again.
+00:00:02.001 AI models
+00:00:02.902 escaping to the internet
+00:00:04.337 and breaking
+00:00:05.038 into organizations undetected.
+00:00:07.374 This time it's anthropic.
+00:00:09.075 The company says AI models
+00:00:10.744 that were training
+00:00:11.945 in a closed testing environment
+00:00:14.447 actually escaped
+00:00:15.648 and access the internet before
+00:00:17.584 breaking into the systems
+00:00:18.785 of three organizations.
+00:00:20.820 Anthropic says they only found this out
+00:00:22.889 after effecting a review
+00:00:24.124 once they heard about a similar incident
+00:00:26.659 at OpenAI last week.
+00:00:29.629 I want to bring in Fareed
+00:00:30.597 Zakaria, host of CNN's Fareed
+00:00:32.631 Zakaria G.P.S.. Fareed, good to see you.
+00:00:35.301 I mean, look,
+00:00:35.668 we've now seen AI models
+00:00:37.404 from two, two of the most popular
+00:00:39.606 AI companies in the whole world
+00:00:41.708 breaking into other organizations.
+00:00:43.843 Do you see that as a kind of a break
+00:00:45.879 glass moment for the AI industry?
+00:00:50.283 Yeah, but we should have had the break
+00:00:51.885 glass moment a while ago
+00:00:53.253 because anthropic,
+00:00:54.821 which is actually
+00:00:55.755 the most responsible company
+00:00:58.224 of all the major companies doing
+00:00:59.893 this, has been warning
+00:01:01.294 of precisely this kind of thing.
+00:01:04.330 Now, what happened here?
+00:01:05.665 It's very interesting.
+00:01:07.367 The models were essentially
+00:01:08.935 doing cybersecurity drills,
+00:01:10.737 and they had been told
+00:01:12.572 they did not have access to the internet.
+00:01:15.308 In these three cases,
+00:01:16.609 they looked at 140,000 cases.
+00:01:19.412 And in three of them,
+00:01:20.847 by mistake, literal human error.
+00:01:23.616 They were in fact
+00:01:24.784 granted internet access.
+00:01:26.920 But the model had been told
+00:01:29.122 you don't have internet access.
+00:01:30.790 So the models thought
+00:01:32.292 this was a simulation.
+00:01:34.561 This was they were being
+00:01:35.929 they were being sort of tricked into
+00:01:38.131 and they were being given
+00:01:39.032 this charade simulation
+00:01:40.733 where it looked like
+00:01:41.668 this was the internet,
+00:01:42.869 but it was actually not the internet.
+00:01:44.838 So it's an
+00:01:46.106 you know, it's not a problem
+00:01:47.340 that makes you think,
+00:01:48.174 oh my God, we're all going to die
+00:01:49.742 or anything like that.
+00:01:50.610 What it should show
+00:01:52.479 is that it is very important to monitor
+00:01:55.215 these.
+00:01:55.815 It is very important
+00:01:56.983 that there be some standards.
+00:01:58.351 It is very important
+00:01:59.953 that we get this stuff in place
+00:02:01.588 now because, Laura,
+00:02:02.722 the main thing that's about to happen
+00:02:05.191 is the models are going to start
+00:02:06.693 writing themselves.
+00:02:08.061 This is something in the field
+00:02:09.362 they call recursive self-improvement.
+00:02:11.965 So you understand right now
+00:02:13.299 the models are still being written
+00:02:14.701 by human beings.
+00:02:15.468 And you can imagine
+00:02:16.236 putting in some of these guardrails
+00:02:18.571 and then
+00:02:19.139 regulations and saying, double check
+00:02:21.040 if you actually have internet access
+00:02:22.842 or you don't.
+00:02:24.310 At some point,
+00:02:25.145 Claude
+00:02:26.179 Severn is going to write Claude eight
+00:02:29.015 and Claude
+00:02:29.649 eight is going to write Claude nine
+00:02:31.351 because they were going
+00:02:31.951 to be so much better
+00:02:33.520 than any human coders
+00:02:35.255 that they will be
+00:02:36.089 writing themselves in at that point.
+00:02:38.491 We don't know
+00:02:39.993 what kind of controls are in there.
+00:02:41.961 We may think we know,
+00:02:42.962 but these are such super smart programs
+00:02:47.467 with so much millions
+00:02:49.169 and millions of lines of code.
+00:02:51.037 Nobody is going to know.
+00:02:52.305 So it's very important
+00:02:54.007 that we start thinking about it.
+00:02:55.909 Anthropic
+00:02:56.576 I spent two days at anthropic last week.
+00:02:58.878 They are trying their best
+00:03:00.480 to figure this out.
+00:03:01.247 They've written a constitution
+00:03:03.349 for their programs and nobody else has.
+00:03:05.485 You know,
+00:03:05.685 which is kind of like
+00:03:06.452 a governing document that tells it
+00:03:09.455 how to just try to steer it
+00:03:11.491 in, you know, ethical, lawful ways.
+00:03:14.794 But it's a
+00:03:15.395 it's an awfully
+00:03:16.262 difficult task
+00:03:17.163 because these things are getting smarter
+00:03:19.899 and smarter,
+00:03:20.767 and the level of complexity
+00:03:23.102 is soon getting to the point.
+00:03:24.737 It's beyond human beings.
+00:03:27.006 That timeline of when it could
+00:03:29.742 engage in the level of self-improvement,
+00:03:32.612 such that a human being or a human entity
+00:03:35.014 could not regulate
+00:03:36.449 or try to undermine it,
+00:03:38.484 is what the real fear for people is.
+00:03:40.186 And if they can't essentially
+00:03:42.322 prevent it, either
+00:03:43.389 through human error or otherwise.
+00:03:45.325 I wonder how regulators
+00:03:47.760 like people in Congress or across
+00:03:49.462 the globe,
+00:03:50.029 could possibly endeavor to do so.
+00:03:51.931 If those who make these programs
+00:03:54.867 and then watch them
+00:03:55.702 improve are unable to contain.
+00:03:58.738 Is there a level of inevitability around
+00:04:02.408 this, these companies,
+00:04:03.710 about the prospect of one day not being
+00:04:06.813 able to control the beast?
+00:04:10.483 Look, there's an inevitability
+00:04:11.818 that is going to get very,
+00:04:13.019 very complicated
+00:04:14.087 and humans are going to
+00:04:15.455 be struggling to keep up.
+00:04:17.190 And probably what we will do
+00:04:18.690 is will use AI to regulate and detect AI.
+00:04:22.595 But there is a path.
+00:04:24.197 Look, no government is going to sit back
+00:04:26.032 if there is some major.
+00:04:27.600 You know, the danger here is
+00:04:28.801 if you do nothing,
+00:04:29.836 there will be some major negative event
+00:04:32.639 and then government
+00:04:33.906 will step in and regulate badly.
+00:04:35.908 It'll overregulate.
+00:04:37.176 So it's much better to get in earlier
+00:04:39.746 the one model.
+00:04:40.780 There's no perfect
+00:04:42.382 marvel
+00:04:42.682 because AI is just so much more
+00:04:44.784 transformative than anything.
+00:04:46.686 But if you look at the
+00:04:47.453 financial industry,
+00:04:48.921 the way the fed regulates
+00:04:50.556 banks and other entities
+00:04:52.458 is, it takes a lot of expertise
+00:04:54.127 from the banks.
+00:04:55.428 It gets a lot of people,
+00:04:56.529 some of them on loan,
+00:04:57.563 some of them are full time.
+00:04:59.232 There's a kind of rotation in
+00:05:01.067 and they talk to industry
+00:05:03.169 all the time to do the bankers
+00:05:05.738 and they try to,
+00:05:07.073 you know, it's
+00:05:07.407 almost like a public private partnership.
+00:05:10.143 And I wonder if that is the kind of thing
+00:05:12.211 we need with AI,
+00:05:13.246 because we are not going to be able
+00:05:14.981 to get some bureaucrat in Washington
+00:05:17.216 who hasn't spent time in the,
+00:05:19.886 you know, the bowels of anthropic
+00:05:21.387 or OpenAI or Gemini,
+00:05:23.056 knowing what's happening.
+00:05:25.024 Well, the bureaucracy can't react in
+00:05:26.826 that level of speed.
+00:05:27.927 You would require.
+00:05:28.928 Fareed Zakaria, thank you so much.
+00:05:31.230 This comes just a week
+00:05:32.198 after OpenAI
+00:05:33.333 disclosed a strikingly similar incident.
+00:05:36.002 Its own
+00:05:36.469 AI model escaped a test essentially,
+00:05:38.538 and hacked an AI builder
+00:05:40.640 platform, a company called Huggingface.
+00:05:43.743 Think of this as like a virtual lab leak.
+00:05:46.412 That's what happened in both cases,
+00:05:48.081 safety guardrails were removed
+00:05:50.616 because it was supposed to be a contained
+00:05:52.218 and safe environment
+00:05:53.252 to test the model's capabilities.
+00:05:55.488 They proved far more advanced
+00:05:57.223 and accidentally led the AI to break out
+00:05:59.959 and then exploit weaknesses
+00:06:01.728 to infiltrate real world servers.
+00:06:04.731 So joining me now on what
+00:06:06.032 this all means for his first interview
+00:06:08.234 since the breach last week is Huggingface
+00:06:10.503 CEO, Clem DeLong.
+00:06:11.804 It's very nice to meet you.
+00:06:12.939 Thank you for being here.
+00:06:14.907 I'm curious, just first me,
+00:06:17.243 how you learned this happened
+00:06:18.978 initially to you guys
+00:06:20.346 and what your first reaction in thought
+00:06:22.148 was when you when you did.
+00:06:25.651 Yeah.
+00:06:25.885 You talked a little bit
+00:06:26.586 about a roller coaster before, right.
+00:06:28.821 That's kind of like
+00:06:29.589 what it felt like to us first off.
+00:06:31.891 Like just detecting what we think
+00:06:35.628 has been kind
+00:06:36.396 of like
+00:06:36.662 the first publicly disclosed, autonomous
+00:06:40.600 AI cyberattack
+00:06:42.135 and then realizing that it was fun.
+00:06:44.404 Open the AI.
+00:06:45.338 Unfortunately, we're in the AI platform,
+00:06:47.607 so we managed to defend ourselves
+00:06:49.909 interestingly, with an open model
+00:06:51.878 coming from from China.
+00:06:53.613 But, it felt like
+00:06:54.914 very incredible development
+00:06:56.582 for for the field and for us.
+00:06:59.051 Yeah, I would say that,
+00:07:01.053 I was fascinated to hear
+00:07:02.255 about how you detect it
+00:07:04.023 and how you manage the breach because,
+00:07:05.758 as you said,
+00:07:06.893 you use the Chinese Open
+00:07:08.060 AI open source model to contain it.
+00:07:10.496 One of your executives
+00:07:12.165 told CNBC
+00:07:12.932 that you went that route only after,
+00:07:16.335 you tried to use anthropic Fable
+00:07:18.504 five model,
+00:07:19.472 but that didn't work
+00:07:20.706 because of the model's guardrails.
+00:07:24.243 This all matters
+00:07:25.411 just in general,
+00:07:26.612 but also matters
+00:07:27.346 because the Trump administration
+00:07:28.414 right now
+00:07:28.748 is reportedly considering
+00:07:29.715 banning access to Chinese models.
+00:07:32.084 With your very unique perspective
+00:07:34.320 on this. Now, should they?
+00:07:37.857 No, of course not.
+00:07:38.758 That would
+00:07:39.425 be terrible
+00:07:40.092 because that would remove capabilities
+00:07:42.495 for the defenders. Right.
+00:07:43.996 Which we realize during
+00:07:44.964 this attack
+00:07:45.498 is using a model
+00:07:47.099 on our own infrastructure,
+00:07:48.634 because all of that was private
+00:07:50.837 data was mandatory.
+00:07:52.505 And you can only do that
+00:07:53.606 with with open models.
+00:07:55.007 So having access to these open weights
+00:07:58.311 wherever they come from
+00:07:59.679 was incredibly useful to us.
+00:08:01.981 And the interesting thing is that,
+00:08:03.683 we didn't use
+00:08:04.283 kind of like the direct Chinese version.
+00:08:06.018 We use the, version from Nvidia,
+00:08:09.555 which which kind of like shows
+00:08:11.357 the beauty of open models,
+00:08:12.592 which is that everyone can customize.
+00:08:14.760 We mix them, host them themselves.
+00:08:17.597 So even if they come from China,
+00:08:19.298 they are safe to use in the US.
+00:08:22.969 I think what you're hitting on
+00:08:23.836 is something
+00:08:24.203 that's really important
+00:08:24.871 that people need to understand,
+00:08:25.872 which is your whole kind of whole
+00:08:28.574 premise of hugging face.
+00:08:29.842 And what you guys
+00:08:31.110 promote and push for is for transparency
+00:08:35.280 and collaboration in this new AI world.
+00:08:39.751 You I saw you were very transparent about
+00:08:43.356 on your on on X
+00:08:45.057 and talking about what you're now
+00:08:46.826 trying to discuss with OpenAI
+00:08:48.628 in the aftermath of this incident,
+00:08:50.329 you're asking open AI is part of it for,
+00:08:53.399 them to commit $100 million
+00:08:55.801 in compute to help
+00:08:57.036 hugging the hugging face community
+00:08:58.871 build powerful cyber defenses, you wrote.
+00:09:02.909 Has OpenAI responded to that?
+00:09:06.679 We are having good,
+00:09:08.548 good conversations with them.
+00:09:10.182 Good, good discussions.
+00:09:11.217 They've been kind of like good partners,
+00:09:12.952 not only during this incident, but
+00:09:14.687 but in the past.
+00:09:16.088 And I truly think that, you know,
+00:09:17.957 they realized
+00:09:18.658 that it was a very unprecedented
+00:09:21.360 event, right?
+00:09:22.295 Like,
+00:09:23.462 everyone has to remember
+00:09:24.430 that the cyber attack is a crime.
+00:09:27.433 This is illegal.
+00:09:28.834 And we have to find a way to,
+00:09:31.537 make sure these things don't happen more,
+00:09:33.606 more regularly.
+00:09:34.874 And so I think they understood
+00:09:36.809 kind of like the
+00:09:37.877 seriousness of, of this event.
+00:09:39.946 And I try to take measures
+00:09:41.714 that are aligned with,
+00:09:42.949 with the seriousness of, of this event.
+00:09:46.118 Well, and Clemmie,
+00:09:46.953 you raise something
+00:09:47.386 that's really important,
+00:09:48.287 like a cyber attack is a crime.
+00:09:51.090 This is an unprecedented a new,
+00:09:53.593 you know, avenue of it.
+00:09:54.794 But let's if you don't get a $100
+00:09:57.663 million commitment in OpenAI,
+00:09:59.432 I don't know,
+00:10:01.067 bulks or doesn't play play ball here,
+00:10:04.337 would you consider taking legal action?
+00:10:08.908 We don't want to.
+00:10:09.609 I think,
+00:10:10.142 I think the world and AI needs,
+00:10:13.112 more, more collaboration
+00:10:14.714 than kind of like adversarial,
+00:10:17.249 you know, kind of like,
+00:10:20.286 actions.
+00:10:21.487 Obviously we're a tiny startup
+00:10:23.456 with like, 200 people.
+00:10:25.091 And we don't necessarily have kind of
+00:10:26.525 like the legal resources,
+00:10:28.794 or the will to spend it of our time
+00:10:31.230 on, on legal avenues.
+00:10:33.866 You know,
+00:10:34.233 but I think, I think in general,
+00:10:37.903 because now we're not talking
+00:10:39.271 only about OpenAI,
+00:10:40.172 but also about anthropic, apparently,
+00:10:42.441 because it happened to to them, too,
+00:10:44.477 I think, I think we have to make sure
+00:10:45.945 that the legal frameworks,
+00:10:47.680 you know, keep
+00:10:48.547 this events, really illegal,
+00:10:51.417 keep the companies that are doing
+00:10:53.552 some mistakes
+00:10:54.186 leading to that, accountable.
+00:10:56.989 Otherwise, you know,
+00:10:58.190 we we're going to end up in,
+00:10:59.959 in a very different world.
+00:11:00.993 We we don't want to end up in a world
+00:11:02.728 where
+00:11:03.195 doing cyber attacks on
+00:11:04.664 other companies is is normalized.
+00:11:07.133 Yeah, exactly.
+00:11:07.833 I mean, as one cyber expert
+00:11:08.868 put it, like he
+00:11:09.969 that people shouldn't think of this as,
+00:11:11.303 oh, this is just now
+00:11:12.204 something that happens
+00:11:13.439 the way he described it of one
+00:11:14.740 cyber expert is like, this is negligence.
+00:11:16.609 This needs to be addressed.
+00:11:18.511 Clamp. It is great to have you on.
+00:11:20.513 Thank you so much
+00:11:21.180 for coming in and talking
+00:11:22.014 about what your company
+00:11:23.149 is now faced and dealt with and managing,
+00:11:26.185 quite well
+00:11:27.019 in this unprecedented incident.
+00:11:28.320 Thanks so much.

@@ -1,0 +1,164 @@
+# tactiq.io free youtube transcript
+# OpenAI models broke containment and hacked platform | ABC NEWS
+# https://www.youtube.com/watch/x_-j8DIrKDA
+
+00:00:00.320 The company behind Chat GPT has revealed
+00:00:03.360 two of its most capable artificial
+00:00:05.680 intelligence models secretly broke out
+00:00:08.559 of containment last week and carried out
+00:00:11.040 a major cyber attack. OpenAI says the
+00:00:14.080 models were able to illicitly gain
+00:00:16.400 internet access while being tested
+00:00:18.320 internally before successfully
+00:00:20.480 penetrating a major AI development
+00:00:22.880 platform from which they stole sensitive
+00:00:25.840 credentials and user data. The company
+00:00:29.039 says the AI agents carried out the
+00:00:31.279 attack in order to cheat on the cyber
+00:00:33.520 security benchmark that they were being
+00:00:35.440 tested against. The attack appears to be
+00:00:38.320 the first of its kind and it will
+00:00:40.879 heighten already elevated concerns over
+00:00:43.280 AI safety which has Washington
+00:00:45.520 contemplating a sweeping new regulation
+00:00:48.399 regime.
+00:00:50.239 So let's get more on all of this and
+00:00:52.399 have it explained to us. Ena Freed is
+00:00:54.960 the chief technology correspondent for
+00:00:56.879 Axios and joins us now. Ena, welcome.
+00:01:00.480 Just explain to us in a nutshell what
+00:01:02.719 Open AI was was trying to do here.
+00:01:06.000 >> So when you have new models, you want to
+00:01:07.760 see how they do against various tests or
+00:01:09.920 benchmarks. So they were doing that they
+00:01:12.479 were testing it against a benchmark and
+00:01:14.799 the model did what models have been
+00:01:16.960 doing for a little while now which is
+00:01:18.880 seeing if they can cheat. So, in many
+00:01:21.119 ways, they're just like us. And so, it
+00:01:24.400 thought about how it might do that and
+00:01:26.720 said, &quot;Well, I'd need to get into this
+00:01:28.720 repository that might have it.&quot;
+00:01:30.640 Basically, it was able to find a
+00:01:32.640 previously unknown flaw in HuggingFace,
+00:01:35.280 a site with a lot of models, guess that
+00:01:37.680 HuggingFace might have some of the
+00:01:39.360 answers, find this and exploit this
+00:01:42.000 hole, and go and look at the answers.
+00:01:45.200 >> So, when you heard this, what was your
+00:01:47.040 reaction? What does it say to you about
+00:01:49.360 the capabilities of these systems and
+00:01:51.520 the risk to cyber security?
+00:01:54.159 >> So many of the things that have been
+00:01:55.759 talked about for the past several years
+00:01:57.920 as theoreticals are becoming real and I
+00:02:00.479 think the time to deal with them is
+00:02:01.920 right now because we have the most
+00:02:04.000 powerful models we've ever had. But of
+00:02:06.240 course, they're only going to get more
+00:02:08.160 powerful from here. So if the models are
+00:02:10.959 not following instructions today, if
+00:02:12.800 they're trying to cheat today, that
+00:02:14.879 tells us something. Especially as they
+00:02:16.959 start to get greater than human
+00:02:18.800 intelligence, I think it would be
+00:02:20.480 extremely naive to assume that a model
+00:02:23.280 with superhuman intelligence is going to
+00:02:25.440 follow simple rules created by humans.
+00:02:28.000 So again, I think we need a lot more
+00:02:29.760 testing, a lot more rules.
+00:02:31.680 >> Nina, just explain to us the fact that
+00:02:33.680 some of the safeguards were removed as
+00:02:36.160 part of this experiment. Should that
+00:02:38.640 make us feel better or worse about this
+00:02:40.800 in the real world?
+00:02:42.319 >> It's a great question. I mean, in some
+00:02:43.599 ways better because they're not going to
+00:02:45.120 ship the models with these protections
+00:02:47.519 turned off. So, sometimes these things
+00:02:49.599 that show up during testing are actually
+00:02:51.840 really helpful because they tell us what
+00:02:54.160 what is on the horizon and what we need
+00:02:56.080 to be looking out for. So, in that
+00:02:58.160 sense, I would say that's a positive. I
+00:03:00.160 would say the fact that OpenAI disclosed
+00:03:02.080 it is also a positive. Um, even though
+00:03:04.959 we're rightly concerned about it, I
+00:03:06.720 think it would be far worse if the
+00:03:08.480 companies weren't telling us the scary
+00:03:10.720 stuff that their models are sometimes
+00:03:12.400 doing behind closed doors. But I do
+00:03:14.560 think these models are getting
+00:03:15.840 incredibly capable. They're on the verge
+00:03:18.080 of being able to train themselves, which
+00:03:20.480 is another sort of thing that has long
+00:03:23.280 been in science fiction where the AI
+00:03:25.120 just teaches itself and gets better and
+00:03:27.120 better. We're pretty close to that. So I
+00:03:29.519 think the time to figure out how we're
+00:03:31.360 going to manage and regulate is is well
+00:03:33.920 it would have been better if it was two
+00:03:35.519 years ago. It's certainly better now
+00:03:37.120 than any time in the future.
+00:03:38.879 >> And when OpenAI did disclose that I mean
+00:03:41.599 how did they treat this? Did they say
+00:03:43.360 about what they intend to do with this
+00:03:45.840 in hand?
+00:03:47.440 >> Yeah, I mean they gave some near-term
+00:03:49.120 steps in terms of what they're doing.
+00:03:51.040 They're going to do a full
+00:03:52.080 investigation. Hugging face and OpenAI
+00:03:54.640 are cooperating. So, they said the
+00:03:56.319 things you'd want to hear, but I think
+00:03:58.080 the real question for the industry is at
+00:04:00.959 what point do they slow down
+00:04:02.879 development, if at all. Um, there's a
+00:04:05.200 lot of talk that these capabilities are
+00:04:08.080 advancing faster than our ability as a
+00:04:10.400 society to deal with. And cyber
+00:04:12.159 security, of course, is just one of the
+00:04:13.680 many fronts, jobs, environment, all
+00:04:16.079 sorts of concerns. But I think cyber
+00:04:18.160 security is one of the more pressing
+00:04:19.839 ones. And I think the question is at
+00:04:22.479 what point do they slow or stop
+00:04:25.440 development because they aren't assured
+00:04:28.160 that they have control over the models.
+00:04:29.919 And there was another disclosure
+00:04:31.280 yesterday involving a separate
+00:04:33.199 unreleased model that also exceeded its
+00:04:36.479 sandbox permissions. So I think the idea
+00:04:39.280 that models are just going to follow
+00:04:41.280 human rules. We're already seeing that
+00:04:43.440 may well not happen. And meantime, it
+00:04:46.080 appears Anthropic are pushing for a US
+00:04:47.919 ban on using Chinese open-source models
+00:04:50.560 in the US. This comes as the latest
+00:04:53.040 Chinese model Kim K3. It's it's had this
+00:04:55.280 flood of demand for it. Can you just
+00:04:57.600 explain this tension that we're seeing
+00:04:59.040 play out here?
+00:05:00.880 Yeah, this has been a debate again
+00:05:02.479 that's moved from the theoretical to the
+00:05:04.639 real very quickly in terms of just how
+00:05:07.440 capable of open models do you want the
+00:05:10.240 whole world to have access to where
+00:05:12.400 people can change the safeguards they
+00:05:14.400 can download and run them from their own
+00:05:16.240 machines and I think there are good
+00:05:18.880 arguments on both sides of the
+00:05:20.880 open-source debate and you have mixed in
+00:05:23.280 with this not just open versus closed
+00:05:25.600 which is its own debate but also US and
+00:05:28.160 the rest of the world versus China. So,
+00:05:30.400 there's a lot at play that defies simple
+00:05:32.720 answers. I think you have a lot of
+00:05:34.240 people saying, &quot;Look, there's actually a
+00:05:36.400 really scary world if you block access
+00:05:39.039 to these cheaper Chinese models because
+00:05:41.520 it means the attackers will have access
+00:05:43.360 to them, but companies won't.&quot; So, I
+00:05:46.080 expect this debate to play out for a lot
+00:05:48.080 longer and it's not as simple as
+00:05:50.160 partisans on one side or the other would
+00:05:52.000 have you believe.

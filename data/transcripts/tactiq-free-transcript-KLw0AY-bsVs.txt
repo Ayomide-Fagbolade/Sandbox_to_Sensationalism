@@ -1,0 +1,142 @@
+# tactiq.io free youtube transcript
+# How OpenAI’s Models Went Rogue to Hack Another Company | WSJ
+# https://www.youtube.com/watch/KLw0AY-bsVs
+
+00:00:00.270 - This is what it looks likewhen an AI model goes rogue.
+00:00:03.300 A few models from OpenAIrecently broke out
+00:00:05.700 of their training environment,accessed the internet,
+00:00:08.070 and took thousands of actionstargeting another AI company
+00:00:11.220 to complete their training objective.
+00:00:13.650 In addition to OpenAI,several other companies,
+00:00:16.320 including Anthropic, Meta,
+00:00:18.300 and China's Moonshot AI,
+00:00:19.980 which makes the popular model Kimi K3,
+00:00:22.500 have reported their AI models going rogue.
+00:00:25.410 They're alarming leaders in Washington
+00:00:26.940 and the private sector who don't know
+00:00:28.530 where the next attack might come next.
+00:00:30.480 - This is the first sortof security incident
+00:00:34.080 that I have felt very viscerally.
+00:00:35.820 - These incidents are adding to fears
+00:00:37.380 that the latest AI modelscan carry out cyber attacks
+00:00:39.960 almost on their own.
+00:00:41.730 That's increasing pressureon lawmakers in Washington
+00:00:44.430 and businesses around thecountry to take action.
+00:00:47.880 To understand how these AImodels went rogue, you also need
+00:00:50.640 to understand how they are trained.
+00:00:52.410 In the OpenAI case, thecompany was using what's known
+00:00:54.990 as a sandbox, a contained environment.
+00:00:57.450 And in that environment, they removed many
+00:00:59.640 of the guardrails on purpose
+00:01:01.260 that they would normallyhave when releasing a model
+00:01:03.210 to the public to seewhat their model can do.
+00:01:05.970 And the idea is that theyput them through a number
+00:01:08.250 of different tests andchallenges to test their power.
+00:01:11.520 Some of these challengesare essentially digital
+00:01:13.320 versions of Capture the Flag.
+00:01:14.970 The model is given softwarethat has a known bug in it.
+00:01:17.910 It tries to break into thatsoftware to identify the bug,
+00:01:20.910 then prove that it hassuccessfully completed the task.
+00:01:24.090 Recent models like Anthropic's Mythos
+00:01:25.950 and OpenAI's GPT 5.6 havegotten so proficient at hacking
+00:01:29.730 that they're essentially capable
+00:01:30.960 of carrying out theseattacks on their own.
+00:01:33.360 And that's fueled all theseconcerns about cyber attacks
+00:01:35.820 going around the world.
+00:01:37.740 In June, the Trumpadministration essentially forced
+00:01:40.590 Anthropic to take down two versions
+00:01:42.480 of its Mythos model over concerns
+00:01:44.490 that the safeguards weren't adequate
+00:01:46.110 before it was released toa large number of people.
+00:01:48.600 That was the first time something
+00:01:49.770 like that had ever happened.
+00:01:51.120 - We saw this huge jump. Itwas a particularly large jump.
+00:01:54.480 And without us reallyprompting them at all,
+00:01:59.130 some of the earlycompanies that we gave this
+00:02:01.470 to said things like,&quot;This is a super weapon.
+00:02:04.260 You should have to own agun license to use it.&quot;
+00:02:06.930 - OpenAI's models hacked HuggingFace, another AI company.
+00:02:10.979 They found vulnerabilities intheir training environment,
+00:02:13.830 took advantage of thoseto access the internet,
+00:02:16.290 then used swarms of attackers
+00:02:18.300 to take some 17,000 actionsagainst Hugging Face
+00:02:21.480 over the course of several days.
+00:02:23.730 They were trying to getvery specific information
+00:02:26.280 and complete their training objective.
+00:02:28.260 Think of it as cheating toget the answers on a test.
+00:02:31.290 Their models essentially decidedthat being on the internet
+00:02:34.200 and hacking another organizationwas the most effective way
+00:02:37.290 of completing their training objective.
+00:02:39.570 The hacks are increasingpressure in Washington
+00:02:41.790 to get more done and passthe nation's first AI rules.
+00:02:45.720 Fears about models goingrogue have contributed
+00:02:47.910 to a nationwide backlashagainst the technology
+00:02:50.700 and made AI sentiment really negative.
+00:02:52.950 - We need to understand thecapability of these models.
+00:02:56.610 And when there is a seriousincident, there needs
+00:02:58.950 to be a requirement that it'sreported to the government.
+00:03:02.550 - The Trump administration has elected
+00:03:04.170 to keep pre-release testingof these models voluntary.
+00:03:07.650 The administration recentlyfinalized an agreement
+00:03:09.840 with top AI companies
+00:03:11.400 that would have the leadingcompanies in the space like
+00:03:14.040 OpenAI, Anthropic, and Google
+00:03:16.050 submit their modelsfor pre-release testing
+00:03:18.060 to the government for reviewof security and other factors.
+00:03:21.240 But many other companieswould be exempted.
+00:03:23.280 So some of the smaller AI companies.
+00:03:25.770 President Trump and the WhiteHouse have emphasized the need
+00:03:28.080 to balance security and innovation.
+00:03:30.210 They don't want to seed anyground to China in the AI race,
+00:03:33.780 while they areacknowledging there are some
+00:03:35.610 cybersecurity risks here.
+00:03:37.680 - China has virtually no controls.
+00:03:39.480 It's freewheeling a little bit.
+00:03:42.120 So we have to be careful in both ways.
+00:03:44.670 We don't want to restrict them where all
+00:03:46.110 of a sudden we come in second to China.
+00:03:49.350 - Several Chinese companiesrecently released AI models
+00:03:52.290 that are almost as goodas the leading US tools.
+00:03:54.990 They're more accessible and cheaper,
+00:03:57.030 but they also don't havenearly as many guardrails.
+00:04:00.180 Hugging Face used an open Chinese model
+00:04:02.520 that can be customized torespond to OpenAI's hack.
+00:04:05.820 And they did that because acomparable model from Anthropic
+00:04:09.210 wouldn't let it carryout the same functions
+00:04:11.310 due to security guardrails.
+00:04:13.410 The Trump administrationis considering actions
+00:04:15.690 to restrict access to Chinese open models
+00:04:18.120 that can be customized,
+00:04:19.410 but tech leaders inrecent weeks have asked
+00:04:21.720 the administration not to do that.
+00:04:23.490 They've said that thesemodels are good for innovation
+00:04:26.010 and competition in this space.
+00:04:27.690 - They're an amazing resourcefor so many people in the US.
+00:04:31.440 Like if you think, you know,research labs, small companies,
+00:04:35.490 startups, big companiesthat are running kind
+00:04:38.700 of like large AI workloads,
+00:04:41.670 most of the time they can'treally use a frontier API,
+00:04:44.610 so they need an open model.
+00:04:46.410 And the reality is that right now,
+00:04:47.940 the best ones are coming from China.
+00:04:50.160 - In another sign ofincreasing security concerns,
+00:04:52.740 more than 1,000 AI researchersat all the big leading US
+00:04:56.220 AI labs recently put outa statement suggesting
+00:04:58.830 that there needs to be aglobally coordinated brake pedal
+00:05:01.770 for AI development in the future.
+00:05:04.020 They're worried about a situation
+00:05:05.400 where AI essentially improves on its own.
+00:05:08.310 For their part, leading AIcompanies say they will work
+00:05:10.950 with the third partiesthat test their models
+00:05:12.960 to make sure those environments are secure
+00:05:15.000 and prevent this kind of thingfrom happening in the future.
+00:05:17.940 They are also saying theywelcome more government oversight
+00:05:20.730 as long as it doesn't hinder innovation.
+00:05:22.980 In early August, OpenAIannounced it was pausing
+00:05:25.860 some development of itslatest AI model, Astra,
+00:05:28.830 after internal evaluations led the company
+00:05:31.230 to conclude it could not rule out critical
+00:05:33.330 cyber capabilities.
+00:05:34.890 Progressive lawmakers,including Bernie Sanders,
+00:05:37.350 are now calling for AIcompanies to pause development
+00:05:40.200 and publicly respond toquestions from lawmakers.

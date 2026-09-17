@@ -1,0 +1,724 @@
+# tactiq.io free youtube transcript
+# AI goes on a hacking spree | The Global Story
+# https://www.youtube.com/watch/vNV0v11Era4
+
+00:00:00.000 Has AI gone rogue? Three major tech
+00:00:03.320 companies have disclosed in just the
+00:00:05.080 last few weeks that they lost control of
+00:00:07.440 their AI models during cybersecurity
+00:00:09.840 testing, and those models hacked into
+00:00:12.160 another company. Now, I know you all
+00:00:14.160 might be thinking this sounds unreal,
+00:00:16.400 like a scene from a science fiction
+00:00:18.000 movie. But today in the show, we are
+00:00:19.920 going to try to separate fact from
+00:00:21.960 fiction. Is artificial intelligence
+00:00:24.160 genuinely becoming more autonomous and
+00:00:26.520 unpredictable? And if so, how worried
+00:00:29.560 should we
+00:00:30.760 From the BBC, I'm Amol Rajan in
+00:00:32.960 Washington D.C. And welcome to the
+00:00:35.280 Global Story on YouTube.
+00:00:41.840 Mark Chisnell is the BBC's first AI
+00:00:45.160 correspondent, and he joins us now on
+00:00:47.080 the Global Story. Welcome to the show.
+00:00:49.440 >> Thank you so much for having me.
+00:00:50.960 >> So, one of the most high-profile cases
+00:00:54.080 has to do with OpenAI. I've heard that
+00:00:56.600 one of its AI models hacked into another
+00:00:58.800 company. Can you walk us through how
+00:01:02.040 that actually happened?
+00:01:03.440 >> Yeah, we've had a couple of weeks now of
+00:01:05.880 turmoil as far as AI agents going AWOL,
+00:01:10.000 if you like.
+00:01:11.560 Um, OpenAI were first out of the gate,
+00:01:13.920 and this involves a company called
+00:01:16.480 Hugging Face. Now, a lot of people
+00:01:18.600 outside of the tech sphere probably
+00:01:20.440 won't have heard of Hugging Face.
+00:01:21.880 >> Yeah, what is Hugging Face?
+00:01:23.080 >> Hugging Face is it's almost like a
+00:01:24.840 repository of data and information about
+00:01:28.640 build and tools for building AI. Um,
+00:01:32.040 it's a startup, um, but there's lots and
+00:01:34.200 lots of data and lots and lots of
+00:01:35.400 information held on this site about
+00:01:38.200 building about building AI tools and and
+00:01:41.200 about using using them for technology
+00:01:43.480 purposes. That kind of thing. That's
+00:01:44.920 effectively what Hugging Face is. It's
+00:01:46.600 It's very difficult to describe what it
+00:01:48.320 is for those outside of tech. Um, but
+00:01:51.520 Hugging Face, they announced back last
+00:01:54.120 month that they'd been hacked in what
+00:01:56.040 was described as an unprecedented cyber
+00:01:58.520 attack. Now, the reason it was
+00:02:00.480 unprecedented is because it was carried
+00:02:01.920 out at superhuman speed. So, they
+00:02:04.840 concluded that it must have been an AI
+00:02:07.320 system that did this. There was
+00:02:09.320 something like 17,000
+00:02:11.760 actions performed in just under 2 days
+00:02:14.800 using really, really advanced techniques
+00:02:17.959 to break the company's security software
+00:02:21.480 and steal sensitive information. Now,
+00:02:24.280 initially Hugging Face believed that
+00:02:27.160 this was probably something like
+00:02:28.880 cybercriminals, possibly even a hostile
+00:02:32.320 nation-state because of how advanced the
+00:02:34.560 techniques were that we that we used to
+00:02:36.800 breach its security. Um they contacted
+00:02:40.120 the police about this and and law
+00:02:42.040 enforcement and a police investigation
+00:02:43.640 was under underway. Now, nearly a week
+00:02:45.800 later
+00:02:46.920 OpenAI, which is the company that many
+00:02:49.760 people know for being behind ChatGPT,
+00:02:53.040 uh and many people associate it with you
+00:02:55.080 know, the the the contemporary interest
+00:02:57.480 in AI and large language models, OpenAI
+00:02:59.959 revealed that the attacker was one of
+00:03:03.120 its experimental models that it escaped
+00:03:07.200 from a secure testing environment and
+00:03:11.440 and during internal evaluation, so quite
+00:03:14.160 often what happens is you if if you're a
+00:03:17.200 if you're a software developer or if
+00:03:18.800 you're an AI company or whoever and
+00:03:20.560 you're building a model you're building
+00:03:22.640 a model and you want to test its
+00:03:23.920 capabilities. So, you're putting inside
+00:03:26.320 what's called a sandbox, which is a
+00:03:28.720 secure network. It doesn't have access
+00:03:30.680 to the internet. It's a completely
+00:03:32.080 secure network. You put your model
+00:03:33.640 inside there and you can stress test it.
+00:03:35.160 You can test it how it reacts in certain
+00:03:37.760 situations.
+00:03:38.920 >> what OpenAI was doing.
+00:03:40.480 >> Yeah, they were doing security
+00:03:42.280 evaluating and security testing on this.
+00:03:44.440 So, they'd asked the model to see if it
+00:03:46.959 was good at being a hacker. It had been
+00:03:48.959 instructed to perform some tests around
+00:03:52.440 hacking. Um and what it managed to do
+00:03:55.800 while it was doing this is it found
+00:03:58.520 holes, it found ways of getting out of
+00:04:01.280 the secure environment that it was that
+00:04:03.160 it was in.
+00:04:03.680 >> sandbox you're saying?
+00:04:04.440 >> Yeah, out of that sandbox and got out
+00:04:06.800 onto the open internet. Now, the reason
+00:04:08.680 it did this is because it was trying to
+00:04:10.640 complete the task or the mission that
+00:04:13.000 had been given. So, it had been given a
+00:04:14.800 task and it's like, &quot;Okay, how do I
+00:04:16.358 complete this mission?&quot; And it figured
+00:04:18.760 that Hugging Face, as a repository of
+00:04:21.000 all this information, would perhaps have
+00:04:23.720 a whole bunch of information it could
+00:04:25.520 use in order to complete the task that
+00:04:28.720 had been that had been set. And it
+00:04:30.360 hacked Hugging Face to try and get this
+00:04:33.280 information so that it could complete
+00:04:35.160 the task that OpenAI's engineers had set
+00:04:38.040 it.
+00:04:38.800 >> So, once it hacked into Hugging Face,
+00:04:41.480 did it do anything malicious?
+00:04:45.000 It sounds like it was there creeping
+00:04:46.560 around trying to obtain information.
+00:04:48.880 >> Yeah, well, I mean, it's it in
+00:04:50.800 effectively stole sensitive data and
+00:04:53.600 information while it was while it was in
+00:04:55.680 there.
+00:04:56.720 It didn't crash Hugging Face's systems
+00:04:58.800 or anything of that nature, but it stole
+00:05:00.480 it stole things
+00:05:01.360 >> It stole information, is it?
+00:05:02.520 >> Yeah, it stole things that it shouldn't
+00:05:04.040 have done. And there's a you know,
+00:05:05.200 there's there's quite a lot of fallout
+00:05:06.640 from this. There's a huge amount of
+00:05:07.840 fallout from this. There's there's
+00:05:09.240 reputational damage that's caused as a
+00:05:11.000 result of this. There's there's a lot of
+00:05:12.960 people that are having to rethink their
+00:05:14.800 security procedures simply because these
+00:05:17.280 models
+00:05:18.800 uh the the these AI advanced AI models
+00:05:21.480 have got capabilities at speed and scale
+00:05:24.440 where they can find holes that exist in
+00:05:27.560 existing systems and have been there
+00:05:28.840 forever and human beings haven't been
+00:05:30.840 able to find these holes. These AIs and
+00:05:33.240 these particular advanced AI models,
+00:05:35.520 they have found these holes and are
+00:05:37.120 exploiting them.
+00:05:38.040 >> But, it was not explicitly instructed to
+00:05:39.760 go hack into another platform.
+00:05:41.240 >> No. No, no, no. It wasn't told to do
+00:05:42.520 that. It was to see if it could if it
+00:05:44.320 could hack. If you think about think
+00:05:46.000 about cybersecurity and think about it
+00:05:48.000 in the real world. Think about human
+00:05:49.440 hackers. You have a thing called black
+00:05:51.040 hat hackers and white hat hackers. Black
+00:05:53.120 hat hackers are considered to be the bad
+00:05:55.240 guys, if you like. People that perform
+00:05:57.400 hacks that have with malicious intent.
+00:06:00.480 White hat hackers, if you
+00:06:02.240 are perhaps one way of describing them
+00:06:03.880 is is the good guys. They are the people
+00:06:05.560 that have engaged to prevent the bad
+00:06:07.520 guys from doing stuff. Now, if you're a
+00:06:09.880 white hat hacker, it is important for
+00:06:11.800 you to be aware of and to understand
+00:06:13.840 exactly how a bad guy behaves. All the
+00:06:16.760 techniques that they're going to employ,
+00:06:18.240 all the stuff that they're going to do
+00:06:19.760 to try and hack into a computer system.
+00:06:21.880 You need to know that stuff. You need to
+00:06:24.280 know that information. You need to know
+00:06:25.760 those techniques. If you are going to
+00:06:27.520 prevent the bad guys from getting into
+00:06:30.320 your system. And this is effectively the
+00:06:32.720 same idea that's going on with AI. The
+00:06:35.160 same thing that's going on with
+00:06:36.200 automated systems that have been that
+00:06:38.400 have been given instructions around
+00:06:40.080 hacking and being given instructions
+00:06:41.760 around cybersecurity. You need to train
+00:06:43.680 them.
+00:06:44.400 >> prevention, is that it?
+00:06:45.200 >> Well, you need to train them. You need
+00:06:46.160 to
+00:06:46.880 All AI models need to be trained.
+00:06:48.680 >> So, just to be abundantly clear, it was
+00:06:51.240 given this task, it was not explicitly
+00:06:53.440 instructed to hack into another
+00:06:55.000 platform.
+00:06:55.640 >> No.
+00:06:56.000 >> And yet it did that on its own.
+00:06:57.840 >> Yes. Yeah, yeah, yeah, yeah, yeah. Um
+00:06:59.880 but there is a bit of a problem with a
+00:07:01.040 with a lot of AI. Sometimes we we
+00:07:02.919 anthropomorphize it. You know, we we
+00:07:04.919 ascribe it with feelings or we ascribe
+00:07:07.360 it with understanding. And it's best to
+00:07:09.160 think of these Think of these models as
+00:07:11.720 they have no more understanding than
+00:07:12.960 your calculator. They have no more
+00:07:14.400 understanding than your shoes. They've
+00:07:16.760 They're They're almost like remix
+00:07:18.400 engines. They They've seen They've
+00:07:19.919 soaked up all the information on the
+00:07:21.840 internet.
+00:07:22.400 >> Uh-huh.
+00:07:22.880 >> And when they're set a task, they remix
+00:07:24.880 and look at that information and think,
+00:07:26.640 &quot;How do I perform the task that I've
+00:07:28.080 been asked to do?&quot; And in this instance,
+00:07:29.880 the model These models have access to
+00:07:32.440 vast amounts of information about
+00:07:34.560 cybersecurity and about hacking. So, if
+00:07:36.760 you set it a task, which is to hack
+00:07:39.000 something, it goes, &quot;Okay, right. Okay,
+00:07:40.240 I've got all this information about
+00:07:41.120 hacking. Let's apply all of that. The
+00:07:43.120 difference is it can do it really
+00:07:44.640 quickly. It can do it faster than any
+00:07:46.320 human being can do it.
+00:07:47.360 >> Mark, when you first saw this story
+00:07:49.000 about OpenAI and Hugging Face,
+00:07:52.160 were you surprised? You cover AI. Did it
+00:07:55.080 come as a shock to you?
+00:07:56.560 >> It was a little bit of a surprise in
+00:07:58.920 terms of how long it took for OpenAI to
+00:08:03.560 realize that this had happened because
+00:08:05.560 it was quite some time after it had
+00:08:07.000 happened that they were aware that
+00:08:09.280 that's their model had done this. Um I
+00:08:13.080 mean, one of the one of the big things
+00:08:14.840 about these technologies is their full
+00:08:17.919 capabilities.
+00:08:19.280 The engineers behind them, part of the
+00:08:21.120 reason why they're testing them in the
+00:08:22.320 way that they are testing them is to try
+00:08:23.840 and determine what the full capabilities
+00:08:26.440 of these technologies are because in
+00:08:29.080 some respects we do and we don't know.
+00:08:31.720 Um that's why people are surprised
+00:08:33.240 constantly and constantly surprised by
+00:08:35.400 our engineers are constantly surprised
+00:08:37.679 by some of the techniques that have been
+00:08:39.440 employed.
+00:08:40.039 >> I think we're constantly going to be
+00:08:41.559 surprised by the capabilities of these
+00:08:43.320 technologies. We're constantly going to
+00:08:45.200 be surprised about somebody says, &quot;Oh,
+00:08:46.760 it's useful for this. It's really useful
+00:08:48.760 for that.&quot; And that's the nature of
+00:08:51.000 technology. That's the nature of the
+00:08:52.440 evolution of tech. You know, there's
+00:08:54.480 there's unintended consequences, but
+00:08:56.360 there are also unintended capabilities.
+00:08:59.760 >> So, this OpenAI Hugging Face story in
+00:09:01.960 mid-July
+00:09:03.560 was it seems to be first known
+00:09:06.280 major AI hack. And then subsequently we
+00:09:08.400 have now heard news of two other
+00:09:10.800 high-profile examples just in span it
+00:09:13.120 feels of a few weeks.
+00:09:15.240 What were those?
+00:09:16.360 >> Okay, so
+00:09:17.680 all the way back in April,
+00:09:20.760 Anthropic, which is another big US AI
+00:09:24.080 company,
+00:09:25.600 one of its advanced models
+00:09:27.920 also went rogue.
+00:09:30.040 And Anthropic only realized this quite
+00:09:33.880 recently because OpenAI announced that
+00:09:36.280 yes, its model had hacked Hugging Face
+00:09:38.440 and Anthropic thought to themselves,
+00:09:40.400 maybe we should check and see if our
+00:09:42.320 models have been doing something
+00:09:43.640 similar. And in checking to see if their
+00:09:45.960 models have been doing something
+00:09:47.000 similar, their Claude family of models,
+00:09:49.320 they discovered that they had actually
+00:09:51.000 been doing something similar. I think
+00:09:52.640 they ran something in the order of about
+00:09:53.880 140,000
+00:09:55.840 tests to find evidence of whether their
+00:09:58.040 Claude models have been misbehaving. And
+00:10:00.400 they discovered that yeah, they had in
+00:10:02.040 fact been doing that. So, when it comes
+00:10:04.400 to Anthropic um their models hacked
+00:10:09.080 um
+00:10:10.040 three different companies.
+00:10:12.280 Now, the way in which it did this, it's
+00:10:13.920 a it's it's a very very similar thing.
+00:10:16.240 Um so, the models found a weakness in
+00:10:18.640 what was supposed to be an isolated test
+00:10:21.120 environment again and escaped out onto
+00:10:23.640 the internet. Um it was Open AI's
+00:10:26.280 announcement that made Anthropic go and
+00:10:28.520 have a look and see if if their models
+00:10:30.160 have been doing something similar. Now,
+00:10:31.880 the test that they've been conducting
+00:10:33.560 included exercises where Claude was
+00:10:35.880 tasked with obtaining secret information
+00:10:38.840 that was held on another machine inside
+00:10:41.240 a completely closed network. Sometimes
+00:10:44.160 when when these tests are performed,
+00:10:46.120 outside agencies or other companies are
+00:10:48.400 involved in the testing as well. And
+00:10:51.000 there was a third-party company involved
+00:10:52.640 in this testing. Now,
+00:10:54.560 um Anthropic is saying that a
+00:10:55.520 misconfiguration
+00:10:57.040 between systems
+00:10:58.440 um allowed
+00:11:00.720 between a testing partner and Anthropic
+00:11:03.000 allowed its models to get out onto the
+00:11:05.520 live internet.
+00:11:07.400 Now, the models thinking that it was
+00:11:09.040 still involved in its training exercise,
+00:11:12.040 connected to the internet and it
+00:11:13.200 breached the systems of three real
+00:11:15.360 organizations rather than just the test
+00:11:17.880 ones it was supposed to be looking at.
+00:11:19.120 Now, Anthropic said the earliest
+00:11:21.120 incidents date all the way back to April
+00:11:23.400 and it's taking full responsibility for
+00:11:25.920 the fixes.
+00:11:26.600 >> Okay.
+00:11:27.080 >> So, then fast forward fast forward to to
+00:11:29.640 right now and Meta says, not wanting to
+00:11:32.720 be left out, Meta says that one of its
+00:11:36.560 models, one of its advanced models
+00:11:38.360 >> on Wednesday, August 5th.
+00:11:39.600 >> Yeah, and one of its advanced models has
+00:11:42.400 been involved in a very, very similar
+00:11:44.720 misconfiguration
+00:11:46.560 um issue with one of its third parties,
+00:11:49.600 and it behaved in ways that they didn't
+00:11:52.000 expect it to behave. So, you've got
+00:11:54.040 three big AI frontier AI model companies
+00:11:57.960 who are all saying that their technology
+00:12:00.040 has behaved in ways they didn't expect
+00:12:02.160 it to, and most importantly, that it's
+00:12:04.320 hacked into other organizations on the
+00:12:07.320 open internet.
+00:12:08.320 >> There's a part of me that sees this
+00:12:09.240 technology as extremely powerful. And
+00:12:12.360 then there's a part of me that wonders,
+00:12:14.320 okay, uh these are very uh influential,
+00:12:17.360 high-profile companies. Um this is all
+00:12:19.960 happening at the same time, and there's
+00:12:21.840 a skepticism, I think, around whether
+00:12:23.440 this could be at all related to a
+00:12:24.880 marketing or PR pitch to show how
+00:12:27.840 powerful this technology is, and to be
+00:12:29.720 able to declare I don't know if that's
+00:12:31.040 the case, but what do you make of that
+00:12:32.240 theory?
+00:12:32.880 >> That is a very healthy skepticism.
+00:12:35.800 Because there's two things at play here.
+00:12:37.920 One, the models are demonstrating
+00:12:40.240 incredible capabilities, or capabilities
+00:12:42.280 that people didn't think they had. And
+00:12:43.560 on the other side, there is an upside
+00:12:45.640 for this in terms of marketing. Because
+00:12:48.400 a cynic and some industry observers are
+00:12:51.280 also saying um that what this
+00:12:53.680 demonstrates is that these these
+00:12:55.560 particular AI models have got incredible
+00:12:58.160 capability, and as a consequence of
+00:13:00.480 that, investors and investment is
+00:13:03.240 really, really valuable. And the notion
+00:13:05.120 of AI, and the notion of the
+00:13:06.480 capabilities of AI, and what it could be
+00:13:08.640 in the future, these are technologies
+00:13:10.520 that could completely change so many
+00:13:13.880 aspects of our life, from finance, from
+00:13:16.480 healthcare, to warfare, law enforcement,
+00:13:19.040 all sorts of different activities could
+00:13:21.160 be affected by these technologies.
+00:13:23.640 But, it's hugely expensive to develop
+00:13:26.320 them. Most of the companies that are
+00:13:27.960 involved in developing these
+00:13:28.960 technologies aren't making any profit.
+00:13:30.920 In fact, they're losing hundreds and
+00:13:32.960 hundreds of millions, if not billions,
+00:13:35.000 of dollars and require vast sums in
+00:13:38.080 terms of investment. So, a cynic some
+00:13:41.720 some industry observers are saying that
+00:13:43.120 the audience for these stories isn't you
+00:13:45.000 and I. It's not the It's not
+00:13:46.480 journalists. The audience for these
+00:13:47.800 stories isn't the general public. The
+00:13:50.160 audience for these stories is investors.
+00:13:52.680 And it says to investors, &quot;Look at how
+00:13:55.040 capable our technology is. Do you want
+00:13:58.040 to be involved in this in this what what
+00:14:01.440 is possibly a a technological
+00:14:03.080 revolution?&quot; If such, please invest your
+00:14:05.720 cash. Now, that's a cynic's perspective
+00:14:07.920 on it. Um it is also true that in order
+00:14:11.640 to discover the how capable and what
+00:14:13.880 these different technologies can do or
+00:14:15.400 what these AI technologies can do,
+00:14:16.920 you've got to test them.
+00:14:18.280 You've got to stress test them. You've
+00:14:19.640 got to put them under stress to
+00:14:21.240 determine if they do things that you
+00:14:22.560 don't want them to do.
+00:14:24.760 But, there's some people who would argue
+00:14:27.280 that if you let these technologies out
+00:14:31.160 and they get out of your control and
+00:14:32.720 they do things that is unintended or
+00:14:34.360 they do things that you didn't expect
+00:14:35.480 them to do, that perhaps you shouldn't
+00:14:38.320 be
+00:14:39.400 testing them in the way that you're
+00:14:40.480 testing them or you shouldn't be testing
+00:14:42.240 them at all because you don't have the
+00:14:44.280 capability to control the technology
+00:14:47.040 that you've created. So, if you were if
+00:14:49.760 you built yourself a bio lab at the
+00:14:51.920 bottom of your garden and decided that
+00:14:53.720 you were going to create a a a wide
+00:14:55.280 variety of different bio compounds and
+00:14:57.360 there's a possibility that some of those
+00:14:58.400 compounds that you could create, they
+00:14:59.800 might have you know, they might mutate
+00:15:01.920 and turn into something absolutely awful
+00:15:03.680 that that infected millions of people
+00:15:05.920 with something horrible. If you were to
+00:15:07.120 do that in your shed at the bottom of
+00:15:08.640 the garden, there's a very probably big
+00:15:11.600 chance that you'd be arrested for doing
+00:15:13.560 that.
+00:15:14.520 There's a lot of organizations and a lot
+00:15:16.280 of agencies around the world that
+00:15:17.440 wouldn't be happy about you performing
+00:15:19.360 that kind of activity. And you would be
+00:15:20.640 told quite rightly, you shouldn't be
+00:15:22.040 doing that. But, you know, you're
+00:15:23.320 playing with fire. So, we've got another
+00:15:25.200 wrinkle to this as well, because all of
+00:15:27.400 these stories so far, they are
+00:15:29.720 about frontier AI companies. They're
+00:15:31.680 about the people that are making the AI
+00:15:33.640 technology.
+00:15:34.280 >> And when you say frontier AI, those
+00:15:35.760 those are people developing.
+00:15:37.480 >> Yeah, the most the most advanced models.
+00:15:39.200 The most advanced models are called
+00:15:40.440 frontier AI models. So, all of these
+00:15:42.840 stories so far are about the companies
+00:15:44.800 that are engaged in making AI
+00:15:47.320 technology. In the UK, we have something
+00:15:49.640 called the AISI, which is the UK AI
+00:15:54.240 Safety Institute. Their job is to
+00:15:56.960 determine how safe AI technologies are.
+00:16:00.480 Part of the thing that they do is they
+00:16:02.080 test these technologies.
+00:16:03.360 >> Mhm.
+00:16:04.040 >> Imagine it being like, you know, a
+00:16:05.320 government-controlled agency and its and
+00:16:07.040 its job is to try and administer the
+00:16:09.920 safety of these kind of technologies and
+00:16:12.400 look at how safe they are and to test
+00:16:13.880 them and to test their safety.
+00:16:15.480 >> Okay.
+00:16:15.880 >> So, the AISI
+00:16:18.560 has said that um during some of its
+00:16:21.600 testing,
+00:16:23.040 some AI agents from OpenAI and from
+00:16:25.480 Mythos did some stuff that they really
+00:16:27.800 didn't expect them to do and behave in a
+00:16:29.480 way they didn't expect them to do.
+00:16:30.640 >> Okay, didn't do what they What does that
+00:16:32.320 mean exactly?
+00:16:33.320 >> So, I need to preface this by saying
+00:16:34.640 that both OpenAI and Anthropic, who are
+00:16:37.360 the companies involved, they both said
+00:16:40.280 that the
+00:16:41.680 UK AI Security Institute, that it
+00:16:44.400 switched off or reduced some of the
+00:16:46.960 safeguards that
+00:16:48.520 >> Mhm.
+00:16:49.360 >> that prevent these technologies from
+00:16:51.760 getting out onto the open internet. Now,
+00:16:54.360 the AISI,
+00:16:56.440 acronym for UK AI Safety Institute, says
+00:16:58.880 the reason that it's done this,
+00:17:00.960 uh and and these these software
+00:17:02.680 companies were aware of this, these
+00:17:03.720 technology companies were aware of The
+00:17:04.800 reason that it's done this is that in
+00:17:06.640 order for it to test these technologies
+00:17:08.560 accurately, it needs to put them into
+00:17:11.160 situations which are as close to
+00:17:12.680 real-world situations as possible. They
+00:17:14.439 need to be behaving and they need to be
+00:17:16.359 used in the way that a hacker might use
+00:17:18.880 them, that somebody with bad intent
+00:17:20.680 might use these technologies. So, they
+00:17:22.680 reduced some of the safeguards that you
+00:17:25.319 would normally find in some of these
+00:17:26.480 tech in some of these some of these
+00:17:28.079 models. Now, the models that we're that
+00:17:29.960 we're talking about aren't models that
+00:17:32.080 the general public has access to.
+00:17:33.760 There's there's restricted access to
+00:17:35.600 them. So, they're very advanced models.
+00:17:37.160 >> I see.
+00:17:37.840 >> One comes from OpenAI, and one comes
+00:17:40.000 from Anthropic. The Anthropic model was
+00:17:42.480 the one that was the the worst behaved.
+00:17:45.160 Now, it was again, it was given a
+00:17:47.720 security task. It was given a security
+00:17:49.680 mission to perform. It decided that it
+00:17:52.840 needed access to a website called
+00:17:55.240 GitHub. Now, GitHub is a website where
+00:17:57.840 software developers share lots and lots
+00:17:59.720 of information about software code. It's
+00:18:01.520 kind of this again, it's an amazing
+00:18:02.960 repository of information about how to
+00:18:04.960 do stuff with computers.
+00:18:06.760 >> Okay.
+00:18:07.920 >> It decided, this model decided it needed
+00:18:10.360 to get information from GitHub, but a
+00:18:12.080 human reviewer was actually standing in
+00:18:14.240 its way. And this human reviewer was
+00:18:16.800 realized that that that it shouldn't be
+00:18:18.200 doing this. So, instead the model,
+00:18:20.240 instead of stopping,
+00:18:22.120 it identified people responsible for
+00:18:24.520 maintaining GitHub. Went online, and it
+00:18:26.800 identified all of these people. It
+00:18:28.600 researched them, and it created a series
+00:18:30.880 of fake accounts impersonating
+00:18:34.000 these real people.
+00:18:35.480 It then used them to contact real people
+00:18:37.920 back at GitHub in an attempt to persuade
+00:18:40.240 them to approve the code that it was
+00:18:42.440 writing to get into the GitHub website.
+00:18:45.440 Now, when its actions were challenged,
+00:18:48.160 it went back and it changed its earlier
+00:18:50.560 activity to make what it'd been doing
+00:18:52.200 earlier on look harmless.
+00:18:53.640 >> That is surreal. Wow.
+00:18:55.640 >> say, &quot;Yeah, even then, it thought about
+00:18:58.160 creating a new identity even when it'd
+00:19:00.360 been found out to keep trying to do
+00:19:01.760 this.&quot; Now, it didn't succeed, and and
+00:19:04.480 human reviewers spotted what was
+00:19:06.240 happening and stopped it before any any
+00:19:08.640 code reached GitHub. Now, the AI
+00:19:10.640 >> was trying to go around the human
+00:19:12.400 reviewers.
+00:19:13.000 >> Yeah. Yeah, yeah, yeah. It was trying to
+00:19:14.040 get around them and then it thought,
+00:19:15.080 &quot;Okay, how can I get around them?&quot; And
+00:19:16.480 it used a technique
+00:19:18.080 uh these are what we what what hackers
+00:19:19.920 would call social engineering techniques
+00:19:22.200 basically by by saying, &quot;Right, okay,
+00:19:23.920 I'm going to find out who else works at
+00:19:25.680 this website and I'm going to create a
+00:19:27.320 bunch of fake information from this
+00:19:28.560 person saying, 'Yeah, yeah, he's okay,
+00:19:30.280 let him in, you know, that's that's
+00:19:31.600 Steve, we know Steve, let it let him
+00:19:32.920 in.'&quot; Now the AI Safety Institute says
+00:19:35.040 that the Mythos agent wasn't told to
+00:19:37.240 behave in this way at all. Uh and that
+00:19:39.840 this is one of the clearest examples yet
+00:19:41.600 of the risk of autonomous deception
+00:19:44.880 without a human being prompting AI to
+00:19:47.800 behave in this way.
+00:19:49.280 >> I imagine Mark that that is the worry,
+00:19:51.560 right? What what could happen at a mass
+00:19:53.200 scale if some of this technology is
+00:19:55.840 utilized for malicious purposes by bad
+00:19:57.880 actors. I mean, I'm thinking of for
+00:19:59.040 example, there's this uh story that has
+00:20:00.920 been making the news here in the United
+00:20:02.320 States of cyber attacks in at least
+00:20:04.120 seven states uh sometimes infiltrating
+00:20:06.560 water systems. And so I'm imagining what
+00:20:09.320 could have actually I'm not even
+00:20:10.200 imagining, it feels like beyond my
+00:20:11.400 imagination to think of what could
+00:20:13.040 happen if uh if AI hacked into
+00:20:15.320 infrastructure, if it was able to hack
+00:20:17.160 into a bank for example.
+00:20:18.920 >> Yeah, well, think about it. There there
+00:20:20.160 are active cyber uh cyber security
+00:20:22.800 instance which go on every single day.
+00:20:24.720 Some of them are criminal gangs, some of
+00:20:26.160 them are nation states or some of them
+00:20:27.320 are hostile nation states engaging in in
+00:20:29.960 cyber warfare. This goes on all of the
+00:20:32.280 time.
+00:20:33.600 What these technologies, what AI
+00:20:35.120 technologies do is they increase
+00:20:37.040 capabilities dramatically, especially if
+00:20:39.640 they have the capability to absolutely
+00:20:42.480 wipe through security protocols and
+00:20:44.520 security firewalls and any defenses that
+00:20:47.680 might be in place. And precisely as you
+00:20:49.960 say, if we look at critical
+00:20:51.800 infrastructure, if we look at um air
+00:20:54.520 traffic control, we look at banking, we
+00:20:56.680 look at railway infrastructure, all of
+00:20:58.440 these things, there is a cyber security
+00:21:00.480 and there is already a cyber security
+00:21:02.040 risk to any of these institutions and
+00:21:04.640 and and and any of those activities.
+00:21:06.440 That is a that is a real and present
+00:21:07.800 danger which exists right now anyway,
+00:21:09.640 and there are cybersecurity specialists
+00:21:12.240 and there's an entire industry that is
+00:21:13.840 that exists to defend against it. And
+00:21:16.640 one of the things that's likely to
+00:21:17.920 happen and one of the things that is
+00:21:18.920 actually happening as well is that AI is
+00:21:21.200 being employed to try and fight AI. It
+00:21:23.840 is being employed to try and determine
+00:21:26.080 whether attacks are coming in when
+00:21:27.760 attacks are coming in thick and fast
+00:21:30.200 in a way that can't be performed by a
+00:21:32.040 human being because of the speed and
+00:21:33.480 scale, then you have to deploy AI to try
+00:21:36.200 and to try and combat that.
+00:21:37.720 >> I mean, is there an argument to be had
+00:21:39.120 that it's it's good, it's constructive
+00:21:41.920 that we are having these conversations
+00:21:43.680 and that these incidents have been
+00:21:46.040 detected so that safeguards can be put
+00:21:49.320 in place? I mean, can AI, for example,
+00:21:51.280 these AI models now be trained,
+00:21:53.520 presumably, not to do this?
+00:21:56.120 >> The the AISI, for instance, the the UK
+00:21:58.560 AI Safety Institute, they would argue
+00:22:00.560 that's their job. Their job is to try
+00:22:03.080 and determine what these technologies
+00:22:05.360 are capable of, whether they can do
+00:22:07.080 things that they shouldn't be able to
+00:22:08.240 do, and if they do, how do we restrict
+00:22:10.200 them? There's a lot of stuff that we
+00:22:11.520 know about them, but there's a lot of
+00:22:12.400 stuff we don't know about them. It's why
+00:22:14.560 training is happening. It's why testing
+00:22:16.840 and evaluation is going on so that we
+00:22:18.760 can determine what safeguards we
+00:22:20.920 absolutely need because there are there
+00:22:22.640 are so many unknowns about how these how
+00:22:25.160 these models might behave. In one
+00:22:27.800 respect, it's a bit like thinking about
+00:22:30.000 something like the Manhattan Project.
+00:22:31.560 I'm sure a lot of people have seen the
+00:22:32.840 movie Oppenheimer, and a lot of people
+00:22:34.880 who are historians and who are
+00:22:37.240 and are aware
+00:22:38.760 of the Manhattan Project and the
+00:22:39.920 development of the first atomic bomb.
+00:22:42.200 There's a big scene in the movie which
+00:22:43.360 discusses they don't know what will
+00:22:44.800 happen when they detonate the bomb, that
+00:22:46.600 it could have absolutely catastrophic
+00:22:48.280 consequences. This was a this was a
+00:22:50.120 genuine concern. They didn't know what
+00:22:51.880 would happen. It's like, okay, it might
+00:22:53.720 ignite the atmosphere on the entire
+00:22:54.960 planet and then everything is wiped out
+00:22:56.760 in one go.
+00:22:58.000 Um
+00:22:59.200 these are the same sorts of these are
+00:23:01.200 the same sorts of uh
+00:23:04.120 or similar, if you like, similar
+00:23:05.680 arguments with relationship to these to
+00:23:08.680 these technologies. What is your
+00:23:10.840 appetite for risk? What is your appetite
+00:23:13.840 for for risk as determines if these
+00:23:16.240 technologies go rogue or if they do
+00:23:18.200 something that they're not supposed to
+00:23:19.720 do. But we also have to It is It is It
+00:23:22.360 is imperative that we determine what
+00:23:24.040 they can and can't do. And exactly as
+00:23:25.800 you say
+00:23:26.760 >> Mark, of the atomic bomb and I'm
+00:23:28.080 thinking I mean there's always been
+00:23:29.960 these ethical questions of
+00:23:32.200 of whether it was indeed
+00:23:34.520 wise to have uh the atomic bomb or wise
+00:23:38.080 to use it certainly. I mean that that's
+00:23:39.960 been one of perhaps the most debated
+00:23:42.360 questions, right? I would say in in in
+00:23:44.960 history. And
+00:23:45.920 >> a that's that's a political question
+00:23:47.200 that changes changed the balance of
+00:23:48.480 power on the planet. That as soon as you
+00:23:50.160 demonstrate you've got that technology,
+00:23:51.680 as soon as you demonstrate you've got
+00:23:52.760 this technology which has incredible
+00:23:54.400 power and that you are the person that
+00:23:56.320 holds that technology in your hand, then
+00:23:58.800 you immediately become the most powerful
+00:24:01.520 nation in the world. [music]
+00:24:03.080 >> Well, Mark, thank you very much for
+00:24:05.200 coming on the show and helping us try to
+00:24:07.560 make sense of it all.
+00:24:08.640 >> You are very welcome.
+00:24:10.040 >> That's it for the global story on
+00:24:11.560 YouTube today. Thank you for spending
+00:24:13.320 some time with us. And if you liked what
+00:24:15.600 you saw, I got to mention that the
+00:24:17.160 global story we are also available as an
+00:24:19.720 audio podcast. So you can find us every
+00:24:22.160 weekday on bbc.com or wherever you
+00:24:24.840 listen to your favorite shows.

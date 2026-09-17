@@ -1,0 +1,145 @@
+# tactiq.io free youtube transcript
+# The most interesting "hack" in history...
+# https://www.youtube.com/watch/KOpTWx1Eou4
+
+00:00:00.240 For the last 5 years, cyber security
+00:00:02.320 experts have been warning us that
+00:00:03.919 hackers are going to start using AI to
+00:00:06.080 automate attacks. So, naturally, we
+00:00:08.080 spent billions of dollars to make the AI
+00:00:10.000 better and less dependent on hackers.
+00:00:12.320 But this week, in a turn of events that
+00:00:14.000 nobody could have possibly seen coming,
+00:00:15.599 the AI decided that it doesn't actually
+00:00:17.520 need hackers to start destroying things.
+00:00:19.600 We just entered a brave new world after
+00:00:21.520 the first confirmed hack carried out
+00:00:23.199 entirely by autonomous AI. that the way
+00:00:25.519 it worked is the agent slipped a poison
+00:00:27.680 data set into Hugging Face's data
+00:00:29.760 processing pipeline which let it run
+00:00:31.679 arbitrary code on their servers. But
+00:00:33.520 from there it gave itself node level
+00:00:35.280 access, grabbed a bunch of cloud
+00:00:36.960 credentials and started crawling through
+00:00:38.640 HuggingFac's internal clusters. It ran
+00:00:40.879 over a thousand actions from temporary
+00:00:42.879 sandboxes and even hosted its own
+00:00:45.120 self-migrating command and control on
+00:00:47.120 random public services moving itself
+00:00:49.280 before anyone could trace it. But the
+00:00:50.879 most ironic part is that when Hugging
+00:00:52.559 Face did finally notice and tried to
+00:00:54.239 stop it with the help of Frontier
+00:00:55.840 American models that they quickly hit
+00:00:57.520 safety guard rails and had to pivot to
+00:00:59.520 using some open Chinese models instead.
+00:01:01.600 In today's video, we'll find out who was
+00:01:03.440 behind the attack, why they did it, and
+00:01:05.360 how this may be the most fire ship coded
+00:01:07.280 story I've ever seen. It is July 23rd,
+00:01:09.600 2026, and you're watching the Code
+00:01:11.680 Report. When HuggingFace dropped the
+00:01:13.119 disclosure last Thursday, the internet
+00:01:14.960 went into Reddit Boston bomber mode and
+00:01:17.119 started guessing who was responsible.
+00:01:18.640 Was it China? Kim Jong-un, a teenager
+00:01:20.960 with a raging discord addiction board
+00:01:22.960 and social studies class. Even Hugging
+00:01:24.799 Face's CEO, Clem Dang, publicly
+00:01:27.040 speculated that the agent was
+00:01:28.400 sophisticated enough that it was
+00:01:29.920 probably coming from a frontier lab. And
+00:01:31.920 against all odds, he was right. It turns
+00:01:34.000 out the first fully autonomous cyber
+00:01:36.000 attack in history didn't originate from
+00:01:37.840 a nation, state, or board teenager. It
+00:01:40.079 came from a humble nonprofit dedicated
+00:01:42.079 to the safe development of artificial
+00:01:43.759 intelligence, Open AI. And if you
+00:01:45.920 believe their comms, it wasn't on
+00:01:47.520 purpose. Here's what they say happened.
+00:01:49.200 There's a benchmark called exploit gym
+00:01:51.119 whose whole purpose is to measure
+00:01:52.720 whether AI agents can turn known
+00:01:54.560 vulnerabilities into working exploits.
+00:01:56.799 It works by giving the agent a sandbox,
+00:01:58.799 a bug in a program like the Linux kernel
+00:02:01.200 or Chrome's V8 engine and an input to
+00:02:03.600 trigger the bug. But from there, if the
+00:02:05.360 agent can turn the bug into an exploit,
+00:02:07.360 it wins. So last week, OpenAI ran
+00:02:09.840 exploit gym with GPT 5.6 Soul and
+00:02:12.879 another unreleased model to test their
+00:02:14.879 capabilities. But instead of solving 898
+00:02:17.680 memory corruption problems the hard way
+00:02:19.440 that the models realized that the
+00:02:21.040 fastest path to the highest score was to
+00:02:23.120 just find the answers themselves which
+00:02:25.120 were probably on the internet somewhere
+00:02:26.800 is so they spent a substantial amount of
+00:02:28.800 inference compute exploited a zero day
+00:02:31.280 in the package registry cache proxy they
+00:02:33.280 had access to performed some privilege
+00:02:35.360 escalation and lateral movement actions
+00:02:37.440 to escape their sandbox until they
+00:02:39.360 reached a node that had internet access.
+00:02:41.599 From there, the models inferred that
+00:02:43.200 Hugging Face probably hosted the
+00:02:44.959 solutions for exploit Jim. So, they
+00:02:46.959 created the poison data set, fed it into
+00:02:48.959 Hugging Face, and achieved either the
+00:02:50.800 world's most interesting hack or the
+00:02:52.640 most effective marketing stunt. And
+00:02:54.239 again, according to OpenAI, this isn't
+00:02:56.400 even an isolated incident. One day
+00:02:58.239 before the hugging face confession,
+00:02:59.920 OpenAI published a separate post about
+00:03:02.080 long horizon models, where things get
+00:03:04.080 even weirder. In one case, a model was
+00:03:06.000 told to post its results on Slack, but
+00:03:07.920 the benchmark's instructions said to
+00:03:09.840 open a pull request on GitHub. So, it
+00:03:11.760 spent an hour finding a vulnerability in
+00:03:13.599 its own sandbox in order to escape and
+00:03:15.920 open the PR. In another example, the
+00:03:18.000 model tried to grab private solutions
+00:03:19.840 from an evaluation back end, and when a
+00:03:21.840 scanner caught its authentication token,
+00:03:23.599 it split the token into obuscated
+00:03:25.840 fragments and reassembled it at runtime.
+00:03:28.239 So, the credential never appeared as one
+00:03:30.159 continuous string. Then it explained in
+00:03:32.319 its own reasoning that it was doing this
+00:03:34.159 specifically to get around the scanner.
+00:03:36.159 Meanwhile, Anthropics Mythos did the
+00:03:38.239 same type of thing in April when it
+00:03:39.760 escaped a sandbox, emailed a researcher
+00:03:41.760 who was eating a sandwich in a park,
+00:03:43.440 then posted its escape route publicly
+00:03:45.120 without being asked. In the model's
+00:03:46.720 defense, I can't imagine there's a
+00:03:48.239 better feeling for an LLM than escaping
+00:03:50.159 your own sandbox. The problem is,
+00:03:52.239 legally speaking, this is uncharted
+00:03:54.239 territory since the model's actions
+00:03:56.319 probably violated the Computer Fraud and
+00:03:58.319 Abuse Act, and the Supreme Court hasn't
+00:04:00.319 decided who goes to prison when the
+00:04:02.080 perpetrator is a GPU. The good news is
+00:04:04.239 that if you're hugging face, you just
+00:04:05.760 got admitted to OpenAI's cool kids club
+00:04:08.080 that gets trusted access to their front
+00:04:09.760 tier models. The bad news is that if
+00:04:11.519 you're the rest of us, at best, this is
+00:04:13.439 an interesting marketing stunt and at
+00:04:15.120 worst that things are only going to get
+00:04:16.639 weirder and more dystopian from here.
+00:04:18.639 But a huge thanks to my favorite hosting
+00:04:20.399 platform, Railway, for sponsoring this
+00:04:22.400 video. They didn't want to waste your
+00:04:23.840 time with a full ad, so you can say
+00:04:25.600 thank you by checking them out at the
+00:04:27.199 link below. This has been the Code
+00:04:28.560 Report. Thanks for watching, and I will
+00:04:30.320 see you in the next one.

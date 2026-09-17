@@ -1,0 +1,262 @@
+# tactiq.io free youtube transcript
+# OpenAI says its AI went rogue and launched 'unprecedented' cyber-attack | BBC News
+# https://www.youtube.com/watch/4k3RreudH24
+
+00:00:00.000 Open AI, the company behind ChatGPT, has
+00:00:02.720 revealed that one of its artificial
+00:00:04.160 intelligence agents went rogue and
+00:00:06.640 hacked another tech firm without direct
+00:00:08.840 human instruction. The company said it
+00:00:10.280 lost control of the advanced agent in
+00:00:12.520 what it described as an unprecedented
+00:00:14.400 security incident. Here's our AI
+00:00:16.920 correspondent, Mark Chizlak.
+00:00:20.880 >> In what it's calling an unprecedented
+00:00:23.160 cyber incident, Open AI says that an
+00:00:25.480 advanced autonomous AI agent went rogue,
+00:00:28.680 escaped a controlled testing
+00:00:30.160 environment, accessed the internet, and
+00:00:32.560 hacked into another artificial
+00:00:34.520 intelligence company.
+00:00:36.320 Open AI, the company behind ChatGPT,
+00:00:38.600 insists the agent escaped from what it
+00:00:40.720 describes as a highly isolated
+00:00:42.880 environment known as a sandbox when
+00:00:45.480 being tested for its ability to hack.
+00:00:49.840 The AI agents launched their own cyber
+00:00:52.320 attack on the sandbox exploiting a
+00:00:55.400 vulnerability. Once free, they
+00:00:57.640 identified Hugging Face as a source of
+00:01:00.160 potential information that they might
+00:01:02.320 use to complete the task they've been
+00:01:04.640 set.
+00:01:05.920 Hugging Face is a hub for AI model
+00:01:08.160 resources and tech, a hive of
+00:01:10.320 information they could use to make use
+00:01:12.840 of to fulfill the testing the agents
+00:01:15.120 were undergoing. But AI industry experts
+00:01:17.920 say that this incident has thrown a
+00:01:19.600 spotlight onto issues of AI safety.
+00:01:23.000 >> This whole situation begs the question
+00:01:24.880 of should you even be building
+00:01:27.640 a system, an AI with advanced cyber
+00:01:29.960 capabilities, if you can't actually
+00:01:32.120 contain it properly? Um so, I think
+00:01:34.400 there needs to be a a lot more scrutiny
+00:01:35.960 of these companies and their ability to
+00:01:37.640 monitor these systems and contain them.
+00:01:40.960 >> Open AI comments it's now strengthening
+00:01:43.360 its safeguards. The UK AI Security
+00:01:46.040 Institute says it's studying the
+00:01:48.040 behavior of the AI in this incident.
+00:01:50.760 This episode is likely to intensify
+00:01:53.280 concerns over the capabilities of
+00:01:55.800 increasingly powerful AI systems. Mark
+00:01:58.760 Chisnell BBC News.
+00:02:01.440 >> Well, meanwhile the publisher of Harry
+00:02:03.000 Potter and other best sellers,
+00:02:04.479 Bloomsbury publishing says it's set to
+00:02:06.280 win a share of 1.5 billion dollars in
+00:02:09.280 settlement from the AI research company
+00:02:11.560 Anthropic. It's thought to be the
+00:02:13.160 largest copyright payout in US history
+00:02:15.720 and follows a lawsuit brought by several
+00:02:17.640 other authors over how their books were
+00:02:20.080 being stored. Here's Katie Razzall.
+00:02:24.101 >> [music]
+00:02:24.280 >> Can AI be trusted?
+00:02:26.160 >> No. That's the view of the authors,
+00:02:28.280 artists and other creatives whose works
+00:02:30.360 have been used to develop and train
+00:02:32.240 artificial intelligence platforms. Now,
+00:02:34.800 Anthropic, the firm behind the Claude
+00:02:36.560 chatbot, is paying out 1.1 billion
+00:02:39.120 pounds in compensation
+00:02:41.560 to publishers and writers. The largest
+00:02:43.640 known copyright settlement in US
+00:02:45.520 history.
+00:02:46.640 It's the first of a series of ongoing
+00:02:48.440 court cases that pit creatives against
+00:02:51.160 AI companies. Musicians, visual artists
+00:02:54.120 and even news organizations have
+00:02:56.000 launched legal action over AI models
+00:02:58.480 scraping what they've created.
+00:03:00.680 >> This is the first time that an AI
+00:03:03.080 company has been deemed responsible for
+00:03:07.000 the taking of unauthorized copyright
+00:03:10.480 content and we hope that it does set a
+00:03:13.800 precedent for future cases and future
+00:03:16.920 compensation across other AI companies
+00:03:20.320 and across other types of works.
+00:03:22.840 >> Here in the UK, Bloomsbury, publisher of
+00:03:25.280 JK Rowling's Harry Potter series, had
+00:03:27.720 just over 14,000 works in the case. Each
+00:03:31.360 will get $3,000, around 2,200 pounds in
+00:03:34.880 compensation before legal fees and
+00:03:37.000 expenses are deducted to be divided
+00:03:39.280 between Bloomsbury and each author.
+00:03:42.440 >> It's disappointing in terms of the
+00:03:44.400 amount and the but it's also
+00:03:47.440 the fight's not over and there still is
+00:03:49.680 a lot of work to be done to ensure that
+00:03:51.960 in the future AI companies are asking
+00:03:54.240 for permission, not forgiveness. You
+00:03:56.200 know, settling now is all well and good,
+00:03:58.240 but it's all the damage is already is
+00:04:00.200 already done for many authors. And the
+00:04:02.680 level of compensation is not going to
+00:04:04.400 get that back for them.
+00:04:06.720 >> And before creatives get too excited
+00:04:08.800 about this one case, the US judge
+00:04:11.080 previously ruled that it was fair for
+00:04:13.440 Anthropic to train its AI models on
+00:04:16.279 other people's copyrighted works. This
+00:04:18.720 was about how it obtained the books,
+00:04:21.160 downloading them from pirated libraries,
+00:04:23.760 and that's why the company has to pay
+00:04:25.400 out.
+00:04:26.560 Anthropic said, &quot;We're pleased that more
+00:04:28.400 than 91% of authors and publishers
+00:04:30.680 covered by the settlement have claimed
+00:04:32.400 their share of the payment. We're
+00:04:33.960 looking forward to bringing this matter
+00:04:35.480 to a close.&quot;
+00:04:37.720 But this is a defining moment, showing
+00:04:40.120 publishers and writers can win
+00:04:42.040 compensation from Big Tech, and where
+00:04:44.480 the lines might be at a time when AI is
+00:04:47.520 becoming more and more embedded in our
+00:04:49.320 lives. Katie Razzall, BBC News.
+00:04:53.120 >> Let's bring in Rachel Metz now. She's an
+00:04:54.919 AI reporter at Bloomberg News. And
+00:04:57.520 Rachel, I just want to go back to that
+00:05:00.400 OpenAI incident. What more do we know
+00:05:03.080 about how an AI agent was able to kind
+00:05:07.000 of break out of its testing environment?
+00:05:10.040 Um
+00:05:10.760 It sounds concerning. I mean, is this
+00:05:12.360 concerning to you?
+00:05:14.320 >> I mean, I think there's sort of two ways
+00:05:15.960 we can look at this. One One way is that
+00:05:19.040 the company was testing cybersecurity
+00:05:21.880 capabilities. Um this is for a couple
+00:05:24.040 models, so they were working together.
+00:05:26.120 And the idea was to see how capable the
+00:05:29.520 models are at solving certain kinds of
+00:05:32.000 tasks. And it seems like the model went
+00:05:35.320 for it, really tried to solve the
+00:05:36.800 problem, just did so in a way that is
+00:05:38.919 obviously disruptive. I mean, that the
+00:05:40.680 company may not have wanted. Um so, it's
+00:05:43.840 kind It's going to be interesting here
+00:05:45.280 to see over time if this changes how
+00:05:48.560 these models are tested or who companies
+00:05:51.400 like Open AI have also testing their
+00:05:53.600 models in the early stages when they're
+00:05:55.560 really capable for cybersecurity kinds
+00:05:57.320 of things.
+00:05:57.880 >> So kind of doing something that it was
+00:05:59.280 told to do, but maybe not the way that
+00:06:01.960 Open AI was hoping it would do it. What
+00:06:04.280 does this tell us then do you think
+00:06:05.280 about the power or intelligence of the
+00:06:08.160 most recent AI models?
+00:06:11.800 >> I think that we're still in the early
+00:06:13.800 stages in a lot of ways of understanding
+00:06:16.840 the capabilities and sometimes the lack
+00:06:19.160 of capabilities that these systems have
+00:06:21.880 and there's a lot of work in an area so
+00:06:24.040 called alignment of getting models to do
+00:06:28.360 what the people making them want them to
+00:06:30.240 do. I know that Open AI has worked on
+00:06:32.400 this kind of thing for a long time and
+00:06:33.960 Anthropic and a bunch of other AI
+00:06:35.200 companies work on this as well.
+00:06:37.400 This looks like an example of where you
+00:06:41.120 might have technology that can solve a
+00:06:43.520 problem that you're setting for it, but
+00:06:45.440 you need to work more on the side of
+00:06:48.000 figuring out how to get the model now
+00:06:50.680 and in the future to follow follow the
+00:06:53.640 rules essentially.
+00:06:55.280 Also, I think it's important to point
+00:06:56.480 out that these models were meant to be
+00:06:59.400 much more permissive than the kinds of
+00:07:01.160 models that are used in production. So
+00:07:02.800 the kind of model you have in ChatGPT
+00:07:04.760 for instance that's answering questions,
+00:07:06.680 that's going to have far more guardrails
+00:07:09.640 that would prevent it from doing a lot
+00:07:11.560 of the things that these models were
+00:07:13.280 capable of doing.
+00:07:14.880 >> In terms of
+00:07:16.400 you know, these more powerful models
+00:07:17.800 then
+00:07:18.960 are cybersecurity experts looking at
+00:07:21.760 this and is there anything that can be
+00:07:23.120 done if this were to happen again to
+00:07:25.360 protect you know, companies, banks,
+00:07:28.760 government websites, the types of things
+00:07:30.640 you really wouldn't want a rogue agent
+00:07:33.040 breaking into?
+00:07:35.320 >> Yeah, I mean I think that you have a lot
+00:07:37.520 of cybersecurity companies looking at
+00:07:39.480 this right now. um, I been hearing from
+00:07:41.680 a lot of them, and uh you also um have a
+00:07:44.680 lot of other people weighing in,
+00:07:45.840 obviously. A lot of people have
+00:07:46.760 opinions, and and I think it's it's we
+00:07:48.920 can all agree that we do not want anyone
+00:07:52.040 or anything just going around and
+00:07:54.040 hacking into systems. I I think that it
+00:07:56.360 by and large
+00:07:58.080 we're not going to be seeing that at
+00:07:59.560 this point in time, but what we are
+00:08:01.680 seeing is that this did happen, and then
+00:08:03.560 there was a a pretty rapid response, um
+00:08:06.760 and OpenAI has said a number of things
+00:08:08.280 that it's going to do to prevent this
+00:08:09.720 from happening in the future. Um one way
+00:08:12.600 that some people are suggesting they
+00:08:14.360 might be testing these models going
+00:08:15.840 forward uh would be using what's called
+00:08:18.320 an air-gapped system. Uh so, like having
+00:08:20.880 a essentially having the AI model in a
+00:08:25.120 software environment that is totally cut
+00:08:26.760 off from the internet. Um this system
+00:08:29.120 was mostly cut off, but there were some
+00:08:31.360 ways that third-party software could, I
+00:08:33.000 guess, access the internet, and these
+00:08:35.039 models found a sort of a way through
+00:08:37.120 that. Um so, we'll see if companies such
+00:08:39.679 as OpenAI start doing more of that in
+00:08:41.599 the future. Um that could make things a
+00:08:44.320 little bit lengthier in terms of their
+00:08:45.920 testing time, um but it also could be an
+00:08:48.400 interesting way for them to test
+00:08:49.760 capabilities. So, we'll see.
+00:08:51.560 >> 30 seconds left here, Rachel. In terms
+00:08:53.320 of OpenAI itself as a company, what does
+00:08:55.440 this mean for uh them? And, you know,
+00:08:58.320 it's obviously looking to to go public
+00:09:00.120 to list itself on the stock market later
+00:09:02.080 this year.
+00:09:03.280 >> Yeah, I mean, I think this has the
+00:09:05.200 company thinking a little bit more about
+00:09:07.160 how interconnected it is, um with other
+00:09:09.560 companies, um how the com- the
+00:09:12.839 technology that it's building, how and
+00:09:15.040 when and why it impacts other people's
+00:09:17.320 lives in different ways and other
+00:09:19.640 systems, and whether that's uh other
+00:09:21.360 company software systems, the other
+00:09:23.240 people's work, stuff like that. Uh so, I
+00:09:25.839 think that it is certainly working, and
+00:09:28.280 it's working with Hugging Face on this.
+00:09:30.640 So, it's going to be interesting to see
+00:09:32.400 if we see more of this uh sort of
+00:09:34.800 working together going forward and like
+00:09:36.280 swift disclosure when these things
+00:09:37.680 happen because such things will and
+00:09:40.240 happen if we have more and more
+00:09:42.080 cybersecurity AI models.
